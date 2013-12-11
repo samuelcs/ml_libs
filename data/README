@@ -1,0 +1,50 @@
+This file is to intruduce the data sets collected for machine 
+learning algorithm verification. The data set is often too big 
+to be able to be uploaded into the server. But you can download
+according to the URL on the data description part. The experimental 
+results can be found in the the directory \experiment. 
+
+If you think a data set is good, feel free to add it.
+
+==== Data Format ====
+1. Dense 
+  <label> <value1> <value2> ... <valueN>
+
+  All features are listed sequentially with the SPACE delimiter. 
+
+2. Sparse
+  <label> <index1>:<value1> <index2>:<value2> ...
+
+  The pair <index>:<value> gives a feature value, where <index>
+  is an integer starting from 1 and <value> is a real number. 
+  The features with the zero value are ignored. This format 
+  is used in LIBSVM, LIBLINEAR, SVMLight, etc. 
+
+==== Data Set ====
+1. URL Detection 
+  Format: Sparse
+  Problem: Classification
+  Description URL: http://sysnet.ucsd.edu/projects/url/
+  Download URL: http://sysnet.ucsd.edu/projects/url/url_svmlight.tar.gz
+  # of classes: 2
+  # of features: 3,231,961
+  # of instances (Train/Test): Day0(16000) / Day1(20000)
+  Comments:
+
+2. a9a
+  Format: Sparse
+  Problem: Classification
+  Description URL: http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary.html#a9a
+  Download URL:
+    Train: http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a9a
+    Test: http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a9a.t
+  # of classes: 2
+  # of features: 123
+  # of instance: (Train/Test): 32561 / 16281
+  Comment:
+
+
+                
+
+
+
