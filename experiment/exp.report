@@ -11,12 +11,14 @@ Setting: kernel = linear C = 1
 Train Acc = 100%
 Test Acc = 97.44%
 CV Acc = 98.16%
+Time Cost < 10 min
 
 2. LIBLINEAR
 Setting: l2 regularized logistic 
 Training Acc = 99.84%
 Test Acc = 97.51%
 CV Acc = 98.2%
+Time Cost < 2 min
 
 
 --------------- a9a ---------------------------------------
@@ -25,11 +27,12 @@ Setting: kernel =linear C = 1
 Train Acc = 84.99%
 Test Acc = 84.97%
 CV ACC = 84.79%
+Time Cost < 1 min
 
 2. LIBLINEAR
 Setting: l2 regularized logistic 
 Training Acc = 84.93%
 Test Acc = 85.03%
 CV Acc = 84.80%
-
+Time Cost < 1 min
 
