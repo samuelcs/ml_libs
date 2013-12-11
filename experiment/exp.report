@@ -1,0 +1,35 @@
+This file is to collect the results from different machine 
+learning tools on various data sets, in order to give a 
+comprehensive comparison. 
+
+The Train/Test data setting can be found in ml-libs\data\.
+Cross validation performs on the Train seti with 5 fold.
+
+-------------- URL detection ------------------------------
+1. LIBSVM
+Setting: kernel = linear C = 1
+Train Acc = 100%
+Test Acc = 97.44%
+CV Acc = 98.16%
+
+2. LIBLINEAR
+Setting: l2 regularized logistic 
+Training Acc = 99.84%
+Test Acc = 97.51%
+CV Acc = 98.2%
+
+
+--------------- a9a ---------------------------------------
+1. LIBSVM
+Setting: kernel =linear C = 1
+Train Acc = 84.99%
+Test Acc = 84.97%
+CV ACC = 84.79%
+
+2. LIBLINEAR
+Setting: l2 regularized logistic 
+Training Acc = 84.93%
+Test Acc = 85.03%
+CV Acc = 84.80%
+
+

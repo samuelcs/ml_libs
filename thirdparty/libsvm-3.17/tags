@@ -1,0 +1,1481 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+/Q1:_Some_sample_uses_of_libsvm	FAQ.html	/^  <a name="\/Q1:_Some_sample_uses_of_libsvm"><\/a>$/;"	a
+/Q1:_Some_sample_uses_of_libsvm	FAQ.html	/^<a name="\/Q1:_Some_sample_uses_of_libsvm"><\/a>$/;"	a
+/Q2:_Installation_and_running_the_program	FAQ.html	/^  <a name="\/Q2:_Installation_and_running_the_program"><\/a>$/;"	a
+/Q3:_Data_preparation	FAQ.html	/^  <a name="\/Q3:_Data_preparation"><\/a>$/;"	a
+/Q4:_Training_and_prediction	FAQ.html	/^  <a name="\/Q4:_Training_and_prediction"><\/a>$/;"	a
+/Q5:_Probability_outputs	FAQ.html	/^  <a name="\/Q5:_Probability_outputs"><\/a>$/;"	a
+/Q6:_Graphic_interface	FAQ.html	/^  <a name="\/Q6:_Graphic_interface"><\/a>$/;"	a
+/Q7:_Java_version_of_libsvm	FAQ.html	/^  <a name="\/Q7:_Java_version_of_libsvm"><\/a>$/;"	a
+/Q8:_Python_interface	FAQ.html	/^  <a name="\/Q8:_Python_interface"><\/a>$/;"	a
+/Q9:_MATLAB_interface	FAQ.html	/^  <a name="\/Q9:_MATLAB_interface"><\/a>$/;"	a
+AppletFrame	java/svm_toy.java	/^	AppletFrame(String title, Applet applet, int width, int height)$/;"	m	class:AppletFrame	access:default	signature:(String title, Applet applet, int width, int height)
+AppletFrame	java/svm_toy.java	/^class AppletFrame extends Frame {$/;"	c	inherits:Frame
+AppletFrame.AppletFrame	java/svm_toy.java	/^	AppletFrame(String title, Applet applet, int width, int height)$/;"	m	class:AppletFrame	access:default	signature:(String title, Applet applet, int width, int height)
+C	java/libsvm/svm_parameter.java	/^	public double C;	\/\/ for C_SVC, EPSILON_SVR and NU_SVR$/;"	f	class:svm_parameter	access:public
+C	svm.h	/^	double C;	\/* for C_SVC, EPSILON_SVR and NU_SVR *\/$/;"	m	struct:svm_parameter	access:public
+CFLAGS	Makefile	/^CFLAGS = -Wall -Wconversion -O3 -fPIC$/;"	m
+CFLAGS	matlab/Makefile	/^CFLAGS = -Wall -Wconversion -O3 -fPIC -I$(MATLABDIR)\/extern\/include -I..$/;"	m
+CFLAGS	svm-toy/gtk/Makefile	/^CFLAGS = -Wall -O3 -g `pkg-config --cflags gtk+-2.0`$/;"	m
+CFLAGS	svm-toy/qt/Makefile	/^CFLAGS = -Wall -O3 -I$(INCLUDE) -I$(INCLUDE)\/QtGui -lQtGui$/;"	m
+CMD_LEN	matlab/svmpredict.c	15;"	d	file:
+CMD_LEN	matlab/svmtrain.c	16;"	d	file:
+CXX	Makefile	/^CXX ?= g++$/;"	m
+CXX	matlab/Makefile	/^CXX ?= g++$/;"	m
+C_SVC	java/libsvm/svm_parameter.java	/^	public static final int C_SVC = 0;$/;"	f	class:svm_parameter	access:public
+C_SVC	svm.h	/^enum { C_SVC, NU_SVC, ONE_CLASS, EPSILON_SVR, NU_SVR };	\/* svm_type *\/$/;"	e	enum:__anon5
+Cache	java/libsvm/svm.java	/^	Cache(int l_, long size_)$/;"	m	class:Cache	access:default	signature:(int l_, long size_)
+Cache	java/libsvm/svm.java	/^class Cache {$/;"	c
+Cache	svm.cpp	/^	Cache(int l,long int size);$/;"	p	class:Cache	file:	access:public	signature:(int l,long int size)
+Cache	svm.cpp	/^Cache::Cache(int l_,long int size_):l(l_),size(size_)$/;"	f	class:Cache	signature:(int l_,long int size_)
+Cache	svm.cpp	/^class Cache$/;"	c	file:
+Cache.Cache	java/libsvm/svm.java	/^	Cache(int l_, long size_)$/;"	m	class:Cache	access:default	signature:(int l_, long size_)
+Cache.get_data	java/libsvm/svm.java	/^	int get_data(int index, float[][] data, int len)$/;"	m	class:Cache	access:default	signature:(int index, float[][] data, int len)
+Cache.head	java/libsvm/svm.java	/^	private final head_t[] head;$/;"	f	class:Cache	file:	access:private
+Cache.head_t	java/libsvm/svm.java	/^	private final class head_t$/;"	c	class:Cache	access:private
+Cache.head_t.data	java/libsvm/svm.java	/^		float[] data;$/;"	f	class:Cache.head_t	access:default
+Cache.head_t.len	java/libsvm/svm.java	/^		int len;		\/\/ data[0,len) is cached in this entry$/;"	f	class:Cache.head_t	access:default
+Cache.head_t.next	java/libsvm/svm.java	/^		head_t prev, next;	\/\/ a cicular list$/;"	f	class:Cache.head_t	access:default
+Cache.head_t.prev	java/libsvm/svm.java	/^		head_t prev, next;	\/\/ a cicular list$/;"	f	class:Cache.head_t	access:default
+Cache.l	java/libsvm/svm.java	/^	private final int l;$/;"	f	class:Cache	file:	access:private
+Cache.lru_delete	java/libsvm/svm.java	/^	private void lru_delete(head_t h)$/;"	m	class:Cache	file:	access:private	signature:(head_t h)
+Cache.lru_head	java/libsvm/svm.java	/^	private head_t lru_head;$/;"	f	class:Cache	file:	access:private
+Cache.lru_insert	java/libsvm/svm.java	/^	private void lru_insert(head_t h)$/;"	m	class:Cache	file:	access:private	signature:(head_t h)
+Cache.size	java/libsvm/svm.java	/^	private long size;$/;"	f	class:Cache	file:	access:private
+Cache.swap_index	java/libsvm/svm.java	/^	void swap_index(int i, int j)$/;"	m	class:Cache	access:default	signature:(int i, int j)
+Cache::Cache	svm.cpp	/^	Cache(int l,long int size);$/;"	p	class:Cache	file:	access:public	signature:(int l,long int size)
+Cache::Cache	svm.cpp	/^Cache::Cache(int l_,long int size_):l(l_),size(size_)$/;"	f	class:Cache	signature:(int l_,long int size_)
+Cache::get_data	svm.cpp	/^	int get_data(const int index, Qfloat **data, int len);$/;"	p	class:Cache	file:	access:public	signature:(const int index, Qfloat **data, int len)
+Cache::get_data	svm.cpp	/^int Cache::get_data(const int index, Qfloat **data, int len)$/;"	f	class:Cache	signature:(const int index, Qfloat **data, int len)
+Cache::head	svm.cpp	/^	head_t *head;$/;"	m	class:Cache	file:	access:private
+Cache::head_t	svm.cpp	/^	struct head_t$/;"	s	class:Cache	file:	access:private
+Cache::head_t::data	svm.cpp	/^		Qfloat *data;$/;"	m	struct:Cache::head_t	file:	access:public
+Cache::head_t::len	svm.cpp	/^		int len;		\/\/ data[0,len) is cached in this entry$/;"	m	struct:Cache::head_t	file:	access:public
+Cache::head_t::next	svm.cpp	/^		head_t *prev, *next;	\/\/ a circular list$/;"	m	struct:Cache::head_t	file:	access:public
+Cache::head_t::prev	svm.cpp	/^		head_t *prev, *next;	\/\/ a circular list$/;"	m	struct:Cache::head_t	file:	access:public
+Cache::l	svm.cpp	/^	int l;$/;"	m	class:Cache	file:	access:private
+Cache::lru_delete	svm.cpp	/^	void lru_delete(head_t *h);$/;"	p	class:Cache	file:	access:private	signature:(head_t *h)
+Cache::lru_delete	svm.cpp	/^void Cache::lru_delete(head_t *h)$/;"	f	class:Cache	signature:(head_t *h)
+Cache::lru_head	svm.cpp	/^	head_t lru_head;$/;"	m	class:Cache	file:	access:private
+Cache::lru_insert	svm.cpp	/^	void lru_insert(head_t *h);$/;"	p	class:Cache	file:	access:private	signature:(head_t *h)
+Cache::lru_insert	svm.cpp	/^void Cache::lru_insert(head_t *h)$/;"	f	class:Cache	signature:(head_t *h)
+Cache::size	svm.cpp	/^	long int size;$/;"	m	class:Cache	file:	access:private
+Cache::swap_index	svm.cpp	/^	void swap_index(int i, int j);	$/;"	p	class:Cache	file:	access:public	signature:(int i, int j)
+Cache::swap_index	svm.cpp	/^void Cache::swap_index(int i, int j)$/;"	f	class:Cache	signature:(int i, int j)
+Cache::~Cache	svm.cpp	/^	~Cache();$/;"	p	class:Cache	file:	access:public	signature:()
+Cache::~Cache	svm.cpp	/^Cache::~Cache()$/;"	f	class:Cache	signature:()
+Cn	java/libsvm/svm.java	/^	double Cp,Cn;$/;"	f	class:Solver	access:default
+Cn	svm.cpp	/^	double Cp,Cn;$/;"	m	class:Solver	file:	access:protected
+Cp	java/libsvm/svm.java	/^	double Cp,Cn;$/;"	f	class:Solver	access:default
+Cp	svm.cpp	/^	double Cp,Cn;$/;"	m	class:Solver	file:	access:protected
+DEFAULT_PARAM	java/svm_toy.java	/^	static final String DEFAULT_PARAM="-t 2 -c 100";$/;"	f	class:svm_toy	access:default
+DEFAULT_PARAM	svm-toy/gtk/callbacks.cpp	12;"	d	file:
+DEFAULT_PARAM	svm-toy/qt/svm-toy.cpp	10;"	d	file:
+DEFAULT_PARAM	svm-toy/windows/svm-toy.cpp	10;"	d	file:
+DrawLine	svm-toy/windows/svm-toy.cpp	13;"	d	file:
+EPSILON_SVR	java/libsvm/svm_parameter.java	/^	public static final int EPSILON_SVR = 3;$/;"	f	class:svm_parameter	access:public
+EPSILON_SVR	svm.h	/^enum { C_SVC, NU_SVC, ONE_CLASS, EPSILON_SVR, NU_SVR };	\/* svm_type *\/$/;"	e	enum:__anon5
+FILES	java/Makefile	/^FILES = libsvm\/svm.class libsvm\/svm_model.class libsvm\/svm_node.class \\$/;"	m
+FREE	java/libsvm/svm.java	/^	static final byte FREE = 2;$/;"	f	class:Solver	access:default
+FREE	svm.cpp	/^	enum { LOWER_BOUND, UPPER_BOUND, FREE };$/;"	e	enum:Solver::__anon4	file:
+G	java/libsvm/svm.java	/^	double[] G;		\/\/ gradient of objective function$/;"	f	class:Solver	access:default
+G	svm.cpp	/^	double *G;		\/\/ gradient of objective function$/;"	m	class:Solver	file:	access:protected
+G_bar	java/libsvm/svm.java	/^	double[] G_bar;		\/\/ gradient, if we treat free variables as 0$/;"	f	class:Solver	access:default
+G_bar	svm.cpp	/^	double *G_bar;		\/\/ gradient, if we treat free variables as 0$/;"	m	class:Solver	file:	access:protected
+GridOption	tools/grid.py	/^class GridOption:$/;"	c	inherits:
+ID_BUTTON_CHANGE	svm-toy/windows/svm-toy.cpp	/^	ID_BUTTON_CHANGE, ID_BUTTON_RUN, ID_BUTTON_CLEAR,$/;"	e	enum:__anon1	file:
+ID_BUTTON_CLEAR	svm-toy/windows/svm-toy.cpp	/^	ID_BUTTON_CHANGE, ID_BUTTON_RUN, ID_BUTTON_CLEAR,$/;"	e	enum:__anon1	file:
+ID_BUTTON_LOAD	svm-toy/windows/svm-toy.cpp	/^	ID_BUTTON_LOAD, ID_BUTTON_SAVE, ID_EDIT$/;"	e	enum:__anon1	file:
+ID_BUTTON_RUN	svm-toy/windows/svm-toy.cpp	/^	ID_BUTTON_CHANGE, ID_BUTTON_RUN, ID_BUTTON_CLEAR,$/;"	e	enum:__anon1	file:
+ID_BUTTON_SAVE	svm-toy/windows/svm-toy.cpp	/^	ID_BUTTON_LOAD, ID_BUTTON_SAVE, ID_EDIT$/;"	e	enum:__anon1	file:
+ID_EDIT	svm-toy/windows/svm-toy.cpp	/^	ID_BUTTON_LOAD, ID_BUTTON_SAVE, ID_EDIT$/;"	e	enum:__anon1	file:
+INCLUDE	svm-toy/qt/Makefile	/^INCLUDE = \/usr\/include\/qt4$/;"	m
+INF	java/libsvm/svm.java	/^	static final double INF = java.lang.Double.POSITIVE_INFINITY;$/;"	f	class:Solver	access:default
+INF	svm.cpp	37;"	d	file:
+JAVAC	java/Makefile	/^JAVAC = javac$/;"	m
+JAVAC_FLAGS	java/Makefile	/^JAVAC_FLAGS = -target 1.5 -source 1.5$/;"	m
+KERNEL_TYPE	python/svm.py	/^KERNEL_TYPE = ['LINEAR', 'POLY', 'RBF', 'SIGMOID', 'PRECOMPUTED']$/;"	v
+Kernel	java/libsvm/svm.java	/^	Kernel(int l, svm_node[][] x_, svm_parameter param)$/;"	m	class:Kernel	access:default	signature:(int l, svm_node[][] x_, svm_parameter param)
+Kernel	java/libsvm/svm.java	/^abstract class Kernel extends QMatrix {$/;"	c	inherits:QMatrix
+Kernel	svm.cpp	/^	Kernel(int l, svm_node * const * x, const svm_parameter& param);$/;"	p	class:Kernel	file:	access:public	signature:(int l, svm_node * const * x, const svm_parameter& param)
+Kernel	svm.cpp	/^Kernel::Kernel(int l, svm_node * const * x_, const svm_parameter& param)$/;"	f	class:Kernel	signature:(int l, svm_node * const * x_, const svm_parameter& param)
+Kernel	svm.cpp	/^class Kernel: public QMatrix {$/;"	c	file:	inherits:QMatrix
+Kernel.Kernel	java/libsvm/svm.java	/^	Kernel(int l, svm_node[][] x_, svm_parameter param)$/;"	m	class:Kernel	access:default	signature:(int l, svm_node[][] x_, svm_parameter param)
+Kernel.coef0	java/libsvm/svm.java	/^	private final double coef0;$/;"	f	class:Kernel	file:	access:private
+Kernel.degree	java/libsvm/svm.java	/^	private final int degree;$/;"	f	class:Kernel	file:	access:private
+Kernel.dot	java/libsvm/svm.java	/^	static double dot(svm_node[] x, svm_node[] y)$/;"	m	class:Kernel	access:default	signature:(svm_node[] x, svm_node[] y)
+Kernel.gamma	java/libsvm/svm.java	/^	private final double gamma;$/;"	f	class:Kernel	file:	access:private
+Kernel.get_Q	java/libsvm/svm.java	/^	abstract float[] get_Q(int column, int len);$/;"	m	class:Kernel	access:default	signature:(int column, int len)
+Kernel.get_QD	java/libsvm/svm.java	/^	abstract double[] get_QD();$/;"	m	class:Kernel	access:default	signature:()
+Kernel.k_function	java/libsvm/svm.java	/^	static double k_function(svm_node[] x, svm_node[] y,$/;"	m	class:Kernel	access:default	signature:(svm_node[] x, svm_node[] y, svm_parameter param)
+Kernel.kernel_function	java/libsvm/svm.java	/^	double kernel_function(int i, int j)$/;"	m	class:Kernel	access:default	signature:(int i, int j)
+Kernel.kernel_type	java/libsvm/svm.java	/^	private final int kernel_type;$/;"	f	class:Kernel	file:	access:private
+Kernel.powi	java/libsvm/svm.java	/^	private static double powi(double base, int times)$/;"	m	class:Kernel	file:	access:private	signature:(double base, int times)
+Kernel.swap_index	java/libsvm/svm.java	/^	void swap_index(int i, int j)$/;"	m	class:Kernel	access:default	signature:(int i, int j)
+Kernel.x	java/libsvm/svm.java	/^	private svm_node[][] x;$/;"	f	class:Kernel	file:	access:private
+Kernel.x_square	java/libsvm/svm.java	/^	private final double[] x_square;$/;"	f	class:Kernel	file:	access:private
+Kernel::Kernel	svm.cpp	/^	Kernel(int l, svm_node * const * x, const svm_parameter& param);$/;"	p	class:Kernel	file:	access:public	signature:(int l, svm_node * const * x, const svm_parameter& param)
+Kernel::Kernel	svm.cpp	/^Kernel::Kernel(int l, svm_node * const * x_, const svm_parameter& param)$/;"	f	class:Kernel	signature:(int l, svm_node * const * x_, const svm_parameter& param)
+Kernel::coef0	svm.cpp	/^	const double coef0;$/;"	m	class:Kernel	file:	access:private
+Kernel::degree	svm.cpp	/^	const int degree;$/;"	m	class:Kernel	file:	access:private
+Kernel::dot	svm.cpp	/^	static double dot(const svm_node *px, const svm_node *py);$/;"	p	class:Kernel	file:	access:private	signature:(const svm_node *px, const svm_node *py)
+Kernel::dot	svm.cpp	/^double Kernel::dot(const svm_node *px, const svm_node *py)$/;"	f	class:Kernel	signature:(const svm_node *px, const svm_node *py)
+Kernel::gamma	svm.cpp	/^	const double gamma;$/;"	m	class:Kernel	file:	access:private
+Kernel::get_Q	svm.cpp	/^	virtual Qfloat *get_Q(int column, int len) const = 0;$/;"	p	class:Kernel	file:	access:public	signature:(int column, int len) const
+Kernel::get_QD	svm.cpp	/^	virtual double *get_QD() const = 0;$/;"	p	class:Kernel	file:	access:public	signature:() const
+Kernel::k_function	svm.cpp	/^	static double k_function(const svm_node *x, const svm_node *y,$/;"	p	class:Kernel	file:	access:public	signature:(const svm_node *x, const svm_node *y, const svm_parameter& param)
+Kernel::k_function	svm.cpp	/^double Kernel::k_function(const svm_node *x, const svm_node *y,$/;"	f	class:Kernel	signature:(const svm_node *x, const svm_node *y, const svm_parameter& param)
+Kernel::kernel_function	svm.cpp	/^	double (Kernel::*kernel_function)(int i, int j) const;$/;"	m	class:Kernel	file:	access:protected
+Kernel::kernel_linear	svm.cpp	/^	double kernel_linear(int i, int j) const$/;"	f	class:Kernel	file:	access:private	signature:(int i, int j) const
+Kernel::kernel_poly	svm.cpp	/^	double kernel_poly(int i, int j) const$/;"	f	class:Kernel	file:	access:private	signature:(int i, int j) const
+Kernel::kernel_precomputed	svm.cpp	/^	double kernel_precomputed(int i, int j) const$/;"	f	class:Kernel	file:	access:private	signature:(int i, int j) const
+Kernel::kernel_rbf	svm.cpp	/^	double kernel_rbf(int i, int j) const$/;"	f	class:Kernel	file:	access:private	signature:(int i, int j) const
+Kernel::kernel_sigmoid	svm.cpp	/^	double kernel_sigmoid(int i, int j) const$/;"	f	class:Kernel	file:	access:private	signature:(int i, int j) const
+Kernel::kernel_type	svm.cpp	/^	const int kernel_type;$/;"	m	class:Kernel	file:	access:private
+Kernel::swap_index	svm.cpp	/^	virtual void swap_index(int i, int j) const	\/\/ no so const...$/;"	f	class:Kernel	access:public	signature:(int i, int j) const
+Kernel::x	svm.cpp	/^	const svm_node **x;$/;"	m	class:Kernel	file:	access:private
+Kernel::x_square	svm.cpp	/^	double *x_square;$/;"	m	class:Kernel	file:	access:private
+Kernel::~Kernel	svm.cpp	/^	virtual ~Kernel();$/;"	p	class:Kernel	file:	access:public	signature:()
+Kernel::~Kernel	svm.cpp	/^Kernel::~Kernel()$/;"	f	class:Kernel	signature:()
+LIBS	svm-toy/gtk/Makefile	/^LIBS = `pkg-config --libs gtk+-2.0`$/;"	m
+LIBSVM_VERSION	java/libsvm/svm.java	/^	public static final int LIBSVM_VERSION=317; $/;"	f	class:svm	access:public
+LIBSVM_VERSION	svm.h	4;"	d
+LINEAR	java/libsvm/svm_parameter.java	/^	public static final int LINEAR = 0;$/;"	f	class:svm_parameter	access:public
+LINEAR	svm.h	/^enum { LINEAR, POLY, RBF, SIGMOID, PRECOMPUTED }; \/* kernel_type *\/$/;"	e	enum:__anon6
+LOAD	svm-toy/gtk/callbacks.cpp	/^static enum { SAVE, LOAD } fileselection_flag;$/;"	e	enum:__anon3	file:
+LOWER_BOUND	java/libsvm/svm.java	/^	static final byte LOWER_BOUND = 0;$/;"	f	class:Solver	access:default
+LOWER_BOUND	svm.cpp	/^	enum { LOWER_BOUND, UPPER_BOUND, FREE };$/;"	e	enum:Solver::__anon4	file:
+LocalWorker	tools/grid.py	/^class LocalWorker(Worker):$/;"	c	inherits:Worker
+MATLABDIR	matlab/Makefile	/^MATLABDIR ?= \/usr\/local\/matlab$/;"	m
+MEX	matlab/Makefile	/^MEX = $(MATLABDIR)\/bin\/mex$/;"	m
+MEX_EXT	matlab/Makefile	/^MEX_EXT = $(shell $(MATLABDIR)\/bin\/mexext)$/;"	m
+MEX_OPTION	matlab/Makefile	/^MEX_OPTION = CC\\#$(CXX) CXX\\#$(CXX) CFLAGS\\#"$(CFLAGS)" CXXFLAGS\\#"$(CFLAGS)"$/;"	m
+MOC	svm-toy/qt/Makefile	/^MOC = \/usr\/bin\/moc-qt4$/;"	m
+Malloc	matlab/svm_model_matlab.c	15;"	d	file:
+Malloc	matlab/svmtrain.c	17;"	d	file:
+Malloc	svm-train.c	7;"	d	file:
+Malloc	svm.cpp	39;"	d	file:
+NUM_OF_RETURN_FIELD	matlab/svm_model_matlab.c	13;"	d	file:
+NU_SVC	java/libsvm/svm_parameter.java	/^	public static final int NU_SVC = 1;$/;"	f	class:svm_parameter	access:public
+NU_SVC	svm.h	/^enum { C_SVC, NU_SVC, ONE_CLASS, EPSILON_SVR, NU_SVR };	\/* svm_type *\/$/;"	e	enum:__anon5
+NU_SVR	java/libsvm/svm_parameter.java	/^	public static final int NU_SVR = 4;$/;"	f	class:svm_parameter	access:public
+NU_SVR	svm.h	/^enum { C_SVC, NU_SVC, ONE_CLASS, EPSILON_SVR, NU_SVR };	\/* svm_type *\/$/;"	e	enum:__anon5
+OCTAVEDIR	matlab/Makefile	/^OCTAVEDIR ?= \/usr\/include\/octave$/;"	m
+OCTAVE_CFLAGS	matlab/Makefile	/^OCTAVE_CFLAGS = -Wall -O3 -fPIC -I$(OCTAVEDIR) -I..$/;"	m
+OCTAVE_MEX	matlab/Makefile	/^OCTAVE_MEX = env CC=$(CXX) mkoctfile$/;"	m
+OCTAVE_MEX_EXT	matlab/Makefile	/^OCTAVE_MEX_EXT = mex$/;"	m
+OCTAVE_MEX_OPTION	matlab/Makefile	/^OCTAVE_MEX_OPTION = --mex$/;"	m
+ONE_CLASS	java/libsvm/svm_parameter.java	/^	public static final int ONE_CLASS = 2;$/;"	f	class:svm_parameter	access:public
+ONE_CLASS	svm.h	/^enum { C_SVC, NU_SVC, ONE_CLASS, EPSILON_SVR, NU_SVR };	\/* svm_type *\/$/;"	e	enum:__anon5
+ONE_CLASS_Q	java/libsvm/svm.java	/^	ONE_CLASS_Q(svm_problem prob, svm_parameter param)$/;"	m	class:ONE_CLASS_Q	access:default	signature:(svm_problem prob, svm_parameter param)
+ONE_CLASS_Q	java/libsvm/svm.java	/^class ONE_CLASS_Q extends Kernel$/;"	c	inherits:Kernel
+ONE_CLASS_Q	svm.cpp	/^	ONE_CLASS_Q(const svm_problem& prob, const svm_parameter& param)$/;"	f	class:ONE_CLASS_Q	access:public	signature:(const svm_problem& prob, const svm_parameter& param)
+ONE_CLASS_Q	svm.cpp	/^class ONE_CLASS_Q: public Kernel$/;"	c	file:	inherits:Kernel
+ONE_CLASS_Q.ONE_CLASS_Q	java/libsvm/svm.java	/^	ONE_CLASS_Q(svm_problem prob, svm_parameter param)$/;"	m	class:ONE_CLASS_Q	access:default	signature:(svm_problem prob, svm_parameter param)
+ONE_CLASS_Q.QD	java/libsvm/svm.java	/^	private final double[] QD;$/;"	f	class:ONE_CLASS_Q	file:	access:private
+ONE_CLASS_Q.cache	java/libsvm/svm.java	/^	private final Cache cache;$/;"	f	class:ONE_CLASS_Q	file:	access:private
+ONE_CLASS_Q.get_Q	java/libsvm/svm.java	/^	float[] get_Q(int i, int len)$/;"	m	class:ONE_CLASS_Q	access:default	signature:(int i, int len)
+ONE_CLASS_Q.get_QD	java/libsvm/svm.java	/^	double[] get_QD()$/;"	m	class:ONE_CLASS_Q	access:default	signature:()
+ONE_CLASS_Q.swap_index	java/libsvm/svm.java	/^	void swap_index(int i, int j)$/;"	m	class:ONE_CLASS_Q	access:default	signature:(int i, int j)
+ONE_CLASS_Q::ONE_CLASS_Q	svm.cpp	/^	ONE_CLASS_Q(const svm_problem& prob, const svm_parameter& param)$/;"	f	class:ONE_CLASS_Q	access:public	signature:(const svm_problem& prob, const svm_parameter& param)
+ONE_CLASS_Q::QD	svm.cpp	/^	double *QD;$/;"	m	class:ONE_CLASS_Q	file:	access:private
+ONE_CLASS_Q::cache	svm.cpp	/^	Cache *cache;$/;"	m	class:ONE_CLASS_Q	file:	access:private
+ONE_CLASS_Q::get_Q	svm.cpp	/^	Qfloat *get_Q(int i, int len) const$/;"	f	class:ONE_CLASS_Q	access:public	signature:(int i, int len) const
+ONE_CLASS_Q::get_QD	svm.cpp	/^	double *get_QD() const$/;"	f	class:ONE_CLASS_Q	access:public	signature:() const
+ONE_CLASS_Q::swap_index	svm.cpp	/^	void swap_index(int i, int j) const$/;"	f	class:ONE_CLASS_Q	access:public	signature:(int i, int j) const
+ONE_CLASS_Q::~ONE_CLASS_Q	svm.cpp	/^	~ONE_CLASS_Q()$/;"	f	class:ONE_CLASS_Q	access:public	signature:()
+OS	Makefile	/^OS = $(shell uname)$/;"	m
+POLY	java/libsvm/svm_parameter.java	/^	public static final int POLY = 1;$/;"	f	class:svm_parameter	access:public
+POLY	svm.h	/^enum { LINEAR, POLY, RBF, SIGMOID, PRECOMPUTED }; \/* kernel_type *\/$/;"	e	enum:__anon6
+PRECOMPUTED	java/libsvm/svm_parameter.java	/^	public static final int PRECOMPUTED = 4;$/;"	f	class:svm_parameter	access:public
+PRECOMPUTED	svm.h	/^enum { LINEAR, POLY, RBF, SIGMOID, PRECOMPUTED }; \/* kernel_type *\/$/;"	e	enum:__anon6
+PRINT_STRING_FUN	python/svm.py	/^PRINT_STRING_FUN = CFUNCTYPE(None, c_char_p)$/;"	v
+Q	java/libsvm/svm.java	/^	QMatrix Q;$/;"	f	class:Solver	access:default
+Q	svm.cpp	/^	const QMatrix *Q;$/;"	m	class:Solver	file:	access:protected
+QD	java/libsvm/svm.java	/^	double[] QD;$/;"	f	class:Solver	access:default
+QD	java/libsvm/svm.java	/^	private final double[] QD;$/;"	f	class:ONE_CLASS_Q	file:	access:private
+QD	java/libsvm/svm.java	/^	private final double[] QD;$/;"	f	class:SVC_Q	file:	access:private
+QD	java/libsvm/svm.java	/^	private final double[] QD;$/;"	f	class:SVR_Q	file:	access:private
+QD	svm.cpp	/^	const double *QD;$/;"	m	class:Solver	file:	access:protected
+QD	svm.cpp	/^	double *QD;$/;"	m	class:ONE_CLASS_Q	file:	access:private
+QD	svm.cpp	/^	double *QD;$/;"	m	class:SVC_Q	file:	access:private
+QD	svm.cpp	/^	double *QD;$/;"	m	class:SVR_Q	file:	access:private
+QMatrix	java/libsvm/svm.java	/^abstract class QMatrix {$/;"	c
+QMatrix	svm.cpp	/^class QMatrix {$/;"	c	file:
+QMatrix.get_Q	java/libsvm/svm.java	/^	abstract float[] get_Q(int column, int len);$/;"	m	class:QMatrix	access:default	signature:(int column, int len)
+QMatrix.get_QD	java/libsvm/svm.java	/^	abstract double[] get_QD();$/;"	m	class:QMatrix	access:default	signature:()
+QMatrix.swap_index	java/libsvm/svm.java	/^	abstract void swap_index(int i, int j);$/;"	m	class:QMatrix	access:default	signature:(int i, int j)
+QMatrix::get_Q	svm.cpp	/^	virtual Qfloat *get_Q(int column, int len) const = 0;$/;"	p	class:QMatrix	file:	access:public	signature:(int column, int len) const
+QMatrix::get_QD	svm.cpp	/^	virtual double *get_QD() const = 0;$/;"	p	class:QMatrix	file:	access:public	signature:() const
+QMatrix::swap_index	svm.cpp	/^	virtual void swap_index(int i, int j) const = 0;$/;"	p	class:QMatrix	file:	access:public	signature:(int i, int j) const
+QMatrix::~QMatrix	svm.cpp	/^	virtual ~QMatrix() {}$/;"	f	class:QMatrix	access:public	signature:()
+Qfloat	svm.cpp	/^typedef float Qfloat;$/;"	t	file:
+RBF	java/libsvm/svm_parameter.java	/^	public static final int RBF = 2;$/;"	f	class:svm_parameter	access:public
+RBF	svm.h	/^enum { LINEAR, POLY, RBF, SIGMOID, PRECOMPUTED }; \/* kernel_type *\/$/;"	e	enum:__anon6
+SAVE	svm-toy/gtk/callbacks.cpp	/^static enum { SAVE, LOAD } fileselection_flag;$/;"	e	enum:__anon3	file:
+SHVER	Makefile	/^SHVER = 2$/;"	m
+SIGMOID	java/libsvm/svm_parameter.java	/^	public static final int SIGMOID = 3;$/;"	f	class:svm_parameter	access:public
+SIGMOID	svm.h	/^enum { LINEAR, POLY, RBF, SIGMOID, PRECOMPUTED }; \/* kernel_type *\/$/;"	e	enum:__anon6
+SKIP_ELEMENT	svm-scale.c	99;"	d	file:
+SKIP_TARGET	svm-scale.c	95;"	d	file:
+SSHWorker	tools/grid.py	/^class SSHWorker(Worker):$/;"	c	inherits:Worker
+SV	java/libsvm/svm_model.java	/^	public svm_node[][] SV;	\/\/ SVs (SV[l])$/;"	f	class:svm_model	access:public
+SV	svm.h	/^	struct svm_node **SV;		\/* SVs (SV[l]) *\/$/;"	m	struct:svm_model	typeref:struct:svm_model::svm_node	access:public
+SVC_Q	java/libsvm/svm.java	/^	SVC_Q(svm_problem prob, svm_parameter param, byte[] y_)$/;"	m	class:SVC_Q	access:default	signature:(svm_problem prob, svm_parameter param, byte[] y_)
+SVC_Q	java/libsvm/svm.java	/^class SVC_Q extends Kernel$/;"	c	inherits:Kernel
+SVC_Q	svm.cpp	/^	SVC_Q(const svm_problem& prob, const svm_parameter& param, const schar *y_)$/;"	f	class:SVC_Q	access:public	signature:(const svm_problem& prob, const svm_parameter& param, const schar *y_)
+SVC_Q	svm.cpp	/^class SVC_Q: public Kernel$/;"	c	file:	inherits:Kernel
+SVC_Q.QD	java/libsvm/svm.java	/^	private final double[] QD;$/;"	f	class:SVC_Q	file:	access:private
+SVC_Q.SVC_Q	java/libsvm/svm.java	/^	SVC_Q(svm_problem prob, svm_parameter param, byte[] y_)$/;"	m	class:SVC_Q	access:default	signature:(svm_problem prob, svm_parameter param, byte[] y_)
+SVC_Q.cache	java/libsvm/svm.java	/^	private final Cache cache;$/;"	f	class:SVC_Q	file:	access:private
+SVC_Q.get_Q	java/libsvm/svm.java	/^	float[] get_Q(int i, int len)$/;"	m	class:SVC_Q	access:default	signature:(int i, int len)
+SVC_Q.get_QD	java/libsvm/svm.java	/^	double[] get_QD()$/;"	m	class:SVC_Q	access:default	signature:()
+SVC_Q.swap_index	java/libsvm/svm.java	/^	void swap_index(int i, int j)$/;"	m	class:SVC_Q	access:default	signature:(int i, int j)
+SVC_Q.y	java/libsvm/svm.java	/^	private final byte[] y;$/;"	f	class:SVC_Q	file:	access:private
+SVC_Q::QD	svm.cpp	/^	double *QD;$/;"	m	class:SVC_Q	file:	access:private
+SVC_Q::SVC_Q	svm.cpp	/^	SVC_Q(const svm_problem& prob, const svm_parameter& param, const schar *y_)$/;"	f	class:SVC_Q	access:public	signature:(const svm_problem& prob, const svm_parameter& param, const schar *y_)
+SVC_Q::cache	svm.cpp	/^	Cache *cache;$/;"	m	class:SVC_Q	file:	access:private
+SVC_Q::get_Q	svm.cpp	/^	Qfloat *get_Q(int i, int len) const$/;"	f	class:SVC_Q	access:public	signature:(int i, int len) const
+SVC_Q::get_QD	svm.cpp	/^	double *get_QD() const$/;"	f	class:SVC_Q	access:public	signature:() const
+SVC_Q::swap_index	svm.cpp	/^	void swap_index(int i, int j) const$/;"	f	class:SVC_Q	access:public	signature:(int i, int j) const
+SVC_Q::y	svm.cpp	/^	schar *y;$/;"	m	class:SVC_Q	file:	access:private
+SVC_Q::~SVC_Q	svm.cpp	/^	~SVC_Q()$/;"	f	class:SVC_Q	access:public	signature:()
+SVM_TYPE	python/svm.py	/^SVM_TYPE = ['C_SVC', 'NU_SVC', 'ONE_CLASS', 'EPSILON_SVR', 'NU_SVR' ]$/;"	v
+SVR_Q	java/libsvm/svm.java	/^	SVR_Q(svm_problem prob, svm_parameter param)$/;"	m	class:SVR_Q	access:default	signature:(svm_problem prob, svm_parameter param)
+SVR_Q	java/libsvm/svm.java	/^class SVR_Q extends Kernel$/;"	c	inherits:Kernel
+SVR_Q	svm.cpp	/^	SVR_Q(const svm_problem& prob, const svm_parameter& param)$/;"	f	class:SVR_Q	access:public	signature:(const svm_problem& prob, const svm_parameter& param)
+SVR_Q	svm.cpp	/^class SVR_Q: public Kernel$/;"	c	file:	inherits:Kernel
+SVR_Q.QD	java/libsvm/svm.java	/^	private final double[] QD;$/;"	f	class:SVR_Q	file:	access:private
+SVR_Q.SVR_Q	java/libsvm/svm.java	/^	SVR_Q(svm_problem prob, svm_parameter param)$/;"	m	class:SVR_Q	access:default	signature:(svm_problem prob, svm_parameter param)
+SVR_Q.buffer	java/libsvm/svm.java	/^	private float[][] buffer;$/;"	f	class:SVR_Q	file:	access:private
+SVR_Q.cache	java/libsvm/svm.java	/^	private final Cache cache;$/;"	f	class:SVR_Q	file:	access:private
+SVR_Q.get_Q	java/libsvm/svm.java	/^	float[] get_Q(int i, int len)$/;"	m	class:SVR_Q	access:default	signature:(int i, int len)
+SVR_Q.get_QD	java/libsvm/svm.java	/^	double[] get_QD()$/;"	m	class:SVR_Q	access:default	signature:()
+SVR_Q.index	java/libsvm/svm.java	/^	private final int[] index;$/;"	f	class:SVR_Q	file:	access:private
+SVR_Q.l	java/libsvm/svm.java	/^	private final int l;$/;"	f	class:SVR_Q	file:	access:private
+SVR_Q.next_buffer	java/libsvm/svm.java	/^	private int next_buffer;$/;"	f	class:SVR_Q	file:	access:private
+SVR_Q.sign	java/libsvm/svm.java	/^	private final byte[] sign;$/;"	f	class:SVR_Q	file:	access:private
+SVR_Q.swap_index	java/libsvm/svm.java	/^	void swap_index(int i, int j)$/;"	m	class:SVR_Q	access:default	signature:(int i, int j)
+SVR_Q::QD	svm.cpp	/^	double *QD;$/;"	m	class:SVR_Q	file:	access:private
+SVR_Q::SVR_Q	svm.cpp	/^	SVR_Q(const svm_problem& prob, const svm_parameter& param)$/;"	f	class:SVR_Q	access:public	signature:(const svm_problem& prob, const svm_parameter& param)
+SVR_Q::buffer	svm.cpp	/^	Qfloat *buffer[2];$/;"	m	class:SVR_Q	file:	access:private
+SVR_Q::cache	svm.cpp	/^	Cache *cache;$/;"	m	class:SVR_Q	file:	access:private
+SVR_Q::get_Q	svm.cpp	/^	Qfloat *get_Q(int i, int len) const$/;"	f	class:SVR_Q	access:public	signature:(int i, int len) const
+SVR_Q::get_QD	svm.cpp	/^	double *get_QD() const$/;"	f	class:SVR_Q	access:public	signature:() const
+SVR_Q::index	svm.cpp	/^	int *index;$/;"	m	class:SVR_Q	file:	access:private
+SVR_Q::l	svm.cpp	/^	int l;$/;"	m	class:SVR_Q	file:	access:private
+SVR_Q::next_buffer	svm.cpp	/^	mutable int next_buffer;$/;"	m	class:SVR_Q	file:	access:private
+SVR_Q::sign	svm.cpp	/^	schar *sign;$/;"	m	class:SVR_Q	file:	access:private
+SVR_Q::swap_index	svm.cpp	/^	void swap_index(int i, int j) const$/;"	f	class:SVR_Q	access:public	signature:(int i, int j) const
+SVR_Q::~SVR_Q	svm.cpp	/^	~SVR_Q()$/;"	f	class:SVR_Q	access:public	signature:()
+SolutionInfo	java/libsvm/svm.java	/^	static class SolutionInfo {$/;"	c	class:Solver	access:default
+SolutionInfo	svm.cpp	/^	struct SolutionInfo {$/;"	s	class:Solver	file:	access:public
+Solve	java/libsvm/svm.java	/^	void Solve(int l, QMatrix Q, double[] p, byte[] y,$/;"	m	class:Solver_NU	access:default	signature:(int l, QMatrix Q, double[] p, byte[] y, double[] alpha, double Cp, double Cn, double eps, SolutionInfo si, int shrinking)
+Solve	java/libsvm/svm.java	/^	void Solve(int l, QMatrix Q, double[] p_, byte[] y_,$/;"	m	class:Solver	access:default	signature:(int l, QMatrix Q, double[] p_, byte[] y_, double[] alpha_, double Cp, double Cn, double eps, SolutionInfo si, int shrinking)
+Solve	svm.cpp	/^	void Solve(int l, const QMatrix& Q, const double *p, const schar *y,$/;"	f	class:Solver_NU	access:public	signature:(int l, const QMatrix& Q, const double *p, const schar *y, double *alpha, double Cp, double Cn, double eps, SolutionInfo* si, int shrinking)
+Solve	svm.cpp	/^	void Solve(int l, const QMatrix& Q, const double *p_, const schar *y_,$/;"	p	class:Solver	file:	access:public	signature:(int l, const QMatrix& Q, const double *p_, const schar *y_, double *alpha_, double Cp, double Cn, double eps, SolutionInfo* si, int shrinking)
+Solve	svm.cpp	/^void Solver::Solve(int l, const QMatrix& Q, const double *p_, const schar *y_,$/;"	f	class:Solver	signature:(int l, const QMatrix& Q, const double *p_, const schar *y_, double *alpha_, double Cp, double Cn, double eps, SolutionInfo* si, int shrinking)
+Solver	java/libsvm/svm.java	/^class Solver {$/;"	c
+Solver	svm.cpp	/^	Solver() {};$/;"	f	class:Solver	access:public	signature:()
+Solver	svm.cpp	/^class Solver {$/;"	c	file:
+Solver.Cn	java/libsvm/svm.java	/^	double Cp,Cn;$/;"	f	class:Solver	access:default
+Solver.Cp	java/libsvm/svm.java	/^	double Cp,Cn;$/;"	f	class:Solver	access:default
+Solver.FREE	java/libsvm/svm.java	/^	static final byte FREE = 2;$/;"	f	class:Solver	access:default
+Solver.G	java/libsvm/svm.java	/^	double[] G;		\/\/ gradient of objective function$/;"	f	class:Solver	access:default
+Solver.G_bar	java/libsvm/svm.java	/^	double[] G_bar;		\/\/ gradient, if we treat free variables as 0$/;"	f	class:Solver	access:default
+Solver.INF	java/libsvm/svm.java	/^	static final double INF = java.lang.Double.POSITIVE_INFINITY;$/;"	f	class:Solver	access:default
+Solver.LOWER_BOUND	java/libsvm/svm.java	/^	static final byte LOWER_BOUND = 0;$/;"	f	class:Solver	access:default
+Solver.Q	java/libsvm/svm.java	/^	QMatrix Q;$/;"	f	class:Solver	access:default
+Solver.QD	java/libsvm/svm.java	/^	double[] QD;$/;"	f	class:Solver	access:default
+Solver.SolutionInfo	java/libsvm/svm.java	/^	static class SolutionInfo {$/;"	c	class:Solver	access:default
+Solver.SolutionInfo.obj	java/libsvm/svm.java	/^		double obj;$/;"	f	class:Solver.SolutionInfo	access:default
+Solver.SolutionInfo.r	java/libsvm/svm.java	/^		double r;	\/\/ for Solver_NU$/;"	f	class:Solver.SolutionInfo	access:default
+Solver.SolutionInfo.rho	java/libsvm/svm.java	/^		double rho;$/;"	f	class:Solver.SolutionInfo	access:default
+Solver.SolutionInfo.upper_bound_n	java/libsvm/svm.java	/^		double upper_bound_n;$/;"	f	class:Solver.SolutionInfo	access:default
+Solver.SolutionInfo.upper_bound_p	java/libsvm/svm.java	/^		double upper_bound_p;$/;"	f	class:Solver.SolutionInfo	access:default
+Solver.Solve	java/libsvm/svm.java	/^	void Solve(int l, QMatrix Q, double[] p_, byte[] y_,$/;"	m	class:Solver	access:default	signature:(int l, QMatrix Q, double[] p_, byte[] y_, double[] alpha_, double Cp, double Cn, double eps, SolutionInfo si, int shrinking)
+Solver.UPPER_BOUND	java/libsvm/svm.java	/^	static final byte UPPER_BOUND = 1;$/;"	f	class:Solver	access:default
+Solver.active_set	java/libsvm/svm.java	/^	int[] active_set;$/;"	f	class:Solver	access:default
+Solver.active_size	java/libsvm/svm.java	/^	int active_size;$/;"	f	class:Solver	access:default
+Solver.alpha	java/libsvm/svm.java	/^	double[] alpha;$/;"	f	class:Solver	access:default
+Solver.alpha_status	java/libsvm/svm.java	/^	byte[] alpha_status;	\/\/ LOWER_BOUND, UPPER_BOUND, FREE$/;"	f	class:Solver	access:default
+Solver.be_shrunk	java/libsvm/svm.java	/^	private boolean be_shrunk(int i, double Gmax1, double Gmax2)$/;"	m	class:Solver	file:	access:private	signature:(int i, double Gmax1, double Gmax2)
+Solver.calculate_rho	java/libsvm/svm.java	/^	double calculate_rho()$/;"	m	class:Solver	access:default	signature:()
+Solver.do_shrinking	java/libsvm/svm.java	/^	void do_shrinking()$/;"	m	class:Solver	access:default	signature:()
+Solver.eps	java/libsvm/svm.java	/^	double eps;$/;"	f	class:Solver	access:default
+Solver.get_C	java/libsvm/svm.java	/^	double get_C(int i)$/;"	m	class:Solver	access:default	signature:(int i)
+Solver.is_free	java/libsvm/svm.java	/^	boolean is_free(int i) {  return alpha_status[i] == FREE; }$/;"	m	class:Solver	access:default	signature:(int i)
+Solver.is_lower_bound	java/libsvm/svm.java	/^	boolean is_lower_bound(int i) { return alpha_status[i] == LOWER_BOUND; }$/;"	m	class:Solver	access:default	signature:(int i)
+Solver.is_upper_bound	java/libsvm/svm.java	/^	boolean is_upper_bound(int i) { return alpha_status[i] == UPPER_BOUND; }$/;"	m	class:Solver	access:default	signature:(int i)
+Solver.l	java/libsvm/svm.java	/^	int l;$/;"	f	class:Solver	access:default
+Solver.p	java/libsvm/svm.java	/^	double[] p;$/;"	f	class:Solver	access:default
+Solver.reconstruct_gradient	java/libsvm/svm.java	/^	void reconstruct_gradient()$/;"	m	class:Solver	access:default	signature:()
+Solver.select_working_set	java/libsvm/svm.java	/^	int select_working_set(int[] working_set)$/;"	m	class:Solver	access:default	signature:(int[] working_set)
+Solver.swap_index	java/libsvm/svm.java	/^	void swap_index(int i, int j)$/;"	m	class:Solver	access:default	signature:(int i, int j)
+Solver.unshrink	java/libsvm/svm.java	/^	boolean unshrink;	\/\/ XXX$/;"	f	class:Solver	access:default
+Solver.update_alpha_status	java/libsvm/svm.java	/^	void update_alpha_status(int i)$/;"	m	class:Solver	access:default	signature:(int i)
+Solver.y	java/libsvm/svm.java	/^	byte[] y;$/;"	f	class:Solver	access:default
+Solver::Cn	svm.cpp	/^	double Cp,Cn;$/;"	m	class:Solver	file:	access:protected
+Solver::Cp	svm.cpp	/^	double Cp,Cn;$/;"	m	class:Solver	file:	access:protected
+Solver::FREE	svm.cpp	/^	enum { LOWER_BOUND, UPPER_BOUND, FREE };$/;"	e	enum:Solver::__anon4	file:
+Solver::G	svm.cpp	/^	double *G;		\/\/ gradient of objective function$/;"	m	class:Solver	file:	access:protected
+Solver::G_bar	svm.cpp	/^	double *G_bar;		\/\/ gradient, if we treat free variables as 0$/;"	m	class:Solver	file:	access:protected
+Solver::LOWER_BOUND	svm.cpp	/^	enum { LOWER_BOUND, UPPER_BOUND, FREE };$/;"	e	enum:Solver::__anon4	file:
+Solver::Q	svm.cpp	/^	const QMatrix *Q;$/;"	m	class:Solver	file:	access:protected
+Solver::QD	svm.cpp	/^	const double *QD;$/;"	m	class:Solver	file:	access:protected
+Solver::SolutionInfo	svm.cpp	/^	struct SolutionInfo {$/;"	s	class:Solver	file:	access:public
+Solver::SolutionInfo::obj	svm.cpp	/^		double obj;$/;"	m	struct:Solver::SolutionInfo	file:	access:public
+Solver::SolutionInfo::r	svm.cpp	/^		double r;	\/\/ for Solver_NU$/;"	m	struct:Solver::SolutionInfo	file:	access:public
+Solver::SolutionInfo::rho	svm.cpp	/^		double rho;$/;"	m	struct:Solver::SolutionInfo	file:	access:public
+Solver::SolutionInfo::upper_bound_n	svm.cpp	/^		double upper_bound_n;$/;"	m	struct:Solver::SolutionInfo	file:	access:public
+Solver::SolutionInfo::upper_bound_p	svm.cpp	/^		double upper_bound_p;$/;"	m	struct:Solver::SolutionInfo	file:	access:public
+Solver::Solve	svm.cpp	/^	void Solve(int l, const QMatrix& Q, const double *p_, const schar *y_,$/;"	p	class:Solver	file:	access:public	signature:(int l, const QMatrix& Q, const double *p_, const schar *y_, double *alpha_, double Cp, double Cn, double eps, SolutionInfo* si, int shrinking)
+Solver::Solve	svm.cpp	/^void Solver::Solve(int l, const QMatrix& Q, const double *p_, const schar *y_,$/;"	f	class:Solver	signature:(int l, const QMatrix& Q, const double *p_, const schar *y_, double *alpha_, double Cp, double Cn, double eps, SolutionInfo* si, int shrinking)
+Solver::Solver	svm.cpp	/^	Solver() {};$/;"	f	class:Solver	access:public	signature:()
+Solver::UPPER_BOUND	svm.cpp	/^	enum { LOWER_BOUND, UPPER_BOUND, FREE };$/;"	e	enum:Solver::__anon4	file:
+Solver::active_set	svm.cpp	/^	int *active_set;$/;"	m	class:Solver	file:	access:protected
+Solver::active_size	svm.cpp	/^	int active_size;$/;"	m	class:Solver	file:	access:protected
+Solver::alpha	svm.cpp	/^	double *alpha;$/;"	m	class:Solver	file:	access:protected
+Solver::alpha_status	svm.cpp	/^	char *alpha_status;	\/\/ LOWER_BOUND, UPPER_BOUND, FREE$/;"	m	class:Solver	file:	access:protected
+Solver::be_shrunk	svm.cpp	/^	bool be_shrunk(int i, double Gmax1, double Gmax2);	$/;"	p	class:Solver	file:	access:private	signature:(int i, double Gmax1, double Gmax2)
+Solver::be_shrunk	svm.cpp	/^bool Solver::be_shrunk(int i, double Gmax1, double Gmax2)$/;"	f	class:Solver	signature:(int i, double Gmax1, double Gmax2)
+Solver::calculate_rho	svm.cpp	/^	virtual double calculate_rho();$/;"	p	class:Solver	file:	access:protected	signature:()
+Solver::calculate_rho	svm.cpp	/^double Solver::calculate_rho()$/;"	f	class:Solver	signature:()
+Solver::do_shrinking	svm.cpp	/^	virtual void do_shrinking();$/;"	p	class:Solver	file:	access:protected	signature:()
+Solver::do_shrinking	svm.cpp	/^void Solver::do_shrinking()$/;"	f	class:Solver	signature:()
+Solver::eps	svm.cpp	/^	double eps;$/;"	m	class:Solver	file:	access:protected
+Solver::get_C	svm.cpp	/^	double get_C(int i)$/;"	f	class:Solver	access:protected	signature:(int i)
+Solver::is_free	svm.cpp	/^	bool is_free(int i) { return alpha_status[i] == FREE; }$/;"	f	class:Solver	access:protected	signature:(int i)
+Solver::is_lower_bound	svm.cpp	/^	bool is_lower_bound(int i) { return alpha_status[i] == LOWER_BOUND; }$/;"	f	class:Solver	access:protected	signature:(int i)
+Solver::is_upper_bound	svm.cpp	/^	bool is_upper_bound(int i) { return alpha_status[i] == UPPER_BOUND; }$/;"	f	class:Solver	access:protected	signature:(int i)
+Solver::l	svm.cpp	/^	int l;$/;"	m	class:Solver	file:	access:protected
+Solver::p	svm.cpp	/^	double *p;$/;"	m	class:Solver	file:	access:protected
+Solver::reconstruct_gradient	svm.cpp	/^	void reconstruct_gradient();$/;"	p	class:Solver	file:	access:protected	signature:()
+Solver::reconstruct_gradient	svm.cpp	/^void Solver::reconstruct_gradient()$/;"	f	class:Solver	signature:()
+Solver::select_working_set	svm.cpp	/^	virtual int select_working_set(int &i, int &j);$/;"	p	class:Solver	file:	access:protected	signature:(int &i, int &j)
+Solver::select_working_set	svm.cpp	/^int Solver::select_working_set(int &out_i, int &out_j)$/;"	f	class:Solver	signature:(int &out_i, int &out_j)
+Solver::swap_index	svm.cpp	/^	void swap_index(int i, int j);$/;"	p	class:Solver	file:	access:protected	signature:(int i, int j)
+Solver::swap_index	svm.cpp	/^void Solver::swap_index(int i, int j)$/;"	f	class:Solver	signature:(int i, int j)
+Solver::unshrink	svm.cpp	/^	bool unshrink;	\/\/ XXX$/;"	m	class:Solver	file:	access:protected
+Solver::update_alpha_status	svm.cpp	/^	void update_alpha_status(int i)$/;"	f	class:Solver	access:protected	signature:(int i)
+Solver::y	svm.cpp	/^	schar *y;$/;"	m	class:Solver	file:	access:protected
+Solver::~Solver	svm.cpp	/^	virtual ~Solver() {};$/;"	f	class:Solver	access:public	signature:()
+Solver_NU	java/libsvm/svm.java	/^final class Solver_NU extends Solver$/;"	c	inherits:Solver
+Solver_NU	svm.cpp	/^	Solver_NU() {}$/;"	f	class:Solver_NU	access:public	signature:()
+Solver_NU	svm.cpp	/^class Solver_NU: public Solver$/;"	c	file:	inherits:Solver
+Solver_NU.Solve	java/libsvm/svm.java	/^	void Solve(int l, QMatrix Q, double[] p, byte[] y,$/;"	m	class:Solver_NU	access:default	signature:(int l, QMatrix Q, double[] p, byte[] y, double[] alpha, double Cp, double Cn, double eps, SolutionInfo si, int shrinking)
+Solver_NU.be_shrunk	java/libsvm/svm.java	/^	private boolean be_shrunk(int i, double Gmax1, double Gmax2, double Gmax3, double Gmax4)$/;"	m	class:Solver_NU	file:	access:private	signature:(int i, double Gmax1, double Gmax2, double Gmax3, double Gmax4)
+Solver_NU.calculate_rho	java/libsvm/svm.java	/^	double calculate_rho()$/;"	m	class:Solver_NU	access:default	signature:()
+Solver_NU.do_shrinking	java/libsvm/svm.java	/^	void do_shrinking()$/;"	m	class:Solver_NU	access:default	signature:()
+Solver_NU.select_working_set	java/libsvm/svm.java	/^	int select_working_set(int[] working_set)$/;"	m	class:Solver_NU	access:default	signature:(int[] working_set)
+Solver_NU.si	java/libsvm/svm.java	/^	private SolutionInfo si;$/;"	f	class:Solver_NU	file:	access:private
+Solver_NU::Solve	svm.cpp	/^	void Solve(int l, const QMatrix& Q, const double *p, const schar *y,$/;"	f	class:Solver_NU	access:public	signature:(int l, const QMatrix& Q, const double *p, const schar *y, double *alpha, double Cp, double Cn, double eps, SolutionInfo* si, int shrinking)
+Solver_NU::Solver_NU	svm.cpp	/^	Solver_NU() {}$/;"	f	class:Solver_NU	access:public	signature:()
+Solver_NU::be_shrunk	svm.cpp	/^	bool be_shrunk(int i, double Gmax1, double Gmax2, double Gmax3, double Gmax4);$/;"	p	class:Solver_NU	file:	access:private	signature:(int i, double Gmax1, double Gmax2, double Gmax3, double Gmax4)
+Solver_NU::be_shrunk	svm.cpp	/^bool Solver_NU::be_shrunk(int i, double Gmax1, double Gmax2, double Gmax3, double Gmax4)$/;"	f	class:Solver_NU	signature:(int i, double Gmax1, double Gmax2, double Gmax3, double Gmax4)
+Solver_NU::calculate_rho	svm.cpp	/^	double calculate_rho();$/;"	p	class:Solver_NU	file:	access:private	signature:()
+Solver_NU::calculate_rho	svm.cpp	/^double Solver_NU::calculate_rho()$/;"	f	class:Solver_NU	signature:()
+Solver_NU::do_shrinking	svm.cpp	/^	void do_shrinking();$/;"	p	class:Solver_NU	file:	access:private	signature:()
+Solver_NU::do_shrinking	svm.cpp	/^void Solver_NU::do_shrinking()$/;"	f	class:Solver_NU	signature:()
+Solver_NU::select_working_set	svm.cpp	/^	int select_working_set(int &i, int &j);$/;"	p	class:Solver_NU	file:	access:private	signature:(int &i, int &j)
+Solver_NU::select_working_set	svm.cpp	/^int Solver_NU::select_working_set(int &out_i, int &out_j)$/;"	f	class:Solver_NU	signature:(int &out_i, int &out_j)
+Solver_NU::si	svm.cpp	/^	SolutionInfo *si;$/;"	m	class:Solver_NU	file:	access:private
+SvmToyWindow	svm-toy/qt/svm-toy.cpp	/^	SvmToyWindow();$/;"	p	class:SvmToyWindow	file:	access:public	signature:()
+SvmToyWindow	svm-toy/qt/svm-toy.cpp	/^SvmToyWindow::SvmToyWindow()$/;"	f	class:SvmToyWindow	signature:()
+SvmToyWindow	svm-toy/qt/svm-toy.cpp	/^class SvmToyWindow : public QWidget$/;"	c	file:	inherits:QWidget
+SvmToyWindow::SvmToyWindow	svm-toy/qt/svm-toy.cpp	/^	SvmToyWindow();$/;"	p	class:SvmToyWindow	file:	access:public	signature:()
+SvmToyWindow::SvmToyWindow	svm-toy/qt/svm-toy.cpp	/^SvmToyWindow::SvmToyWindow()$/;"	f	class:SvmToyWindow	signature:()
+SvmToyWindow::buffer	svm-toy/qt/svm-toy.cpp	/^	QPixmap buffer;$/;"	m	class:SvmToyWindow	file:	access:private
+SvmToyWindow::buffer_painter	svm-toy/qt/svm-toy.cpp	/^	QPainter buffer_painter;$/;"	m	class:SvmToyWindow	file:	access:private
+SvmToyWindow::button_change_icon	svm-toy/qt/svm-toy.cpp	/^	QPushButton button_change_icon;$/;"	m	class:SvmToyWindow	file:	access:private
+SvmToyWindow::button_change_icon_clicked	svm-toy/qt/svm-toy.cpp	/^	void button_change_icon_clicked()$/;"	f	class:SvmToyWindow	file:	access:private	signature:()
+SvmToyWindow::button_clear	svm-toy/qt/svm-toy.cpp	/^	QPushButton button_clear;$/;"	m	class:SvmToyWindow	file:	access:private
+SvmToyWindow::button_clear_clicked	svm-toy/qt/svm-toy.cpp	/^	void button_clear_clicked()$/;"	f	class:SvmToyWindow	file:	access:private	signature:()
+SvmToyWindow::button_load	svm-toy/qt/svm-toy.cpp	/^	QPushButton button_load;$/;"	m	class:SvmToyWindow	file:	access:private
+SvmToyWindow::button_load_clicked	svm-toy/qt/svm-toy.cpp	/^	void button_load_clicked()$/;"	f	class:SvmToyWindow	file:	access:private	signature:()
+SvmToyWindow::button_run	svm-toy/qt/svm-toy.cpp	/^	QPushButton button_run;$/;"	m	class:SvmToyWindow	file:	access:private
+SvmToyWindow::button_run_clicked	svm-toy/qt/svm-toy.cpp	/^	void button_run_clicked()$/;"	f	class:SvmToyWindow	file:	access:private	signature:()
+SvmToyWindow::button_save	svm-toy/qt/svm-toy.cpp	/^	QPushButton button_save;$/;"	m	class:SvmToyWindow	file:	access:private
+SvmToyWindow::button_save_clicked	svm-toy/qt/svm-toy.cpp	/^	void button_save_clicked()$/;"	f	class:SvmToyWindow	file:	access:private	signature:()
+SvmToyWindow::choose_icon	svm-toy/qt/svm-toy.cpp	/^	const QPixmap& choose_icon(int v)$/;"	f	class:SvmToyWindow	file:	access:private	signature:(int v)
+SvmToyWindow::clear_all	svm-toy/qt/svm-toy.cpp	/^	void clear_all()$/;"	f	class:SvmToyWindow	file:	access:private	signature:()
+SvmToyWindow::current_value	svm-toy/qt/svm-toy.cpp	/^	int current_value;$/;"	m	class:SvmToyWindow	file:	access:private
+SvmToyWindow::draw_all_points	svm-toy/qt/svm-toy.cpp	/^	void draw_all_points()$/;"	f	class:SvmToyWindow	file:	access:private	signature:()
+SvmToyWindow::draw_point	svm-toy/qt/svm-toy.cpp	/^	void draw_point(const point& p)$/;"	f	class:SvmToyWindow	file:	access:private	signature:(const point& p)
+SvmToyWindow::icon1	svm-toy/qt/svm-toy.cpp	/^	QPixmap icon1;$/;"	m	class:SvmToyWindow	file:	access:private
+SvmToyWindow::icon2	svm-toy/qt/svm-toy.cpp	/^	QPixmap icon2;$/;"	m	class:SvmToyWindow	file:	access:private
+SvmToyWindow::icon3	svm-toy/qt/svm-toy.cpp	/^	QPixmap icon3;$/;"	m	class:SvmToyWindow	file:	access:private
+SvmToyWindow::input_line	svm-toy/qt/svm-toy.cpp	/^	QLineEdit input_line;$/;"	m	class:SvmToyWindow	file:	access:private
+SvmToyWindow::mousePressEvent	svm-toy/qt/svm-toy.cpp	/^	virtual void mousePressEvent( QMouseEvent* );$/;"	p	class:SvmToyWindow	file:	access:protected	signature:( QMouseEvent* )
+SvmToyWindow::mousePressEvent	svm-toy/qt/svm-toy.cpp	/^void SvmToyWindow::mousePressEvent( QMouseEvent* event )$/;"	f	class:SvmToyWindow	signature:( QMouseEvent* event )
+SvmToyWindow::paintEvent	svm-toy/qt/svm-toy.cpp	/^	virtual void paintEvent( QPaintEvent* );$/;"	p	class:SvmToyWindow	file:	access:protected	signature:( QPaintEvent* )
+SvmToyWindow::paintEvent	svm-toy/qt/svm-toy.cpp	/^void SvmToyWindow::paintEvent( QPaintEvent* )$/;"	f	class:SvmToyWindow	signature:( QPaintEvent* )
+SvmToyWindow::point	svm-toy/qt/svm-toy.cpp	/^	struct point {$/;"	s	class:SvmToyWindow	file:	access:private
+SvmToyWindow::point::value	svm-toy/qt/svm-toy.cpp	/^		signed char value;$/;"	m	struct:SvmToyWindow::point	file:	access:public
+SvmToyWindow::point::x	svm-toy/qt/svm-toy.cpp	/^		double x, y;$/;"	m	struct:SvmToyWindow::point	file:	access:public
+SvmToyWindow::point::y	svm-toy/qt/svm-toy.cpp	/^		double x, y;$/;"	m	struct:SvmToyWindow::point	file:	access:public
+SvmToyWindow::point_list	svm-toy/qt/svm-toy.cpp	/^	list<point> point_list;$/;"	m	class:SvmToyWindow	file:	access:private
+SvmToyWindow::~SvmToyWindow	svm-toy/qt/svm-toy.cpp	/^	~SvmToyWindow();$/;"	p	class:SvmToyWindow	file:	access:public	signature:()
+SvmToyWindow::~SvmToyWindow	svm-toy/qt/svm-toy.cpp	/^SvmToyWindow::~SvmToyWindow()$/;"	f	class:SvmToyWindow	signature:()
+TAU	svm.cpp	38;"	d	file:
+TelnetWorker	tools/grid.py	/^class TelnetWorker(Worker):$/;"	c	inherits:Worker
+UPPER_BOUND	java/libsvm/svm.java	/^	static final byte UPPER_BOUND = 1;$/;"	f	class:Solver	access:default
+UPPER_BOUND	svm.cpp	/^	enum { LOWER_BOUND, UPPER_BOUND, FREE };$/;"	e	enum:Solver::__anon4	file:
+WinMain	svm-toy/windows/svm-toy.cpp	/^int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,$/;"	f	signature:(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR szCmdLine, int iCmdShow)
+WndProc	svm-toy/windows/svm-toy.cpp	/^LRESULT CALLBACK WndProc(HWND hwnd, UINT iMsg, WPARAM wParam, LPARAM lParam)$/;"	f	signature:(HWND hwnd, UINT iMsg, WPARAM wParam, LPARAM lParam)
+WndProc	svm-toy/windows/svm-toy.cpp	/^LRESULT CALLBACK WndProc(HWND, UINT, WPARAM, LPARAM);$/;"	p	file:	signature:(HWND, UINT, WPARAM, LPARAM)
+Worker	tools/grid.py	/^class Worker(Thread):$/;"	c	inherits:Thread
+WorkerStopToken	tools/grid.py	/^class WorkerStopToken:  # used to notify the worker to stop or if a worker is dead$/;"	c	inherits:
+XLEN	java/svm_toy.java	/^	int XLEN;$/;"	f	class:svm_toy	access:default
+XLEN	svm-toy/gtk/callbacks.cpp	13;"	d	file:
+XLEN	svm-toy/qt/svm-toy.cpp	11;"	d	file:
+XLEN	svm-toy/windows/svm-toy.cpp	11;"	d	file:
+YLEN	java/svm_toy.java	/^	int YLEN;$/;"	f	class:svm_toy	access:default
+YLEN	svm-toy/gtk/callbacks.cpp	14;"	d	file:
+YLEN	svm-toy/qt/svm-toy.cpp	12;"	d	file:
+YLEN	svm-toy/windows/svm-toy.cpp	12;"	d	file:
+_LIBSVM_H	svm.h	2;"	d
+_TOP	FAQ.html	/^<a name="_TOP"><b><h1><a$/;"	a
+__all__	tools/grid.py	/^__all__ = ['find_parameters']$/;"	v
+__anon2::value	svm-toy/gtk/callbacks.cpp	/^	signed char value;$/;"	m	struct:__anon2	file:	access:public
+__anon2::x	svm-toy/gtk/callbacks.cpp	/^	double x, y;$/;"	m	struct:__anon2	file:	access:public
+__anon2::y	svm-toy/gtk/callbacks.cpp	/^	double x, y;$/;"	m	struct:__anon2	file:	access:public
+__del__	python/svm.py	/^	def __del__(self):$/;"	m	class:svm_model	file:	access:private
+__init__	python/svm.py	/^	def __init__(self):$/;"	m	class:svm_model	access:public
+__init__	python/svm.py	/^	def __init__(self, options = None):$/;"	m	class:svm_parameter	access:public
+__init__	python/svm.py	/^	def __init__(self, y, x, isKernel=None):$/;"	m	class:svm_problem	access:public
+__init__	tools/grid.py	/^	def __init__(self, dataset_pathname, options):$/;"	m	class:GridOption	access:public
+__init__	tools/grid.py	/^	def __init__(self,name,job_queue,result_queue,host,options):$/;"	m	class:SSHWorker	access:public
+__init__	tools/grid.py	/^	def __init__(self,name,job_queue,result_queue,host,username,password,options):$/;"	m	class:TelnetWorker	access:public
+__init__	tools/grid.py	/^	def __init__(self,name,job_queue,result_queue,options):$/;"	m	class:Worker	access:public
+__str__	python/svm.py	/^	def __str__(self):$/;"	m	class:svm_node	file:	access:private
+__str__	python/svm.py	/^	def __str__(self):$/;"	m	class:svm_parameter	file:	access:private
+_fields_	python/svm.py	/^	_fields_ = genFields(_names, _types)$/;"	v	class:svm_model
+_fields_	python/svm.py	/^	_fields_ = genFields(_names, _types)$/;"	v	class:svm_node
+_fields_	python/svm.py	/^	_fields_ = genFields(_names, _types)$/;"	v	class:svm_parameter
+_fields_	python/svm.py	/^	_fields_ = genFields(_names, _types)$/;"	v	class:svm_problem
+_names	python/svm.py	/^	_names = ["index", "value"]$/;"	v	class:svm_node
+_names	python/svm.py	/^	_names = ["l", "y", "x"]$/;"	v	class:svm_problem
+_names	python/svm.py	/^	_names = ["svm_type", "kernel_type", "degree", "gamma", "coef0",$/;"	v	class:svm_parameter
+_names	python/svm.py	/^	_names = ['param', 'nr_class', 'l', 'SV', 'sv_coef', 'rho',$/;"	v	class:svm_model
+_types	python/svm.py	/^	_types = [c_int, POINTER(c_double), POINTER(POINTER(svm_node))]$/;"	v	class:svm_problem
+_types	python/svm.py	/^	_types = [c_int, c_double]$/;"	v	class:svm_node
+_types	python/svm.py	/^	_types = [c_int, c_int, c_int, c_double, c_double, $/;"	v	class:svm_parameter
+_types	python/svm.py	/^	_types = [svm_parameter, c_int, c_int, POINTER(POINTER(svm_node)),$/;"	v	class:svm_model
+active_set	java/libsvm/svm.java	/^	int[] active_set;$/;"	f	class:Solver	access:default
+active_set	svm.cpp	/^	int *active_set;$/;"	m	class:Solver	file:	access:protected
+active_size	java/libsvm/svm.java	/^	int active_size;$/;"	f	class:Solver	access:default
+active_size	svm.cpp	/^	int active_size;$/;"	m	class:Solver	file:	access:protected
+all	python/Makefile	/^all = lib$/;"	m
+alpha	java/libsvm/svm.java	/^		double[] alpha;$/;"	f	class:svm.decision_function	access:default
+alpha	java/libsvm/svm.java	/^	double[] alpha;$/;"	f	class:Solver	access:default
+alpha	svm.cpp	/^	double *alpha;$/;"	m	class:Solver	file:	access:protected
+alpha	svm.cpp	/^	double *alpha;$/;"	m	struct:decision_function	file:	access:public
+alpha_status	java/libsvm/svm.java	/^	byte[] alpha_status;	\/\/ LOWER_BOUND, UPPER_BOUND, FREE$/;"	f	class:Solver	access:default
+alpha_status	svm.cpp	/^	char *alpha_status;	\/\/ LOWER_BOUND, UPPER_BOUND, FREE$/;"	m	class:Solver	file:	access:protected
+atof	java/libsvm/svm.java	/^	private static double atof(String s)$/;"	m	class:svm	file:	access:private	signature:(String s)
+atof	java/svm_predict.java	/^	private static double atof(String s)$/;"	m	class:svm_predict	file:	access:private	signature:(String s)
+atof	java/svm_toy.java	/^	private static double atof(String s)$/;"	m	class:svm_toy	file:	access:private	signature:(String s)
+atof	java/svm_train.java	/^	private static double atof(String s)$/;"	m	class:svm_train	file:	access:private	signature:(String s)
+atoi	java/libsvm/svm.java	/^	private static int atoi(String s)$/;"	m	class:svm	file:	access:private	signature:(String s)
+atoi	java/svm_predict.java	/^	private static int atoi(String s)$/;"	m	class:svm_predict	file:	access:private	signature:(String s)
+atoi	java/svm_toy.java	/^	private static int atoi(String s)$/;"	m	class:svm_toy	file:	access:private	signature:(String s)
+atoi	java/svm_train.java	/^	private static int atoi(String s)$/;"	m	class:svm_train	file:	access:private	signature:(String s)
+be_shrunk	java/libsvm/svm.java	/^	private boolean be_shrunk(int i, double Gmax1, double Gmax2)$/;"	m	class:Solver	file:	access:private	signature:(int i, double Gmax1, double Gmax2)
+be_shrunk	java/libsvm/svm.java	/^	private boolean be_shrunk(int i, double Gmax1, double Gmax2, double Gmax3, double Gmax4)$/;"	m	class:Solver_NU	file:	access:private	signature:(int i, double Gmax1, double Gmax2, double Gmax3, double Gmax4)
+be_shrunk	svm.cpp	/^	bool be_shrunk(int i, double Gmax1, double Gmax2);	$/;"	p	class:Solver	file:	access:private	signature:(int i, double Gmax1, double Gmax2)
+be_shrunk	svm.cpp	/^	bool be_shrunk(int i, double Gmax1, double Gmax2, double Gmax3, double Gmax4);$/;"	p	class:Solver_NU	file:	access:private	signature:(int i, double Gmax1, double Gmax2, double Gmax3, double Gmax4)
+be_shrunk	svm.cpp	/^bool Solver::be_shrunk(int i, double Gmax1, double Gmax2)$/;"	f	class:Solver	signature:(int i, double Gmax1, double Gmax2)
+be_shrunk	svm.cpp	/^bool Solver_NU::be_shrunk(int i, double Gmax1, double Gmax2, double Gmax3, double Gmax4)$/;"	f	class:Solver_NU	signature:(int i, double Gmax1, double Gmax2, double Gmax3, double Gmax4)
+brush1	svm-toy/windows/svm-toy.cpp	/^HBRUSH brush1, brush2, brush3;$/;"	v
+brush2	svm-toy/windows/svm-toy.cpp	/^HBRUSH brush1, brush2, brush3;$/;"	v
+brush3	svm-toy/windows/svm-toy.cpp	/^HBRUSH brush1, brush2, brush3;$/;"	v
+buffer	java/libsvm/svm.java	/^	private float[][] buffer;$/;"	f	class:SVR_Q	file:	access:private
+buffer	java/svm_toy.java	/^	Image buffer;$/;"	f	class:svm_toy	access:default
+buffer	svm-toy/qt/svm-toy.cpp	/^	QPixmap buffer;$/;"	m	class:SvmToyWindow	file:	access:private
+buffer	svm-toy/windows/svm-toy.cpp	/^HBITMAP buffer;$/;"	v
+buffer	svm.cpp	/^	Qfloat *buffer[2];$/;"	m	class:SVR_Q	file:	access:private
+buffer_dc	svm-toy/windows/svm-toy.cpp	/^HDC buffer_dc;$/;"	v
+buffer_gc	java/svm_toy.java	/^	Graphics buffer_gc;$/;"	f	class:svm_toy	access:default
+buffer_painter	svm-toy/qt/svm-toy.cpp	/^	QPainter buffer_painter;$/;"	m	class:SvmToyWindow	file:	access:private
+button_change_clicked	java/svm_toy.java	/^	void button_change_clicked()$/;"	m	class:svm_toy	access:default	signature:()
+button_change_icon	svm-toy/qt/svm-toy.cpp	/^	QPushButton button_change_icon;$/;"	m	class:SvmToyWindow	file:	access:private
+button_change_icon_clicked	svm-toy/qt/svm-toy.cpp	/^	void button_change_icon_clicked()$/;"	f	class:SvmToyWindow	file:	access:private	signature:()
+button_clear	svm-toy/qt/svm-toy.cpp	/^	QPushButton button_clear;$/;"	m	class:SvmToyWindow	file:	access:private
+button_clear_clicked	java/svm_toy.java	/^	void button_clear_clicked()$/;"	m	class:svm_toy	access:default	signature:()
+button_clear_clicked	svm-toy/qt/svm-toy.cpp	/^	void button_clear_clicked()$/;"	f	class:SvmToyWindow	file:	access:private	signature:()
+button_load	svm-toy/qt/svm-toy.cpp	/^	QPushButton button_load;$/;"	m	class:SvmToyWindow	file:	access:private
+button_load_clicked	java/svm_toy.java	/^	void button_load_clicked()$/;"	m	class:svm_toy	access:default	signature:()
+button_load_clicked	svm-toy/qt/svm-toy.cpp	/^	void button_load_clicked()$/;"	f	class:SvmToyWindow	file:	access:private	signature:()
+button_run	svm-toy/qt/svm-toy.cpp	/^	QPushButton button_run;$/;"	m	class:SvmToyWindow	file:	access:private
+button_run_clicked	java/svm_toy.java	/^	void button_run_clicked(String args)$/;"	m	class:svm_toy	access:default	signature:(String args)
+button_run_clicked	svm-toy/qt/svm-toy.cpp	/^	void button_run_clicked()$/;"	f	class:SvmToyWindow	file:	access:private	signature:()
+button_run_clicked	svm-toy/windows/svm-toy.cpp	/^void button_run_clicked()$/;"	f	signature:()
+button_save	svm-toy/qt/svm-toy.cpp	/^	QPushButton button_save;$/;"	m	class:SvmToyWindow	file:	access:private
+button_save_clicked	java/svm_toy.java	/^	void button_save_clicked(String args)$/;"	m	class:svm_toy	access:default	signature:(String args)
+button_save_clicked	svm-toy/qt/svm-toy.cpp	/^	void button_save_clicked()$/;"	f	class:SvmToyWindow	file:	access:private	signature:()
+cache	java/libsvm/svm.java	/^	private final Cache cache;$/;"	f	class:ONE_CLASS_Q	file:	access:private
+cache	java/libsvm/svm.java	/^	private final Cache cache;$/;"	f	class:SVC_Q	file:	access:private
+cache	java/libsvm/svm.java	/^	private final Cache cache;$/;"	f	class:SVR_Q	file:	access:private
+cache	svm.cpp	/^	Cache *cache;$/;"	m	class:ONE_CLASS_Q	file:	access:private
+cache	svm.cpp	/^	Cache *cache;$/;"	m	class:SVC_Q	file:	access:private
+cache	svm.cpp	/^	Cache *cache;$/;"	m	class:SVR_Q	file:	access:private
+cache_size	java/libsvm/svm_parameter.java	/^	public double cache_size; \/\/ in MB$/;"	f	class:svm_parameter	access:public
+cache_size	svm.h	/^	double cache_size; \/* in MB *\/$/;"	m	struct:svm_parameter	access:public
+calculate_jobs	tools/grid.py	/^def calculate_jobs(options):$/;"	f	access:public
+calculate_rho	java/libsvm/svm.java	/^	double calculate_rho()$/;"	m	class:Solver	access:default	signature:()
+calculate_rho	java/libsvm/svm.java	/^	double calculate_rho()$/;"	m	class:Solver_NU	access:default	signature:()
+calculate_rho	svm.cpp	/^	double calculate_rho();$/;"	p	class:Solver_NU	file:	access:private	signature:()
+calculate_rho	svm.cpp	/^	virtual double calculate_rho();$/;"	p	class:Solver	file:	access:protected	signature:()
+calculate_rho	svm.cpp	/^double Solver::calculate_rho()$/;"	f	class:Solver	signature:()
+calculate_rho	svm.cpp	/^double Solver_NU::calculate_rho()$/;"	f	class:Solver_NU	signature:()
+choose_brush	svm-toy/windows/svm-toy.cpp	/^HBRUSH choose_brush(int v)$/;"	f	signature:(int v)
+choose_icon	svm-toy/qt/svm-toy.cpp	/^	const QPixmap& choose_icon(int v)$/;"	f	class:SvmToyWindow	file:	access:private	signature:(int v)
+clear_all	java/svm_toy.java	/^	void clear_all()$/;"	m	class:svm_toy	access:default	signature:()
+clear_all	svm-toy/gtk/callbacks.cpp	/^void clear_all()$/;"	f	signature:()
+clear_all	svm-toy/qt/svm-toy.cpp	/^	void clear_all()$/;"	f	class:SvmToyWindow	file:	access:private	signature:()
+clear_all	svm-toy/windows/svm-toy.cpp	/^void clear_all()$/;"	f	signature:()
+clone	java/libsvm/svm_parameter.java	/^	public Object clone() $/;"	m	class:svm_parameter	access:public	signature:()
+clone	svm.cpp	/^template <class S, class T> static inline void clone(T*& dst, S* src, int n)$/;"	f	file:	signature:(T*& dst, S* src, int n)
+cmd	tools/easy.py	/^	cmd = '{0} "{1}" "{2}" "{3}"'.format(svmpredict_exe, scaled_test_file, model_file, predict_test_file)$/;"	v
+cmd	tools/easy.py	/^	cmd = '{0} -r "{1}" "{2}" > "{3}"'.format(svmscale_exe, range_file, test_pathname, scaled_test_file)$/;"	v
+cmd	tools/easy.py	/^cmd = '{0} -c {1} -g {2} "{3}" "{4}"'.format(svmtrain_exe,c,g,scaled_file,model_file)$/;"	v
+cmd	tools/easy.py	/^cmd = '{0} -s "{1}" "{2}" > "{3}"'.format(svmscale_exe, range_file, train_pathname, scaled_file)$/;"	v
+cmd	tools/easy.py	/^cmd = '{0} -svmtrain "{1}" -gnuplot "{2}" "{3}"'.format(grid_py, svmtrain_exe, gnuplot_exe, scaled_file)$/;"	v
+coef0	java/libsvm/svm.java	/^	private final double coef0;$/;"	f	class:Kernel	file:	access:private
+coef0	java/libsvm/svm_parameter.java	/^	public double coef0;	\/\/ for poly\/sigmoid$/;"	f	class:svm_parameter	access:public
+coef0	svm.cpp	/^	const double coef0;$/;"	m	class:Kernel	file:	access:private
+coef0	svm.h	/^	double coef0;	\/* for poly\/sigmoid *\/$/;"	m	struct:svm_parameter	access:public
+colors	java/svm_toy.java	/^	final static Color colors[] =$/;"	f	class:svm_toy	access:default
+create_fileselection	svm-toy/gtk/interface.c	/^create_fileselection (void)$/;"	f	signature:(void)
+create_fileselection	svm-toy/gtk/interface.h	/^GtkWidget* create_fileselection (void);$/;"	p	signature:(void)
+create_window	svm-toy/gtk/interface.c	/^create_window (void)$/;"	f	signature:(void)
+create_window	svm-toy/gtk/interface.h	/^GtkWidget* create_window (void);$/;"	p	signature:(void)
+cross_validation	java/svm_train.java	/^	private int cross_validation;$/;"	f	class:svm_train	file:	access:private
+cross_validation	matlab/svmtrain.c	/^int cross_validation;$/;"	v
+cross_validation	svm-train.c	/^int cross_validation;$/;"	v
+current_value	java/svm_toy.java	/^	byte current_value = 1;$/;"	f	class:svm_toy	access:default
+current_value	svm-toy/gtk/callbacks.cpp	/^int current_value = 1;$/;"	v
+current_value	svm-toy/qt/svm-toy.cpp	/^	int current_value;$/;"	m	class:SvmToyWindow	file:	access:private
+current_value	svm-toy/windows/svm-toy.cpp	/^int current_value = 1;$/;"	v
+data	java/libsvm/svm.java	/^		float[] data;$/;"	f	class:Cache.head_t	access:default
+data	svm.cpp	/^		Qfloat *data;$/;"	m	struct:Cache::head_t	file:	access:public
+dataset_pathname	tools/grid.py	/^	dataset_pathname = sys.argv[-1]$/;"	v
+decision_function	java/libsvm/svm.java	/^	static class decision_function$/;"	c	class:svm	access:default
+decision_function	svm.cpp	/^struct decision_function$/;"	s	file:
+decision_function::alpha	svm.cpp	/^	double *alpha;$/;"	m	struct:decision_function	file:	access:public
+decision_function::rho	svm.cpp	/^	double rho;	$/;"	m	struct:decision_function	file:	access:public
+degree	java/libsvm/svm.java	/^	private final int degree;$/;"	f	class:Kernel	file:	access:private
+degree	java/libsvm/svm_parameter.java	/^	public int degree;	\/\/ for poly$/;"	f	class:svm_parameter	access:public
+degree	svm.cpp	/^	const int degree;$/;"	m	class:Kernel	file:	access:private
+degree	svm.h	/^	int degree;	\/* for poly *\/$/;"	m	struct:svm_parameter	access:public
+dirname	python/svm.py	/^	dirname = path.dirname(path.abspath(__file__))$/;"	v
+do_cross_validation	java/svm_train.java	/^	private void do_cross_validation()$/;"	m	class:svm_train	file:	access:private	signature:()
+do_cross_validation	matlab/svmtrain.c	/^double do_cross_validation()$/;"	f
+do_cross_validation	svm-train.c	/^void do_cross_validation()$/;"	f
+do_cross_validation	svm-train.c	/^void do_cross_validation();$/;"	p	file:
+do_shrinking	java/libsvm/svm.java	/^	void do_shrinking()$/;"	m	class:Solver	access:default	signature:()
+do_shrinking	java/libsvm/svm.java	/^	void do_shrinking()$/;"	m	class:Solver_NU	access:default	signature:()
+do_shrinking	svm.cpp	/^	virtual void do_shrinking();$/;"	p	class:Solver	file:	access:protected	signature:()
+do_shrinking	svm.cpp	/^	void do_shrinking();$/;"	p	class:Solver_NU	file:	access:private	signature:()
+do_shrinking	svm.cpp	/^void Solver::do_shrinking()$/;"	f	class:Solver	signature:()
+do_shrinking	svm.cpp	/^void Solver_NU::do_shrinking()$/;"	f	class:Solver_NU	signature:()
+dot	java/libsvm/svm.java	/^	static double dot(svm_node[] x, svm_node[] y)$/;"	m	class:Kernel	access:default	signature:(svm_node[] x, svm_node[] y)
+dot	svm.cpp	/^	static double dot(const svm_node *px, const svm_node *py);$/;"	p	class:Kernel	file:	access:private	signature:(const svm_node *px, const svm_node *py)
+dot	svm.cpp	/^double Kernel::dot(const svm_node *px, const svm_node *py)$/;"	f	class:Kernel	signature:(const svm_node *px, const svm_node *py)
+draw_all_points	java/svm_toy.java	/^	void draw_all_points()$/;"	m	class:svm_toy	access:default	signature:()
+draw_all_points	svm-toy/gtk/callbacks.cpp	/^void draw_all_points()$/;"	f	signature:()
+draw_all_points	svm-toy/qt/svm-toy.cpp	/^	void draw_all_points()$/;"	f	class:SvmToyWindow	file:	access:private	signature:()
+draw_all_points	svm-toy/windows/svm-toy.cpp	/^void draw_all_points()$/;"	f	signature:()
+draw_main	svm-toy/gtk/callbacks.cpp	/^GtkWidget *draw_main;$/;"	v
+draw_point	java/svm_toy.java	/^	void draw_point(point p)$/;"	m	class:svm_toy	access:default	signature:(point p)
+draw_point	svm-toy/gtk/callbacks.cpp	/^void draw_point(const point& p)$/;"	f	signature:(const point& p)
+draw_point	svm-toy/qt/svm-toy.cpp	/^	void draw_point(const point& p)$/;"	f	class:SvmToyWindow	file:	access:private	signature:(const point& p)
+draw_point	svm-toy/windows/svm-toy.cpp	/^void draw_point(const point & p)$/;"	f	signature:(const point & p)
+edit	svm-toy/windows/svm-toy.cpp	/^HWND edit;$/;"	v
+entry_option	svm-toy/gtk/callbacks.cpp	/^GtkWidget *entry_option;$/;"	v
+eps	java/libsvm/svm.java	/^	double eps;$/;"	f	class:Solver	access:default
+eps	java/libsvm/svm_parameter.java	/^	public double eps;	\/\/ stopping criteria$/;"	f	class:svm_parameter	access:public
+eps	svm.cpp	/^	double eps;$/;"	m	class:Solver	file:	access:protected
+eps	svm.h	/^	double eps;	\/* stopping criteria *\/$/;"	m	struct:svm_parameter	access:public
+err	tools/checkdata.py	/^def err(line_no, msg):$/;"	f	access:public
+error_msg	java/svm_train.java	/^	private String error_msg;$/;"	f	class:svm_train	file:	access:private
+evaluations	python/svmutil.py	/^def evaluations(ty, pv):$/;"	f	access:public
+exit_input_error	svm-predict.c	/^void exit_input_error(int line_num)$/;"	f	signature:(int line_num)
+exit_input_error	svm-train.c	/^void exit_input_error(int line_num)$/;"	f	signature:(int line_num)
+exit_with_help	java/svm_predict.java	/^	private static void exit_with_help()$/;"	m	class:svm_predict	file:	access:private	signature:()
+exit_with_help	java/svm_scale.java	/^	private static void exit_with_help()$/;"	m	class:svm_scale	file:	access:private	signature:()
+exit_with_help	java/svm_train.java	/^	private static void exit_with_help()$/;"	m	class:svm_train	file:	access:private	signature:()
+exit_with_help	matlab/libsvmread.c	/^void exit_with_help()$/;"	f
+exit_with_help	matlab/libsvmwrite.c	/^void exit_with_help()$/;"	f
+exit_with_help	matlab/svmpredict.c	/^void exit_with_help()$/;"	f
+exit_with_help	matlab/svmtrain.c	/^void exit_with_help()$/;"	f
+exit_with_help	svm-predict.c	/^void exit_with_help()$/;"	f
+exit_with_help	svm-scale.c	/^void exit_with_help()$/;"	f
+exit_with_help	svm-train.c	/^void exit_with_help()$/;"	f
+exit_with_help	tools/grid.py	/^	def exit_with_help():$/;"	f	function:find_parameters	access:public
+exit_with_help	tools/subset.py	/^def exit_with_help(argv):$/;"	f	access:public
+f	tools/easy.py	/^f = Popen(cmd, shell = True, stdout = PIPE).stdout$/;"	v
+f201	FAQ.html	/^<a name="f201"><b>Q: Where can I find documents\/videos of libsvm ?<\/b><\/a>$/;"	a
+f202	FAQ.html	/^<a name="f202"><b>Q: Where are change log and earlier versions?<\/b><\/a>$/;"	a
+f203	FAQ.html	/^<a name="f203"><b>Q: How to cite LIBSVM?<\/b><\/a>$/;"	a
+f204	FAQ.html	/^<a name="f204"><b>Q: I would like to use libsvm in my software. Is there any license problem?<\/b><\/a>$/;"	a
+f205	FAQ.html	/^<a name="f205"><b>Q: Is there a repository of additional tools based on libsvm?<\/b><\/a>$/;"	a
+f206	FAQ.html	/^<a name="f206"><b>Q: On unix machines, I got "error in loading shared libraries" or "cannot open shared object file." What happened ? <\/b><\/a>$/;"	a
+f207	FAQ.html	/^<a name="f207"><b>Q: I have modified the source and would like to build the graphic interface "svm-toy" on MS windows. How should I do it ?<\/b><\/a>$/;"	a
+f208	FAQ.html	/^<a name="f208"><b>Q: I am an MS windows user but why only one (svm-toy) of those precompiled .exe actually runs ?  <\/b><\/a>$/;"	a
+f209	FAQ.html	/^<a name="f209"><b>Q: What is the difference between "." and "*" outputed during training? <\/b><\/a>$/;"	a
+f210	FAQ.html	/^<a name="f210"><b>Q: Why occasionally the program (including MATLAB or other interfaces) crashes and gives a segmentation fault?<\/b><\/a>$/;"	a
+f211	FAQ.html	/^<a name="f211"><b>Q: How to build a dynamic library (.dll file) on MS windows?<\/b><\/a>$/;"	a
+f212	FAQ.html	/^<a name="f212"><b>Q: On some systems (e.g., Ubuntu), compiling LIBSVM gives many warning messages. Is this a problem and how to disable the warning message?<\/b><\/a>$/;"	a
+f213	FAQ.html	/^<a name="f213"><b>Q: In LIBSVM, why you don't use certain C\/C++ library functions to make the code shorter?<\/b><\/a>$/;"	a
+f301	FAQ.html	/^<a name="f301"><b>Q: Why sometimes not all attributes of a data appear in the training\/model files ?<\/b><\/a>$/;"	a
+f302	FAQ.html	/^<a name="f302"><b>Q: What if my data are non-numerical ?<\/b><\/a>$/;"	a
+f303	FAQ.html	/^<a name="f303"><b>Q: Why do you consider sparse format ? Will the training of dense data be much slower ?<\/b><\/a>$/;"	a
+f304	FAQ.html	/^<a name="f304"><b>Q: Why sometimes the last line of my data is not read by svm-train?<\/b><\/a>$/;"	a
+f305	FAQ.html	/^<a name="f305"><b>Q: Is there a program to check if my data are in the correct format?<\/b><\/a>$/;"	a
+f306	FAQ.html	/^<a name="f306"><b>Q: May I put comments in data files?<\/b><\/a>$/;"	a
+f307	FAQ.html	/^<a name="f307"><b>Q: How to convert other data formats to LIBSVM format?<\/b><\/a>$/;"	a
+f401	FAQ.html	/^<a name="f401"><b>Q: The output of training C-SVM is like the following. What do they mean?<\/b><\/a>$/;"	a
+f402	FAQ.html	/^<a name="f402"><b>Q: Can you explain more about the model file?<\/b><\/a>$/;"	a
+f403	FAQ.html	/^<a name="f403"><b>Q: Should I use float or double to store numbers in the cache ?<\/b><\/a>$/;"	a
+f404	FAQ.html	/^<a name="f404"><b>Q: How do I choose the kernel?<\/b><\/a>$/;"	a
+f405	FAQ.html	/^<a name="f405"><b>Q: Does libsvm have special treatments for linear SVM?<\/b><\/a>$/;"	a
+f406	FAQ.html	/^<a name="f406"><b>Q: The number of free support vectors is large. What should I do?<\/b><\/a>$/;"	a
+f407	FAQ.html	/^<a name="f407"><b>Q: Should I scale training and testing data in a similar way?<\/b><\/a>$/;"	a
+f408	FAQ.html	/^<a name="f408"><b>Q: Does it make a big difference  if I scale each attribute to [0,1] instead of [-1,1]?<\/b><\/a>$/;"	a
+f409	FAQ.html	/^<a name="f409"><b>Q: The prediction rate is low. How could I improve it?<\/b><\/a>$/;"	a
+f410	FAQ.html	/^<a name="f410"><b>Q: My data are unbalanced. Could libsvm handle such problems?<\/b><\/a>$/;"	a
+f411	FAQ.html	/^<a name="f411"><b>Q: What is the difference between nu-SVC and C-SVC?<\/b><\/a>$/;"	a
+f412	FAQ.html	/^<a name="f412"><b>Q: The program keeps running (without showing any output). What should I do?<\/b><\/a>$/;"	a
+f413	FAQ.html	/^<a name="f413"><b>Q: The program keeps running (with output, i.e. many dots). What should I do?<\/b><\/a>$/;"	a
+f414	FAQ.html	/^<a name="f414"><b>Q: The training time is too long. What should I do?<\/b><\/a>$/;"	a
+f4141	FAQ.html	/^<a name="f4141"><b>Q: Does shrinking always help?<\/b><\/a>$/;"	a
+f415	FAQ.html	/^<a name="f415"><b>Q: How do I get the decision value(s)?<\/b><\/a>$/;"	a
+f4151	FAQ.html	/^<a name="f4151"><b>Q: How do I get the distance between a point and the hyperplane?<\/b><\/a>$/;"	a
+f416	FAQ.html	/^<a name="f416"><b>Q: On 32-bit machines, if I use a large cache (i.e. large -m) on a linux machine, why sometimes I get "segmentation fault ?"<\/b><\/a>$/;"	a
+f417	FAQ.html	/^<a name="f417"><b>Q: How do I disable screen output of svm-train?<\/b><\/a>$/;"	a
+f418	FAQ.html	/^<a name="f418"><b>Q: I would like to use my own kernel. Any example? In svm.cpp, there are two subroutines for kernel evaluations: k_function() and kernel_function(). Which one should I modify ?<\/b><\/a>$/;"	a
+f419	FAQ.html	/^<a name="f419"><b>Q: What method does libsvm use for multi-class SVM ? Why don't you use the "1-against-the rest" method?<\/b><\/a>$/;"	a
+f4191	FAQ.html	/^<a name="f4191"><b>Q: How does LIBSVM perform parameter selection for multi-class problems? <\/b><\/a>$/;"	a
+f420	FAQ.html	/^<a name="f420"><b>Q: After doing cross validation, why there is no model file outputted ?<\/b><\/a>$/;"	a
+f4201	FAQ.html	/^<a name="f4201"><b>Q: Why my cross-validation results are different from those in the Practical Guide?<\/b><\/a>$/;"	a
+f421	FAQ.html	/^<a name="f421"><b>Q: On some systems CV accuracy is the same in several runs. How could I use different data partitions? In other words, how do I set random seed in LIBSVM?<\/b><\/a>$/;"	a
+f422	FAQ.html	/^<a name="f422"><b>Q: I would like to solve L2-loss SVM (i.e., error term is quadratic). How should I modify the code ?<\/b><\/a>$/;"	a
+f424	FAQ.html	/^<a name="f424"><b>Q: How do I choose parameters for one-class svm as training data are in only one class?<\/b><\/a>$/;"	a
+f425	FAQ.html	/^<a name="f425"><b>Q: Why training a probability model (i.e., -b 1) takes a longer time?<\/b><\/a>$/;"	a
+f426	FAQ.html	/^<a name="f426"><b>Q: Why using the -b option does not give me better accuracy?<\/b><\/a>$/;"	a
+f427	FAQ.html	/^<a name="f427"><b>Q: Why the code gives NaN (not a number) results?<\/b><\/a>$/;"	a
+f427	FAQ.html	/^<a name="f427"><b>Q: Why using svm-predict -b 0 and -b 1 gives different accuracy values?<\/b><\/a>$/;"	a
+f428	FAQ.html	/^<a name="f428"><b>Q: Why on windows sometimes grid.py fails?<\/b><\/a>$/;"	a
+f429	FAQ.html	/^<a name="f429"><b>Q: Why grid.py\/easy.py sometimes generates the following warning message?<\/b><\/a>$/;"	a
+f430	FAQ.html	/^<a name="f430"><b>Q: Why the sign of predicted labels and decision values are sometimes reversed?<\/b><\/a>$/;"	a
+f431	FAQ.html	/^<a name="f431"><b>Q: I don't know class labels of test data. What should I put in the first column of the test file?<\/b><\/a>$/;"	a
+f432	FAQ.html	/^<a name="f432"><b>Q: How can I use OpenMP to parallelize LIBSVM on a multicore\/shared-memory computer?<\/b><\/a>$/;"	a
+f433	FAQ.html	/^<a name="f433"><b>Q: How could I know which training instances are support vectors?<\/b><\/a>$/;"	a
+f501	FAQ.html	/^<a name="f501"><b>Q: How can I save images drawn by svm-toy?<\/b><\/a>$/;"	a
+f502	FAQ.html	/^<a name="f502"><b>Q: I press the "load" button to load data points but why svm-toy does not draw them ?<\/b><\/a>$/;"	a
+f503	FAQ.html	/^<a name="f503"><b>Q: I would like svm-toy to handle more than three classes of data, what should I do ?<\/b><\/a>$/;"	a
+f601	FAQ.html	/^<a name="f601"><b>Q: What is the difference between Java version and C++ version of libsvm?<\/b><\/a>$/;"	a
+f602	FAQ.html	/^<a name="f602"><b>Q: Is the Java version significantly slower than the C++ version?<\/b><\/a>$/;"	a
+f603	FAQ.html	/^<a name="f603"><b>Q: While training I get the following error message: java.lang.OutOfMemoryError. What is wrong?<\/b><\/a>$/;"	a
+f604	FAQ.html	/^<a name="f604"><b>Q: Why you have the main source file svm.m4 and then transform it to svm.java?<\/b><\/a>$/;"	a
+f704	FAQ.html	/^<a name="f704"><b>Q: Except the python-C++ interface provided, could I use Jython to call libsvm ?<\/b><\/a>$/;"	a
+f801	FAQ.html	/^<a name="f801"><b>Q: I compile the MATLAB interface without problem, but why errors occur while running it?<\/b><\/a>$/;"	a
+f8011	FAQ.html	/^<a name="f8011"><b>Q: On 64bit Windows I compile the MATLAB interface without problem, but why errors occur while running it?<\/b><\/a>$/;"	a
+f802	FAQ.html	/^<a name="f802"><b>Q: Does the MATLAB interface provide a function to do scaling?<\/b><\/a>$/;"	a
+f803	FAQ.html	/^<a name="f803"><b>Q: How could I use MATLAB interface for parameter selection?<\/b><\/a>$/;"	a
+f8031	FAQ.html	/^<a name="f8031"><b>Q: I use MATLAB parallel programming toolbox on a multi-core environment for parameter selection. Why the program is even slower?<\/b><\/a>$/;"	a
+f8032	FAQ.html	/^<a name="f8032"><b>Q: How do I use LIBSVM with OpenMP under MATLAB?<\/b><\/a>$/;"	a
+f804	FAQ.html	/^<a name="f804"><b>Q: How could I generate the primal variable w of linear SVM?<\/b><\/a>$/;"	a
+f805	FAQ.html	/^<a name="f805"><b>Q: Is there an OCTAVE interface for libsvm?<\/b><\/a>$/;"	a
+f806	FAQ.html	/^<a name="f806"><b>Q: How to handle the name conflict between svmtrain in the libsvm matlab interface and that in MATLAB bioinformatics toolbox?<\/b><\/a>$/;"	a
+f807	FAQ.html	/^<a name="f807"><b>Q: On Windows I got an error message "Invalid MEX-file: Specific module not found" when running the pre-built MATLAB interface in the windows sub-directory. What should I do?<\/b><\/a>$/;"	a
+f808	FAQ.html	/^<a name="f808"><b>Q: LIBSVM supports 1-vs-1 multi-class classification. If instead I would like to use 1-vs-rest, how to implement it using MATLAB interface?<\/b><\/a>$/;"	a
+fake_answer	matlab/libsvmread.c	/^static void fake_answer(int nlhs, mxArray *plhs[])$/;"	f	file:	signature:(int nlhs, mxArray *plhs[])
+fake_answer	matlab/libsvmwrite.c	/^static void fake_answer(int nlhs, mxArray *plhs[])$/;"	f	file:	signature:(int nlhs, mxArray *plhs[])
+fake_answer	matlab/svmpredict.c	/^static void fake_answer(int nlhs, mxArray *plhs[])$/;"	f	file:	signature:(int nlhs, mxArray *plhs[])
+fake_answer	matlab/svmtrain.c	/^static void fake_answer(int nlhs, mxArray *plhs[])$/;"	f	file:	signature:(int nlhs, mxArray *plhs[])
+faq101	FAQ.html	/^<a name="faq101"><b>Q: Some courses which have used libsvm as a tool<\/b><\/a>$/;"	a
+faq102	FAQ.html	/^<a name="faq102"><b>Q: Some applications\/tools which have used libsvm <\/b><\/a>$/;"	a
+feature_max	java/svm_scale.java	/^	private double[] feature_max;$/;"	f	class:svm_scale	file:	access:private
+feature_max	svm-scale.c	/^double *feature_max;$/;"	v
+feature_min	java/svm_scale.java	/^	private double[] feature_min;$/;"	f	class:svm_scale	file:	access:private
+feature_min	svm-scale.c	/^double *feature_min;$/;"	v
+field_names	matlab/svm_model_matlab.c	/^static const char *field_names[] = {$/;"	v	file:
+file_name	tools/easy.py	/^	file_name = os.path.split(test_pathname)[1]$/;"	v
+file_name	tools/easy.py	/^file_name = os.path.split(train_pathname)[1]$/;"	v
+fileselection	svm-toy/gtk/callbacks.cpp	/^GtkWidget *fileselection;$/;"	v
+fileselection_flag	svm-toy/gtk/callbacks.cpp	/^static enum { SAVE, LOAD } fileselection_flag;$/;"	v	typeref:enum:__anon3	file:
+fillprototype	python/svm.py	/^def fillprototype(f, restype, argtypes): $/;"	f	access:public
+find_parameters	tools/grid.py	/^def find_parameters(dataset_pathname, options=''):$/;"	f	access:public
+free_sv	svm.h	/^	int free_sv;		\/* 1 if svm_model is created by svm_load_model*\/$/;"	m	struct:svm_model	access:public
+gamma	java/libsvm/svm.java	/^	private final double gamma;$/;"	f	class:Kernel	file:	access:private
+gamma	java/libsvm/svm_parameter.java	/^	public double gamma;	\/\/ for poly\/rbf\/sigmoid$/;"	f	class:svm_parameter	access:public
+gamma	svm.cpp	/^	const double gamma;$/;"	m	class:Kernel	file:	access:private
+gamma	svm.h	/^	double gamma;	\/* for poly\/rbf\/sigmoid *\/$/;"	m	struct:svm_parameter	access:public
+gc	svm-toy/gtk/callbacks.cpp	/^GdkGC *gc;$/;"	v
+genFields	python/svm.py	/^def genFields(names, types): $/;"	f	access:public
+gen_svm_nodearray	python/svm.py	/^def gen_svm_nodearray(xi, feature_max=None, isKernel=None):$/;"	f	access:public
+getPreferredSize	java/svm_toy.java	/^	public Dimension getPreferredSize() { return new Dimension(XLEN,YLEN+50); }$/;"	m	class:svm_toy	access:public	signature:()
+get_C	java/libsvm/svm.java	/^	double get_C(int i)$/;"	m	class:Solver	access:default	signature:(int i)
+get_C	svm.cpp	/^	double get_C(int i)$/;"	f	class:Solver	access:protected	signature:(int i)
+get_Q	java/libsvm/svm.java	/^	abstract float[] get_Q(int column, int len);$/;"	m	class:Kernel	access:default	signature:(int column, int len)
+get_Q	java/libsvm/svm.java	/^	abstract float[] get_Q(int column, int len);$/;"	m	class:QMatrix	access:default	signature:(int column, int len)
+get_Q	java/libsvm/svm.java	/^	float[] get_Q(int i, int len)$/;"	m	class:ONE_CLASS_Q	access:default	signature:(int i, int len)
+get_Q	java/libsvm/svm.java	/^	float[] get_Q(int i, int len)$/;"	m	class:SVC_Q	access:default	signature:(int i, int len)
+get_Q	java/libsvm/svm.java	/^	float[] get_Q(int i, int len)$/;"	m	class:SVR_Q	access:default	signature:(int i, int len)
+get_Q	svm.cpp	/^	Qfloat *get_Q(int i, int len) const$/;"	f	class:ONE_CLASS_Q	access:public	signature:(int i, int len) const
+get_Q	svm.cpp	/^	Qfloat *get_Q(int i, int len) const$/;"	f	class:SVC_Q	access:public	signature:(int i, int len) const
+get_Q	svm.cpp	/^	Qfloat *get_Q(int i, int len) const$/;"	f	class:SVR_Q	access:public	signature:(int i, int len) const
+get_Q	svm.cpp	/^	virtual Qfloat *get_Q(int column, int len) const = 0;$/;"	p	class:Kernel	file:	access:public	signature:(int column, int len) const
+get_Q	svm.cpp	/^	virtual Qfloat *get_Q(int column, int len) const = 0;$/;"	p	class:QMatrix	file:	access:public	signature:(int column, int len) const
+get_QD	java/libsvm/svm.java	/^	abstract double[] get_QD();$/;"	m	class:Kernel	access:default	signature:()
+get_QD	java/libsvm/svm.java	/^	abstract double[] get_QD();$/;"	m	class:QMatrix	access:default	signature:()
+get_QD	java/libsvm/svm.java	/^	double[] get_QD()$/;"	m	class:ONE_CLASS_Q	access:default	signature:()
+get_QD	java/libsvm/svm.java	/^	double[] get_QD()$/;"	m	class:SVC_Q	access:default	signature:()
+get_QD	java/libsvm/svm.java	/^	double[] get_QD()$/;"	m	class:SVR_Q	access:default	signature:()
+get_QD	svm.cpp	/^	double *get_QD() const$/;"	f	class:ONE_CLASS_Q	access:public	signature:() const
+get_QD	svm.cpp	/^	double *get_QD() const$/;"	f	class:SVC_Q	access:public	signature:() const
+get_QD	svm.cpp	/^	double *get_QD() const$/;"	f	class:SVR_Q	access:public	signature:() const
+get_QD	svm.cpp	/^	virtual double *get_QD() const = 0;$/;"	p	class:Kernel	file:	access:public	signature:() const
+get_QD	svm.cpp	/^	virtual double *get_QD() const = 0;$/;"	p	class:QMatrix	file:	access:public	signature:() const
+get_SV	python/svm.py	/^	def get_SV(self):$/;"	m	class:svm_model	access:public
+get_cmd	tools/grid.py	/^	def get_cmd(self,c,g):$/;"	m	class:Worker	access:public
+get_data	java/libsvm/svm.java	/^	int get_data(int index, float[][] data, int len)$/;"	m	class:Cache	access:default	signature:(int index, float[][] data, int len)
+get_data	svm.cpp	/^	int get_data(const int index, Qfloat **data, int len);$/;"	p	class:Cache	file:	access:public	signature:(const int index, Qfloat **data, int len)
+get_data	svm.cpp	/^int Cache::get_data(const int index, Qfloat **data, int len)$/;"	f	class:Cache	signature:(const int index, Qfloat **data, int len)
+get_labels	python/svm.py	/^	def get_labels(self):$/;"	m	class:svm_model	access:public
+get_nr_class	python/svm.py	/^	def get_nr_class(self):$/;"	m	class:svm_model	access:public
+get_nr_sv	python/svm.py	/^	def get_nr_sv(self):$/;"	m	class:svm_model	access:public
+get_sv_coef	python/svm.py	/^	def get_sv_coef(self):$/;"	m	class:svm_model	access:public
+get_sv_indices	python/svm.py	/^	def get_sv_indices(self):$/;"	m	class:svm_model	access:public
+get_svm_type	python/svm.py	/^	def get_svm_type(self):$/;"	m	class:svm_model	access:public
+get_svr_probability	python/svm.py	/^	def get_svr_probability(self):$/;"	m	class:svm_model	access:public
+getfilename	svm-toy/windows/svm-toy.cpp	/^int getfilename( HWND hWnd , char *filename, int len, int save) $/;"	f	signature:( HWND hWnd , char *filename, int len, int save)
+gnuplot_exe	tools/easy.py	/^	gnuplot_exe = "\/usr\/bin\/gnuplot"$/;"	v
+gnuplot_exe	tools/easy.py	/^	gnuplot_exe = r"c:\\tmp\\gnuplot\\binary\\pgnuplot.exe"$/;"	v
+grid_py	tools/easy.py	/^	grid_py = ".\/grid.py"$/;"	v
+grid_py	tools/easy.py	/^	grid_py = r".\\grid.py"$/;"	v
+head	java/libsvm/svm.java	/^	private final head_t[] head;$/;"	f	class:Cache	file:	access:private
+head	svm.cpp	/^	head_t *head;$/;"	m	class:Cache	file:	access:private
+head_t	java/libsvm/svm.java	/^	private final class head_t$/;"	c	class:Cache	access:private
+head_t	svm.cpp	/^	struct head_t$/;"	s	class:Cache	file:	access:private
+icon1	svm-toy/qt/svm-toy.cpp	/^	QPixmap icon1;$/;"	m	class:SvmToyWindow	file:	access:private
+icon2	svm-toy/qt/svm-toy.cpp	/^	QPixmap icon2;$/;"	m	class:SvmToyWindow	file:	access:private
+icon3	svm-toy/qt/svm-toy.cpp	/^	QPixmap icon3;$/;"	m	class:SvmToyWindow	file:	access:private
+index	java/libsvm/svm.java	/^	private final int[] index;$/;"	f	class:SVR_Q	file:	access:private
+index	java/libsvm/svm_node.java	/^	public int index;$/;"	f	class:svm_node	access:public
+index	svm.cpp	/^	int *index;$/;"	m	class:SVR_Q	file:	access:private
+index	svm.h	/^	int index;$/;"	m	struct:svm_node	access:public
+info	java/libsvm/svm.java	/^	static void info(String s) $/;"	m	class:svm	access:default	signature:(String s)
+info	java/svm_predict.java	/^	static void info(String s) $/;"	m	class:svm_predict	access:default	signature:(String s)
+info	matlab/svmpredict.c	/^int (*info)(const char *fmt,...) = &mexPrintf;$/;"	v
+info	python/svmutil.py	/^	def info(s):$/;"	f	function:svm_predict	access:public
+info	svm-predict.c	/^static int (*info)(const char *fmt,...) = &printf;$/;"	v	file:
+info	svm.cpp	/^static void info(const char *fmt,...) {}$/;"	f	file:	signature:(const char *fmt,...)
+info	svm.cpp	/^static void info(const char *fmt,...)$/;"	f	file:	signature:(const char *fmt,...)
+init	java/svm_toy.java	/^	public void init()$/;"	m	class:svm_toy	access:public	signature:()
+input_file_name	java/svm_train.java	/^	private String input_file_name;		\/\/ set by parse_command_line$/;"	f	class:svm_train	file:	access:private
+input_line	svm-toy/qt/svm-toy.cpp	/^	QLineEdit input_line;$/;"	m	class:SvmToyWindow	file:	access:private
+is_free	java/libsvm/svm.java	/^	boolean is_free(int i) {  return alpha_status[i] == FREE; }$/;"	m	class:Solver	access:default	signature:(int i)
+is_free	svm.cpp	/^	bool is_free(int i) { return alpha_status[i] == FREE; }$/;"	f	class:Solver	access:protected	signature:(int i)
+is_lower_bound	java/libsvm/svm.java	/^	boolean is_lower_bound(int i) { return alpha_status[i] == LOWER_BOUND; }$/;"	m	class:Solver	access:default	signature:(int i)
+is_lower_bound	svm.cpp	/^	bool is_lower_bound(int i) { return alpha_status[i] == LOWER_BOUND; }$/;"	f	class:Solver	access:protected	signature:(int i)
+is_probability_model	python/svm.py	/^	def is_probability_model(self):$/;"	m	class:svm_model	access:public
+is_upper_bound	java/libsvm/svm.java	/^	boolean is_upper_bound(int i) { return alpha_status[i] == UPPER_BOUND; }$/;"	m	class:Solver	access:default	signature:(int i)
+is_upper_bound	svm.cpp	/^	bool is_upper_bound(int i) { return alpha_status[i] == UPPER_BOUND; }$/;"	f	class:Solver	access:protected	signature:(int i)
+is_win32	tools/easy.py	/^is_win32 = (sys.platform == 'win32')$/;"	v
+k_function	java/libsvm/svm.java	/^	static double k_function(svm_node[] x, svm_node[] y,$/;"	m	class:Kernel	access:default	signature:(svm_node[] x, svm_node[] y, svm_parameter param)
+k_function	svm.cpp	/^	static double k_function(const svm_node *x, const svm_node *y,$/;"	p	class:Kernel	file:	access:public	signature:(const svm_node *x, const svm_node *y, const svm_parameter& param)
+k_function	svm.cpp	/^double Kernel::k_function(const svm_node *x, const svm_node *y,$/;"	f	class:Kernel	signature:(const svm_node *x, const svm_node *y, const svm_parameter& param)
+kernel_function	java/libsvm/svm.java	/^	double kernel_function(int i, int j)$/;"	m	class:Kernel	access:default	signature:(int i, int j)
+kernel_function	svm.cpp	/^	double (Kernel::*kernel_function)(int i, int j) const;$/;"	m	class:Kernel	file:	access:protected
+kernel_linear	svm.cpp	/^	double kernel_linear(int i, int j) const$/;"	f	class:Kernel	file:	access:private	signature:(int i, int j) const
+kernel_poly	svm.cpp	/^	double kernel_poly(int i, int j) const$/;"	f	class:Kernel	file:	access:private	signature:(int i, int j) const
+kernel_precomputed	svm.cpp	/^	double kernel_precomputed(int i, int j) const$/;"	f	class:Kernel	file:	access:private	signature:(int i, int j) const
+kernel_rbf	svm.cpp	/^	double kernel_rbf(int i, int j) const$/;"	f	class:Kernel	file:	access:private	signature:(int i, int j) const
+kernel_sigmoid	svm.cpp	/^	double kernel_sigmoid(int i, int j) const$/;"	f	class:Kernel	file:	access:private	signature:(int i, int j) const
+kernel_type	java/libsvm/svm.java	/^	private final int kernel_type;$/;"	f	class:Kernel	file:	access:private
+kernel_type	java/libsvm/svm_parameter.java	/^	public int kernel_type;$/;"	f	class:svm_parameter	access:public
+kernel_type	svm.cpp	/^	const int kernel_type;$/;"	m	class:Kernel	file:	access:private
+kernel_type	svm.h	/^	int kernel_type;$/;"	m	struct:svm_parameter	access:public
+kernel_type_table	java/libsvm/svm.java	/^	static final String kernel_type_table[]=$/;"	f	class:svm	access:default
+kernel_type_table	svm.cpp	/^static const char *kernel_type_table[]=$/;"	v	file:
+l	java/libsvm/svm.java	/^	int l;$/;"	f	class:Solver	access:default
+l	java/libsvm/svm.java	/^	private final int l;$/;"	f	class:Cache	file:	access:private
+l	java/libsvm/svm.java	/^	private final int l;$/;"	f	class:SVR_Q	file:	access:private
+l	java/libsvm/svm_model.java	/^	public int l;			\/\/ total #SV$/;"	f	class:svm_model	access:public
+l	java/libsvm/svm_problem.java	/^	public int l;$/;"	f	class:svm_problem	access:public
+l	svm.cpp	/^	int l;$/;"	m	class:Cache	file:	access:private
+l	svm.cpp	/^	int l;$/;"	m	class:SVR_Q	file:	access:private
+l	svm.cpp	/^	int l;$/;"	m	class:Solver	file:	access:protected
+l	svm.h	/^	int l;			\/* total #SV *\/$/;"	m	struct:svm_model	access:public
+l	svm.h	/^	int l;$/;"	m	struct:svm_problem	access:public
+label	java/libsvm/svm_model.java	/^	public int[] label;		\/\/ label of each class (label[k])$/;"	f	class:svm_model	access:public
+label	svm.h	/^	int *label;		\/* label of each class (label[k]) *\/$/;"	m	struct:svm_model	access:public
+last_line	tools/easy.py	/^	last_line = line$/;"	v
+len	java/libsvm/svm.java	/^		int len;		\/\/ data[0,len) is cached in this entry$/;"	f	class:Cache.head_t	access:default
+len	svm.cpp	/^		int len;		\/\/ data[0,len) is cached in this entry$/;"	m	struct:Cache::head_t	file:	access:public
+libsvm	java/libsvm/svm.java	/^package libsvm;$/;"	p
+libsvm	java/libsvm/svm_model.java	/^package libsvm;$/;"	p
+libsvm	java/libsvm/svm_node.java	/^package libsvm;$/;"	p
+libsvm	java/libsvm/svm_parameter.java	/^package libsvm;$/;"	p
+libsvm	java/libsvm/svm_print_interface.java	/^package libsvm;$/;"	p
+libsvm	java/libsvm/svm_problem.java	/^package libsvm;$/;"	p
+libsvm	python/svm.py	/^		libsvm = CDLL(find_library('libsvm'))$/;"	v
+libsvm	python/svm.py	/^		libsvm = CDLL(find_library('svm'))$/;"	v
+libsvm	python/svm.py	/^		libsvm = CDLL(path.join(dirname, '..\/libsvm.so.2'))$/;"	v
+libsvm	python/svm.py	/^		libsvm = CDLL(path.join(dirname, r'..\\windows\\libsvm.dll'))$/;"	v
+libsvm_version	svm.cpp	/^int libsvm_version = LIBSVM_VERSION;$/;"	v
+libsvmwrite	matlab/libsvmwrite.c	/^void libsvmwrite(const char *filename, const mxArray *label_vec, const mxArray *instance_mat)$/;"	f	signature:(const char *filename, const mxArray *label_vec, const mxArray *instance_mat)
+line	java/svm_scale.java	/^	private String line = null;$/;"	f	class:svm_scale	file:	access:private
+line	matlab/libsvmread.c	/^static char *line;$/;"	v	file:
+line	svm-predict.c	/^static char *line = NULL;$/;"	v	file:
+line	svm-scale.c	/^char *line = NULL;$/;"	v
+line	svm-train.c	/^static char *line = NULL;$/;"	v	file:
+line	svm.cpp	/^static char *line = NULL;$/;"	v	file:
+line	tools/easy.py	/^	line = f.readline()$/;"	v
+line	tools/easy.py	/^line = ''$/;"	v
+lower	java/svm_scale.java	/^	private double lower = -1.0;$/;"	f	class:svm_scale	file:	access:private
+lower	svm-scale.c	/^double lower=-1.0,upper=1.0,y_lower,y_upper;$/;"	v
+lru_delete	java/libsvm/svm.java	/^	private void lru_delete(head_t h)$/;"	m	class:Cache	file:	access:private	signature:(head_t h)
+lru_delete	svm.cpp	/^	void lru_delete(head_t *h);$/;"	p	class:Cache	file:	access:private	signature:(head_t *h)
+lru_delete	svm.cpp	/^void Cache::lru_delete(head_t *h)$/;"	f	class:Cache	signature:(head_t *h)
+lru_head	java/libsvm/svm.java	/^	private head_t lru_head;$/;"	f	class:Cache	file:	access:private
+lru_head	svm.cpp	/^	head_t lru_head;$/;"	m	class:Cache	file:	access:private
+lru_insert	java/libsvm/svm.java	/^	private void lru_insert(head_t h)$/;"	m	class:Cache	file:	access:private	signature:(head_t h)
+lru_insert	svm.cpp	/^	void lru_insert(head_t *h);$/;"	p	class:Cache	file:	access:private	signature:(head_t *h)
+lru_insert	svm.cpp	/^void Cache::lru_insert(head_t *h)$/;"	f	class:Cache	signature:(head_t *h)
+main	java/svm_predict.java	/^	public static void main(String argv[]) throws IOException$/;"	m	class:svm_predict	access:public	signature:(String argv[])
+main	java/svm_scale.java	/^	public static void main(String argv[]) throws IOException$/;"	m	class:svm_scale	access:public	signature:(String argv[])
+main	java/svm_toy.java	/^	public static void main(String[] argv)$/;"	m	class:svm_toy	access:public	signature:(String[] argv)
+main	java/svm_train.java	/^	public static void main(String argv[]) throws IOException$/;"	m	class:svm_train	access:public	signature:(String argv[])
+main	svm-predict.c	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	svm-scale.c	/^int main(int argc,char **argv)$/;"	f	signature:(int argc,char **argv)
+main	svm-toy/gtk/main.c	/^int main (int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	svm-toy/qt/svm-toy.cpp	/^int main( int argc, char* argv[] )$/;"	f	signature:( int argc, char* argv[] )
+main	svm-train.c	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	tools/checkdata.py	/^def main():$/;"	f	access:public
+main	tools/subset.py	/^def main(argv=sys.argv):$/;"	f	access:public
+main_window	svm-toy/windows/svm-toy.cpp	/^HWND main_window;$/;"	v
+matlab_matrix_to_model	matlab/svm_model_matlab.c	/^struct svm_model *matlab_matrix_to_model(const mxArray *matlab_struct, const char **msg)$/;"	f	signature:(const mxArray *matlab_struct, const char **msg)
+matlab_matrix_to_model	matlab/svm_model_matlab.h	/^struct svm_model *matlab_matrix_to_model(const mxArray *matlab_struct, const char **error_message);$/;"	p	signature:(const mxArray *matlab_struct, const char **error_message)
+max	matlab/libsvmread.c	15;"	d	file:
+max	svm-scale.c	34;"	d	file:
+max	svm.cpp	/^template <class T> static inline T max(T x,T y) { return (x>y)?x:y; }$/;"	f	file:	signature:(T x,T y)
+max_index	java/svm_scale.java	/^	private int max_index;$/;"	f	class:svm_scale	file:	access:private
+max_index	svm-scale.c	/^int max_index;$/;"	v
+max_line_len	matlab/libsvmread.c	/^static int max_line_len;$/;"	v	file:
+max_line_len	svm-predict.c	/^static int max_line_len;$/;"	v	file:
+max_line_len	svm-scale.c	/^int max_line_len = 1024;$/;"	v
+max_line_len	svm-train.c	/^static int max_line_len;$/;"	v	file:
+max_line_len	svm.cpp	/^static int max_line_len;$/;"	v	file:
+max_nr_attr	svm-predict.c	/^int max_nr_attr = 64;$/;"	v
+mexFunction	matlab/libsvmread.c	/^void mexFunction( int nlhs, mxArray *plhs[],$/;"	f	signature:( int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[] )
+mexFunction	matlab/libsvmwrite.c	/^void mexFunction( int nlhs, mxArray *plhs[],$/;"	f	signature:( int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[] )
+mexFunction	matlab/svmpredict.c	/^void mexFunction( int nlhs, mxArray *plhs[],$/;"	f	signature:( int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[] )
+mexFunction	matlab/svmtrain.c	/^void mexFunction( int nlhs, mxArray *plhs[],$/;"	f	signature:( int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[] )
+min	matlab/libsvmread.c	18;"	d	file:
+min	svm-scale.c	35;"	d	file:
+min	svm.cpp	/^template <class T> static inline T min(T x,T y) { return (x<y)?x:y; }$/;"	f	file:	signature:(T x,T y)
+min_index	svm-scale.c	/^int min_index;$/;"	v
+model	java/svm_train.java	/^	private svm_model model;$/;"	f	class:svm_train	file:	access:private
+model	matlab/svmtrain.c	/^struct svm_model *model;$/;"	v	typeref:struct:svm_model
+model	svm-predict.c	/^struct svm_model* model;$/;"	v	typeref:struct:svm_model
+model	svm-train.c	/^struct svm_model *model;$/;"	v	typeref:struct:svm_model
+model_file	tools/easy.py	/^model_file = file_name + ".model"$/;"	v
+model_file_name	java/svm_train.java	/^	private String model_file_name;		\/\/ set by parse_command_line$/;"	f	class:svm_train	file:	access:private
+model_to_matlab_structure	matlab/svm_model_matlab.c	/^const char *model_to_matlab_structure(mxArray *plhs[], int num_of_feature, struct svm_model *model)$/;"	f	signature:(mxArray *plhs[], int num_of_feature, struct svm_model *model)
+model_to_matlab_structure	matlab/svm_model_matlab.h	/^const char *model_to_matlab_structure(mxArray *plhs[], int num_of_feature, struct svm_model *model);$/;"	p	signature:(mxArray *plhs[], int num_of_feature, struct svm_model *model)
+mousePressEvent	svm-toy/qt/svm-toy.cpp	/^	virtual void mousePressEvent( QMouseEvent* );$/;"	p	class:SvmToyWindow	file:	access:protected	signature:( QMouseEvent* )
+mousePressEvent	svm-toy/qt/svm-toy.cpp	/^void SvmToyWindow::mousePressEvent( QMouseEvent* event )$/;"	f	class:SvmToyWindow	signature:( QMouseEvent* event )
+multiclass_probability	java/libsvm/svm.java	/^	private static void multiclass_probability(int k, double[][] r, double[] p)$/;"	m	class:svm	file:	access:private	signature:(int k, double[][] r, double[] p)
+multiclass_probability	svm.cpp	/^static void multiclass_probability(int k, double **r, double *p)$/;"	f	file:	signature:(int k, double **r, double *p)
+mwIndex	matlab/libsvmread.c	/^typedef int mwIndex;$/;"	t	file:
+mwIndex	matlab/libsvmwrite.c	/^typedef int mwIndex;$/;"	t	file:
+mwIndex	matlab/svm_model_matlab.c	/^typedef int mwIndex;$/;"	t	file:
+mwIndex	matlab/svmpredict.c	/^typedef int mwIndex;$/;"	t	file:
+mwIndex	matlab/svmtrain.c	/^typedef int mwIndex;$/;"	t	file:
+my_float	tools/checkdata.py	/^def my_float(x):$/;"	f	access:public
+nSV	java/libsvm/svm_model.java	/^	public int[] nSV;		\/\/ number of SVs for each class (nSV[k])$/;"	f	class:svm_model	access:public
+nSV	svm.h	/^	int *nSV;		\/* number of SVs for each class (nSV[k]) *\/$/;"	m	struct:svm_model	access:public
+new_num_nonzeros	java/svm_scale.java	/^	private long new_num_nonzeros = 0;$/;"	f	class:svm_scale	file:	access:private
+new_num_nonzeros	svm-scale.c	/^long int new_num_nonzeros = 0;$/;"	v
+next	java/libsvm/svm.java	/^		head_t prev, next;	\/\/ a cicular list$/;"	f	class:Cache.head_t	access:default
+next	svm.cpp	/^		head_t *prev, *next;	\/\/ a circular list$/;"	m	struct:Cache::head_t	file:	access:public
+next_buffer	java/libsvm/svm.java	/^	private int next_buffer;$/;"	f	class:SVR_Q	file:	access:private
+next_buffer	svm.cpp	/^	mutable int next_buffer;$/;"	m	class:SVR_Q	file:	access:private
+nr_class	java/libsvm/svm_model.java	/^	public int nr_class;		\/\/ number of classes, = 2 in regression\/one class svm$/;"	f	class:svm_model	access:public
+nr_class	svm.h	/^	int nr_class;		\/* number of classes, = 2 in regression\/one class svm *\/$/;"	m	struct:svm_model	access:public
+nr_fold	java/svm_train.java	/^	private int nr_fold;$/;"	f	class:svm_train	file:	access:private
+nr_fold	matlab/svmtrain.c	/^int nr_fold;$/;"	v
+nr_fold	svm-train.c	/^int nr_fold;$/;"	v
+nr_local_worker	tools/grid.py	/^nr_local_worker = 1$/;"	v
+nr_weight	java/libsvm/svm_parameter.java	/^	public int nr_weight;		\/\/ for C_SVC$/;"	f	class:svm_parameter	access:public
+nr_weight	svm.h	/^	int nr_weight;		\/* for C_SVC *\/$/;"	m	struct:svm_parameter	access:public
+nu	java/libsvm/svm_parameter.java	/^	public double nu;	\/\/ for NU_SVC, ONE_CLASS, and NU_SVR$/;"	f	class:svm_parameter	access:public
+nu	svm.h	/^	double nu;	\/* for NU_SVC, ONE_CLASS, and NU_SVR *\/$/;"	m	struct:svm_parameter	access:public
+num_nonzeros	java/svm_scale.java	/^	private long num_nonzeros = 0;$/;"	f	class:svm_scale	file:	access:private
+num_nonzeros	svm-scale.c	/^long int num_nonzeros = 0;$/;"	v
+obj	java/libsvm/svm.java	/^		double obj;$/;"	f	class:Solver.SolutionInfo	access:default
+obj	svm.cpp	/^		double obj;$/;"	m	struct:Solver::SolutionInfo	file:	access:public
+on_button_change_clicked	svm-toy/gtk/callbacks.cpp	/^on_button_change_clicked               (GtkButton       *button,$/;"	f	signature:(GtkButton *button, gpointer user_data)
+on_button_change_clicked	svm-toy/gtk/callbacks.h	/^on_button_change_clicked               (GtkButton       *button,$/;"	p	signature:(GtkButton *button, gpointer user_data)
+on_button_clear_clicked	svm-toy/gtk/callbacks.cpp	/^on_button_clear_clicked                (GtkButton       *button,$/;"	f	signature:(GtkButton *button, gpointer user_data)
+on_button_clear_clicked	svm-toy/gtk/callbacks.h	/^on_button_clear_clicked                (GtkButton       *button,$/;"	p	signature:(GtkButton *button, gpointer user_data)
+on_button_load_clicked	svm-toy/gtk/callbacks.cpp	/^on_button_load_clicked                 (GtkButton       *button,$/;"	f	signature:(GtkButton *button, gpointer user_data)
+on_button_load_clicked	svm-toy/gtk/callbacks.h	/^on_button_load_clicked                 (GtkButton       *button,$/;"	p	signature:(GtkButton *button, gpointer user_data)
+on_button_run_clicked	svm-toy/gtk/callbacks.cpp	/^on_button_run_clicked                  (GtkButton       *button,$/;"	f	signature:(GtkButton *button, gpointer user_data)
+on_button_run_clicked	svm-toy/gtk/callbacks.h	/^on_button_run_clicked                  (GtkButton       *button,$/;"	p	signature:(GtkButton *button, gpointer user_data)
+on_button_save_clicked	svm-toy/gtk/callbacks.cpp	/^on_button_save_clicked                 (GtkButton       *button,$/;"	f	signature:(GtkButton *button, gpointer user_data)
+on_button_save_clicked	svm-toy/gtk/callbacks.h	/^on_button_save_clicked                 (GtkButton       *button,$/;"	p	signature:(GtkButton *button, gpointer user_data)
+on_draw_main_button_press_event	svm-toy/gtk/callbacks.cpp	/^on_draw_main_button_press_event        (GtkWidget       *widget,$/;"	f	signature:(GtkWidget *widget, GdkEventButton *event, gpointer user_data)
+on_draw_main_button_press_event	svm-toy/gtk/callbacks.h	/^on_draw_main_button_press_event        (GtkWidget       *widget,$/;"	p	signature:(GtkWidget *widget, GdkEventButton *event, gpointer user_data)
+on_draw_main_expose_event	svm-toy/gtk/callbacks.cpp	/^on_draw_main_expose_event              (GtkWidget       *widget,$/;"	f	signature:(GtkWidget *widget, GdkEventExpose *event, gpointer user_data)
+on_draw_main_expose_event	svm-toy/gtk/callbacks.h	/^on_draw_main_expose_event              (GtkWidget       *widget,$/;"	p	signature:(GtkWidget *widget, GdkEventExpose *event, gpointer user_data)
+on_filesel_cancel_clicked	svm-toy/gtk/callbacks.cpp	/^on_filesel_cancel_clicked              (GtkButton       *button,$/;"	f	signature:(GtkButton *button, gpointer user_data)
+on_filesel_cancel_clicked	svm-toy/gtk/callbacks.h	/^on_filesel_cancel_clicked              (GtkButton       *button,$/;"	p	signature:(GtkButton *button, gpointer user_data)
+on_filesel_ok_clicked	svm-toy/gtk/callbacks.cpp	/^on_filesel_ok_clicked                  (GtkButton       *button,$/;"	f	signature:(GtkButton *button, gpointer user_data)
+on_filesel_ok_clicked	svm-toy/gtk/callbacks.h	/^on_filesel_ok_clicked                  (GtkButton       *button,$/;"	p	signature:(GtkButton *button, gpointer user_data)
+on_fileselection_destroy	svm-toy/gtk/callbacks.cpp	/^on_fileselection_destroy               (GtkObject       *object,$/;"	f	signature:(GtkObject *object, gpointer user_data)
+on_fileselection_destroy	svm-toy/gtk/callbacks.h	/^on_fileselection_destroy               (GtkObject       *object,$/;"	p	signature:(GtkObject *object, gpointer user_data)
+on_window1_destroy	svm-toy/gtk/callbacks.cpp	/^on_window1_destroy                     (GtkObject       *object,$/;"	f	signature:(GtkObject *object, gpointer user_data)
+on_window1_destroy	svm-toy/gtk/callbacks.h	/^on_window1_destroy                     (GtkObject       *object,$/;"	p	signature:(GtkObject *object, gpointer user_data)
+options	tools/grid.py	/^	options = sys.argv[1:-1]$/;"	v
+output	java/svm_scale.java	/^	private void output(int index, double value)$/;"	m	class:svm_scale	file:	access:private	signature:(int index, double value)
+output	svm-scale.c	/^void output(int index, double value)$/;"	f	signature:(int index, double value)
+output	svm-scale.c	/^void output(int index, double value);$/;"	p	file:	signature:(int index, double value)
+output_target	java/svm_scale.java	/^	private void output_target(double value)$/;"	m	class:svm_scale	file:	access:private	signature:(double value)
+output_target	svm-scale.c	/^void output_target(double value)$/;"	f	signature:(double value)
+output_target	svm-scale.c	/^void output_target(double value);$/;"	p	file:	signature:(double value)
+p	java/libsvm/svm.java	/^	double[] p;$/;"	f	class:Solver	access:default
+p	java/libsvm/svm_parameter.java	/^	public double p;	\/\/ for EPSILON_SVR$/;"	f	class:svm_parameter	access:public
+p	svm.cpp	/^	double *p;$/;"	m	class:Solver	file:	access:protected
+p	svm.h	/^	double p;	\/* for EPSILON_SVR *\/$/;"	m	struct:svm_parameter	access:public
+paint	java/svm_toy.java	/^	public void paint(Graphics g)$/;"	m	class:svm_toy	access:public	signature:(Graphics g)
+paintEvent	svm-toy/qt/svm-toy.cpp	/^	virtual void paintEvent( QPaintEvent* );$/;"	p	class:SvmToyWindow	file:	access:protected	signature:( QPaintEvent* )
+paintEvent	svm-toy/qt/svm-toy.cpp	/^void SvmToyWindow::paintEvent( QPaintEvent* )$/;"	f	class:SvmToyWindow	signature:( QPaintEvent* )
+param	java/libsvm/svm_model.java	/^	public svm_parameter param;	\/\/ parameter$/;"	f	class:svm_model	access:public
+param	java/svm_train.java	/^	private svm_parameter param;		\/\/ set by parse_command_line$/;"	f	class:svm_train	file:	access:private
+param	matlab/svmtrain.c	/^struct svm_parameter param;		\/\/ set by parse_command_line$/;"	v	typeref:struct:svm_parameter
+param	svm-train.c	/^struct svm_parameter param;		\/\/ set by parse_command_line$/;"	v	typeref:struct:svm_parameter
+param	svm.h	/^	struct svm_parameter param;	\/* parameter *\/$/;"	m	struct:svm_model	typeref:struct:svm_model::svm_parameter	access:public
+parse_command_line	java/svm_train.java	/^	private void parse_command_line(String argv[])$/;"	m	class:svm_train	file:	access:private	signature:(String argv[])
+parse_command_line	matlab/svmtrain.c	/^int parse_command_line(int nrhs, const mxArray *prhs[], char *model_file_name)$/;"	f	signature:(int nrhs, const mxArray *prhs[], char *model_file_name)
+parse_command_line	svm-train.c	/^void parse_command_line(int argc, char **argv, char *input_file_name, char *model_file_name)$/;"	f	signature:(int argc, char **argv, char *input_file_name, char *model_file_name)
+parse_command_line	svm-train.c	/^void parse_command_line(int argc, char **argv, char *input_file_name, char *model_file_name);$/;"	p	file:	signature:(int argc, char **argv, char *input_file_name, char *model_file_name)
+parse_options	python/svm.py	/^	def parse_options(self, options):$/;"	m	class:svm_parameter	access:public
+parse_options	tools/grid.py	/^	def parse_options(self, options):$/;"	m	class:GridOption	access:public
+permute_sequence	tools/grid.py	/^	def permute_sequence(seq):$/;"	f	function:calculate_jobs	access:public
+pixmap	svm-toy/gtk/callbacks.cpp	/^GdkPixmap *pixmap;$/;"	v
+point	java/svm_toy.java	/^		point(double x, double y, byte value)$/;"	m	class:svm_toy.point	access:default	signature:(double x, double y, byte value)
+point	java/svm_toy.java	/^	class point {$/;"	c	class:svm_toy	access:default
+point	svm-toy/gtk/callbacks.cpp	/^} point;$/;"	t	typeref:struct:__anon2	file:
+point	svm-toy/qt/svm-toy.cpp	/^	struct point {$/;"	s	class:SvmToyWindow	file:	access:private
+point	svm-toy/windows/svm-toy.cpp	/^struct point {$/;"	s	file:
+point::value	svm-toy/windows/svm-toy.cpp	/^	signed char value;$/;"	m	struct:point	file:	access:public
+point::x	svm-toy/windows/svm-toy.cpp	/^	double x, y;$/;"	m	struct:point	file:	access:public
+point::y	svm-toy/windows/svm-toy.cpp	/^	double x, y;$/;"	m	struct:point	file:	access:public
+point_list	java/svm_toy.java	/^	Vector<point> point_list = new Vector<point>();$/;"	f	class:svm_toy	access:default
+point_list	svm-toy/gtk/callbacks.cpp	/^list<point> point_list;$/;"	v
+point_list	svm-toy/qt/svm-toy.cpp	/^	list<point> point_list;$/;"	m	class:SvmToyWindow	file:	access:private
+point_list	svm-toy/windows/svm-toy.cpp	/^list<point> point_list;$/;"	v
+powi	java/libsvm/svm.java	/^	private static double powi(double base, int times)$/;"	m	class:Kernel	file:	access:private	signature:(double base, int times)
+powi	svm.cpp	/^static inline double powi(double base, int times)$/;"	f	file:	signature:(double base, int times)
+predict	java/svm_predict.java	/^	private static void predict(BufferedReader input, DataOutputStream output, svm_model model, int predict_probability) throws IOException$/;"	m	class:svm_predict	file:	access:private	signature:(BufferedReader input, DataOutputStream output, svm_model model, int predict_probability)
+predict	matlab/svmpredict.c	/^void predict(int nlhs, mxArray *plhs[], const mxArray *prhs[], struct svm_model *model, const int predict_probability)$/;"	f	signature:(int nlhs, mxArray *plhs[], const mxArray *prhs[], struct svm_model *model, const int predict_probability)
+predict	svm-predict.c	/^void predict(FILE *input, FILE *output)$/;"	f	signature:(FILE *input, FILE *output)
+predict_probability	svm-predict.c	/^int predict_probability=0;$/;"	v
+predict_test_file	tools/easy.py	/^	predict_test_file = file_name + ".predict"$/;"	v
+prev	java/libsvm/svm.java	/^		head_t prev, next;	\/\/ a cicular list$/;"	f	class:Cache.head_t	access:default
+prev	svm.cpp	/^		head_t *prev, *next;	\/\/ a circular list$/;"	m	struct:Cache::head_t	file:	access:public
+print	java/libsvm/svm_print_interface.java	/^	public void print(String s);$/;"	m	interface:svm_print_interface	access:public	signature:(String s)
+print_null	matlab/svmpredict.c	/^int print_null(const char *s,...) {}$/;"	f	signature:(const char *s,...)
+print_null	matlab/svmtrain.c	/^void print_null(const char *s) {}$/;"	f	signature:(const char *s)
+print_null	python/svm.py	/^def print_null(s): $/;"	f	access:public
+print_null	svm-predict.c	/^int print_null(const char *s,...) {return 0;}$/;"	f	signature:(const char *s,...)
+print_null	svm-train.c	/^void print_null(const char *s) {}$/;"	f	signature:(const char *s)
+print_string_matlab	matlab/svmtrain.c	/^void print_string_matlab(const char *s) {mexPrintf(s);}$/;"	f	signature:(const char *s)
+print_string_stdout	svm.cpp	/^static void print_string_stdout(const char *s)$/;"	f	file:	signature:(const char *s)
+prob	java/svm_train.java	/^	private svm_problem prob;		\/\/ set by read_problem$/;"	f	class:svm_train	file:	access:private
+prob	matlab/svmtrain.c	/^struct svm_problem prob;		\/\/ set by read_problem$/;"	v	typeref:struct:svm_problem
+prob	svm-train.c	/^struct svm_problem prob;		\/\/ set by read_problem$/;"	v	typeref:struct:svm_problem
+probA	java/libsvm/svm_model.java	/^	public double[] probA;         \/\/ pariwise probability information$/;"	f	class:svm_model	access:public
+probA	svm.h	/^	double *probA;		\/* pariwise probability information *\/$/;"	m	struct:svm_model	access:public
+probB	java/libsvm/svm_model.java	/^	public double[] probB;$/;"	f	class:svm_model	access:public
+probB	svm.h	/^	double *probB;$/;"	m	struct:svm_model	access:public
+probability	java/libsvm/svm_parameter.java	/^	public int probability; \/\/ do probability estimates$/;"	f	class:svm_parameter	access:public
+probability	svm.h	/^	int probability; \/* do probability estimates *\/$/;"	m	struct:svm_parameter	access:public
+processMouseEvent	java/svm_toy.java	/^	protected void processMouseEvent(MouseEvent e)$/;"	m	class:svm_toy	access:protected	signature:(MouseEvent e)
+process_options	tools/subset.py	/^def process_options(argv):$/;"	f	access:public
+r	java/libsvm/svm.java	/^		double r;	\/\/ for Solver_NU$/;"	f	class:Solver.SolutionInfo	access:default
+r	svm.cpp	/^		double r;	\/\/ for Solver_NU$/;"	m	struct:Solver::SolutionInfo	file:	access:public
+rand	java/libsvm/svm.java	/^	public static final Random rand = new Random();$/;"	f	class:svm	access:public
+random_selection	tools/subset.py	/^def random_selection(dataset, subset_size):$/;"	f	access:public
+range_f	tools/grid.py	/^	def range_f(begin,end,step):$/;"	f	function:calculate_jobs	access:public
+range_file	tools/easy.py	/^range_file = file_name + ".range"$/;"	v
+read_problem	java/svm_train.java	/^	private void read_problem() throws IOException$/;"	m	class:svm_train	file:	access:private	signature:()
+read_problem	matlab/libsvmread.c	/^void read_problem(const char *filename, int nlhs, mxArray *plhs[])$/;"	f	signature:(const char *filename, int nlhs, mxArray *plhs[])
+read_problem	svm-train.c	/^void read_problem(const char *filename)$/;"	f	signature:(const char *filename)
+read_problem	svm-train.c	/^void read_problem(const char *filename);$/;"	p	file:	signature:(const char *filename)
+read_problem_dense	matlab/svmtrain.c	/^int read_problem_dense(const mxArray *label_vec, const mxArray *instance_mat)$/;"	f	signature:(const mxArray *label_vec, const mxArray *instance_mat)
+read_problem_sparse	matlab/svmtrain.c	/^int read_problem_sparse(const mxArray *label_vec, const mxArray *instance_mat)$/;"	f	signature:(const mxArray *label_vec, const mxArray *instance_mat)
+read_sparse_instance	matlab/svmpredict.c	/^void read_sparse_instance(const mxArray *prhs, int index, struct svm_node *x)$/;"	f	signature:(const mxArray *prhs, int index, struct svm_node *x)
+readline	java/svm_scale.java	/^	private String readline(BufferedReader fp) throws IOException$/;"	m	class:svm_scale	file:	access:private	signature:(BufferedReader fp)
+readline	matlab/libsvmread.c	/^static char* readline(FILE *input)$/;"	f	file:	signature:(FILE *input)
+readline	svm-predict.c	/^static char* readline(FILE *input)$/;"	f	file:	signature:(FILE *input)
+readline	svm-scale.c	/^char* readline(FILE *input)$/;"	f	signature:(FILE *input)
+readline	svm-scale.c	/^char* readline(FILE *input);$/;"	p	file:	signature:(FILE *input)
+readline	svm-train.c	/^static char* readline(FILE *input)$/;"	f	file:	signature:(FILE *input)
+readline	svm.cpp	/^static char* readline(FILE *input)$/;"	f	file:	signature:(FILE *input)
+reconstruct_gradient	java/libsvm/svm.java	/^	void reconstruct_gradient()$/;"	m	class:Solver	access:default	signature:()
+reconstruct_gradient	svm.cpp	/^	void reconstruct_gradient();$/;"	p	class:Solver	file:	access:protected	signature:()
+reconstruct_gradient	svm.cpp	/^void Solver::reconstruct_gradient()$/;"	f	class:Solver	signature:()
+redraw	tools/grid.py	/^def redraw(db,best_param,gnuplot,options,tofile=False):$/;"	f	access:public
+redraw_area	svm-toy/gtk/callbacks.cpp	/^void redraw_area(GtkWidget* widget, int x, int y, int w, int h)$/;"	f	signature:(GtkWidget* widget, int x, int y, int w, int h)
+rewind	java/svm_scale.java	/^	private BufferedReader rewind(BufferedReader fp, String filename) throws IOException$/;"	m	class:svm_scale	file:	access:private	signature:(BufferedReader fp, String filename)
+rho	java/libsvm/svm.java	/^		double rho;	$/;"	f	class:svm.decision_function	access:default
+rho	java/libsvm/svm.java	/^		double rho;$/;"	f	class:Solver.SolutionInfo	access:default
+rho	java/libsvm/svm_model.java	/^	public double[] rho;		\/\/ constants in decision functions (rho[k*(k-1)\/2])$/;"	f	class:svm_model	access:public
+rho	svm.cpp	/^		double rho;$/;"	m	struct:Solver::SolutionInfo	file:	access:public
+rho	svm.cpp	/^	double rho;	$/;"	m	struct:decision_function	file:	access:public
+rho	svm.h	/^	double *rho;		\/* constants in decision functions (rho[k*(k-1)\/2]) *\/$/;"	m	struct:svm_model	access:public
+run	java/svm_scale.java	/^	private void run(String []argv) throws IOException$/;"	m	class:svm_scale	file:	access:private	signature:(String []argv)
+run	java/svm_train.java	/^	private void run(String argv[]) throws IOException$/;"	m	class:svm_train	file:	access:private	signature:(String argv[])
+run	tools/grid.py	/^	def run(self):$/;"	m	class:TelnetWorker	access:public
+run	tools/grid.py	/^	def run(self):$/;"	m	class:Worker	access:public
+run_one	tools/grid.py	/^	def run_one(self,c,g):$/;"	m	class:LocalWorker	access:public
+run_one	tools/grid.py	/^	def run_one(self,c,g):$/;"	m	class:SSHWorker	access:public
+run_one	tools/grid.py	/^	def run_one(self,c,g):$/;"	m	class:TelnetWorker	access:public
+scaled_file	tools/easy.py	/^scaled_file = file_name + ".scale"$/;"	v
+scaled_test_file	tools/easy.py	/^	scaled_test_file = file_name + ".scale"$/;"	v
+schar	svm.cpp	/^typedef signed char schar;$/;"	t	file:
+select_working_set	java/libsvm/svm.java	/^	int select_working_set(int[] working_set)$/;"	m	class:Solver	access:default	signature:(int[] working_set)
+select_working_set	java/libsvm/svm.java	/^	int select_working_set(int[] working_set)$/;"	m	class:Solver_NU	access:default	signature:(int[] working_set)
+select_working_set	svm.cpp	/^	int select_working_set(int &i, int &j);$/;"	p	class:Solver_NU	file:	access:private	signature:(int &i, int &j)
+select_working_set	svm.cpp	/^	virtual int select_working_set(int &i, int &j);$/;"	p	class:Solver	file:	access:protected	signature:(int &i, int &j)
+select_working_set	svm.cpp	/^int Solver::select_working_set(int &out_i, int &out_j)$/;"	f	class:Solver	signature:(int &out_i, int &out_j)
+select_working_set	svm.cpp	/^int Solver_NU::select_working_set(int &out_i, int &out_j)$/;"	f	class:Solver_NU	signature:(int &out_i, int &out_j)
+setSize	java/svm_toy.java	/^	public void setSize(Dimension d) { setSize(d.width,d.height); }$/;"	m	class:svm_toy	access:public	signature:(Dimension d)
+setSize	java/svm_toy.java	/^	public void setSize(int w,int h) {$/;"	m	class:svm_toy	access:public	signature:(int w,int h)
+set_to_default_values	python/svm.py	/^	def set_to_default_values(self):$/;"	m	class:svm_parameter	access:public
+show_fileselection	svm-toy/gtk/callbacks.cpp	/^void show_fileselection()$/;"	f	signature:()
+shrinking	java/libsvm/svm_parameter.java	/^	public int shrinking;	\/\/ use the shrinking heuristics$/;"	f	class:svm_parameter	access:public
+shrinking	svm.h	/^	int shrinking;	\/* use the shrinking heuristics *\/$/;"	m	struct:svm_parameter	access:public
+si	java/libsvm/svm.java	/^	private SolutionInfo si;$/;"	f	class:Solver_NU	file:	access:private
+si	svm.cpp	/^	SolutionInfo *si;$/;"	m	class:Solver_NU	file:	access:private
+sigmoid_predict	java/libsvm/svm.java	/^	private static double sigmoid_predict(double decision_value, double A, double B)$/;"	m	class:svm	file:	access:private	signature:(double decision_value, double A, double B)
+sigmoid_predict	svm.cpp	/^static double sigmoid_predict(double decision_value, double A, double B)$/;"	f	file:	signature:(double decision_value, double A, double B)
+sigmoid_train	java/libsvm/svm.java	/^	private static void sigmoid_train(int l, double[] dec_values, double[] labels, $/;"	m	class:svm	file:	access:private	signature:(int l, double[] dec_values, double[] labels, double[] probAB)
+sigmoid_train	svm.cpp	/^static void sigmoid_train($/;"	f	file:	signature:( int l, const double *dec_values, const double *labels, double& A, double& B)
+sign	java/libsvm/svm.java	/^	private final byte[] sign;$/;"	f	class:SVR_Q	file:	access:private
+sign	svm.cpp	/^	schar *sign;$/;"	m	class:SVR_Q	file:	access:private
+size	java/libsvm/svm.java	/^	private long size;$/;"	f	class:Cache	file:	access:private
+size	svm.cpp	/^	long int size;$/;"	m	class:Cache	file:	access:private
+solve_c_svc	java/libsvm/svm.java	/^	private static void solve_c_svc(svm_problem prob, svm_parameter param,$/;"	m	class:svm	file:	access:private	signature:(svm_problem prob, svm_parameter param, double[] alpha, Solver.SolutionInfo si, double Cp, double Cn)
+solve_c_svc	svm.cpp	/^static void solve_c_svc($/;"	f	file:	signature:( const svm_problem *prob, const svm_parameter* param, double *alpha, Solver::SolutionInfo* si, double Cp, double Cn)
+solve_epsilon_svr	java/libsvm/svm.java	/^	private static void solve_epsilon_svr(svm_problem prob, svm_parameter param,$/;"	m	class:svm	file:	access:private	signature:(svm_problem prob, svm_parameter param, double[] alpha, Solver.SolutionInfo si)
+solve_epsilon_svr	svm.cpp	/^static void solve_epsilon_svr($/;"	f	file:	signature:( const svm_problem *prob, const svm_parameter *param, double *alpha, Solver::SolutionInfo* si)
+solve_nu_svc	java/libsvm/svm.java	/^	private static void solve_nu_svc(svm_problem prob, svm_parameter param,$/;"	m	class:svm	file:	access:private	signature:(svm_problem prob, svm_parameter param, double[] alpha, Solver.SolutionInfo si)
+solve_nu_svc	svm.cpp	/^static void solve_nu_svc($/;"	f	file:	signature:( const svm_problem *prob, const svm_parameter *param, double *alpha, Solver::SolutionInfo* si)
+solve_nu_svr	java/libsvm/svm.java	/^	private static void solve_nu_svr(svm_problem prob, svm_parameter param,$/;"	m	class:svm	file:	access:private	signature:(svm_problem prob, svm_parameter param, double[] alpha, Solver.SolutionInfo si)
+solve_nu_svr	svm.cpp	/^static void solve_nu_svr($/;"	f	file:	signature:( const svm_problem *prob, const svm_parameter *param, double *alpha, Solver::SolutionInfo* si)
+solve_one_class	java/libsvm/svm.java	/^	private static void solve_one_class(svm_problem prob, svm_parameter param,$/;"	m	class:svm	file:	access:private	signature:(svm_problem prob, svm_parameter param, double[] alpha, Solver.SolutionInfo si)
+solve_one_class	svm.cpp	/^static void solve_one_class($/;"	f	file:	signature:( const svm_problem *prob, const svm_parameter *param, double *alpha, Solver::SolutionInfo* si)
+ssh_workers	tools/grid.py	/^ssh_workers = []$/;"	v
+stratified_selection	tools/subset.py	/^def stratified_selection(dataset, subset_size):$/;"	f	access:public
+sv_coef	java/libsvm/svm_model.java	/^	public double[][] sv_coef;	\/\/ coefficients for SVs in decision functions (sv_coef[k-1][l])$/;"	f	class:svm_model	access:public
+sv_coef	svm.h	/^	double **sv_coef;	\/* coefficients for SVs in decision functions (sv_coef[k-1][l]) *\/$/;"	m	struct:svm_model	access:public
+sv_indices	java/libsvm/svm_model.java	/^	public int[] sv_indices;       \/\/ sv_indices[0,...,nSV-1] are values in [1,...,num_traning_data] to indicate SVs in the training set$/;"	f	class:svm_model	access:public
+sv_indices	svm.h	/^	int *sv_indices;        \/* sv_indices[0,...,nSV-1] are values in [1,...,num_traning_data] to indicate SVs in the training set *\/$/;"	m	struct:svm_model	access:public
+svm	java/libsvm/svm.java	/^public class svm {$/;"	c
+svm.LIBSVM_VERSION	java/libsvm/svm.java	/^	public static final int LIBSVM_VERSION=317; $/;"	f	class:svm	access:public
+svm.atof	java/libsvm/svm.java	/^	private static double atof(String s)$/;"	m	class:svm	file:	access:private	signature:(String s)
+svm.atoi	java/libsvm/svm.java	/^	private static int atoi(String s)$/;"	m	class:svm	file:	access:private	signature:(String s)
+svm.decision_function	java/libsvm/svm.java	/^	static class decision_function$/;"	c	class:svm	access:default
+svm.decision_function.alpha	java/libsvm/svm.java	/^		double[] alpha;$/;"	f	class:svm.decision_function	access:default
+svm.decision_function.rho	java/libsvm/svm.java	/^		double rho;	$/;"	f	class:svm.decision_function	access:default
+svm.info	java/libsvm/svm.java	/^	static void info(String s) $/;"	m	class:svm	access:default	signature:(String s)
+svm.kernel_type_table	java/libsvm/svm.java	/^	static final String kernel_type_table[]=$/;"	f	class:svm	access:default
+svm.multiclass_probability	java/libsvm/svm.java	/^	private static void multiclass_probability(int k, double[][] r, double[] p)$/;"	m	class:svm	file:	access:private	signature:(int k, double[][] r, double[] p)
+svm.rand	java/libsvm/svm.java	/^	public static final Random rand = new Random();$/;"	f	class:svm	access:public
+svm.sigmoid_predict	java/libsvm/svm.java	/^	private static double sigmoid_predict(double decision_value, double A, double B)$/;"	m	class:svm	file:	access:private	signature:(double decision_value, double A, double B)
+svm.sigmoid_train	java/libsvm/svm.java	/^	private static void sigmoid_train(int l, double[] dec_values, double[] labels, $/;"	m	class:svm	file:	access:private	signature:(int l, double[] dec_values, double[] labels, double[] probAB)
+svm.solve_c_svc	java/libsvm/svm.java	/^	private static void solve_c_svc(svm_problem prob, svm_parameter param,$/;"	m	class:svm	file:	access:private	signature:(svm_problem prob, svm_parameter param, double[] alpha, Solver.SolutionInfo si, double Cp, double Cn)
+svm.solve_epsilon_svr	java/libsvm/svm.java	/^	private static void solve_epsilon_svr(svm_problem prob, svm_parameter param,$/;"	m	class:svm	file:	access:private	signature:(svm_problem prob, svm_parameter param, double[] alpha, Solver.SolutionInfo si)
+svm.solve_nu_svc	java/libsvm/svm.java	/^	private static void solve_nu_svc(svm_problem prob, svm_parameter param,$/;"	m	class:svm	file:	access:private	signature:(svm_problem prob, svm_parameter param, double[] alpha, Solver.SolutionInfo si)
+svm.solve_nu_svr	java/libsvm/svm.java	/^	private static void solve_nu_svr(svm_problem prob, svm_parameter param,$/;"	m	class:svm	file:	access:private	signature:(svm_problem prob, svm_parameter param, double[] alpha, Solver.SolutionInfo si)
+svm.solve_one_class	java/libsvm/svm.java	/^	private static void solve_one_class(svm_problem prob, svm_parameter param,$/;"	m	class:svm	file:	access:private	signature:(svm_problem prob, svm_parameter param, double[] alpha, Solver.SolutionInfo si)
+svm.svm_binary_svc_probability	java/libsvm/svm.java	/^	private static void svm_binary_svc_probability(svm_problem prob, svm_parameter param, double Cp, double Cn, double[] probAB)$/;"	m	class:svm	file:	access:private	signature:(svm_problem prob, svm_parameter param, double Cp, double Cn, double[] probAB)
+svm.svm_check_parameter	java/libsvm/svm.java	/^	public static String svm_check_parameter(svm_problem prob, svm_parameter param)$/;"	m	class:svm	access:public	signature:(svm_problem prob, svm_parameter param)
+svm.svm_check_probability_model	java/libsvm/svm.java	/^	public static int svm_check_probability_model(svm_model model)$/;"	m	class:svm	access:public	signature:(svm_model model)
+svm.svm_cross_validation	java/libsvm/svm.java	/^	public static void svm_cross_validation(svm_problem prob, svm_parameter param, int nr_fold, double[] target)$/;"	m	class:svm	access:public	signature:(svm_problem prob, svm_parameter param, int nr_fold, double[] target)
+svm.svm_get_labels	java/libsvm/svm.java	/^	public static void svm_get_labels(svm_model model, int[] label)$/;"	m	class:svm	access:public	signature:(svm_model model, int[] label)
+svm.svm_get_nr_class	java/libsvm/svm.java	/^	public static int svm_get_nr_class(svm_model model)$/;"	m	class:svm	access:public	signature:(svm_model model)
+svm.svm_get_nr_sv	java/libsvm/svm.java	/^	public static int svm_get_nr_sv(svm_model model)$/;"	m	class:svm	access:public	signature:(svm_model model)
+svm.svm_get_sv_indices	java/libsvm/svm.java	/^	public static void svm_get_sv_indices(svm_model model, int[] indices)$/;"	m	class:svm	access:public	signature:(svm_model model, int[] indices)
+svm.svm_get_svm_type	java/libsvm/svm.java	/^	public static int svm_get_svm_type(svm_model model)$/;"	m	class:svm	access:public	signature:(svm_model model)
+svm.svm_get_svr_probability	java/libsvm/svm.java	/^	public static double svm_get_svr_probability(svm_model model)$/;"	m	class:svm	access:public	signature:(svm_model model)
+svm.svm_group_classes	java/libsvm/svm.java	/^	private static void svm_group_classes(svm_problem prob, int[] nr_class_ret, int[][] label_ret, int[][] start_ret, int[][] count_ret, int[] perm)$/;"	m	class:svm	file:	access:private	signature:(svm_problem prob, int[] nr_class_ret, int[][] label_ret, int[][] start_ret, int[][] count_ret, int[] perm)
+svm.svm_load_model	java/libsvm/svm.java	/^	public static svm_model svm_load_model(BufferedReader fp) throws IOException$/;"	m	class:svm	access:public	signature:(BufferedReader fp)
+svm.svm_load_model	java/libsvm/svm.java	/^	public static svm_model svm_load_model(String model_file_name) throws IOException$/;"	m	class:svm	access:public	signature:(String model_file_name)
+svm.svm_predict	java/libsvm/svm.java	/^	public static double svm_predict(svm_model model, svm_node[] x)$/;"	m	class:svm	access:public	signature:(svm_model model, svm_node[] x)
+svm.svm_predict_probability	java/libsvm/svm.java	/^	public static double svm_predict_probability(svm_model model, svm_node[] x, double[] prob_estimates)$/;"	m	class:svm	access:public	signature:(svm_model model, svm_node[] x, double[] prob_estimates)
+svm.svm_predict_values	java/libsvm/svm.java	/^	public static double svm_predict_values(svm_model model, svm_node[] x, double[] dec_values)$/;"	m	class:svm	access:public	signature:(svm_model model, svm_node[] x, double[] dec_values)
+svm.svm_print_stdout	java/libsvm/svm.java	/^	private static svm_print_interface svm_print_stdout = new svm_print_interface()$/;"	f	class:svm	file:	access:private
+svm.svm_print_string	java/libsvm/svm.java	/^	private static svm_print_interface svm_print_string = svm_print_stdout;$/;"	f	class:svm	file:	access:private
+svm.svm_save_model	java/libsvm/svm.java	/^	public static void svm_save_model(String model_file_name, svm_model model) throws IOException$/;"	m	class:svm	access:public	signature:(String model_file_name, svm_model model)
+svm.svm_set_print_string_function	java/libsvm/svm.java	/^	public static void svm_set_print_string_function(svm_print_interface print_func)$/;"	m	class:svm	access:public	signature:(svm_print_interface print_func)
+svm.svm_svr_probability	java/libsvm/svm.java	/^	private static double svm_svr_probability(svm_problem prob, svm_parameter param)$/;"	m	class:svm	file:	access:private	signature:(svm_problem prob, svm_parameter param)
+svm.svm_train	java/libsvm/svm.java	/^	public static svm_model svm_train(svm_problem prob, svm_parameter param)$/;"	m	class:svm	access:public	signature:(svm_problem prob, svm_parameter param)
+svm.svm_train_one	java/libsvm/svm.java	/^	static decision_function svm_train_one($/;"	m	class:svm	access:default	signature:( svm_problem prob, svm_parameter param, double Cp, double Cn)
+svm.svm_type_table	java/libsvm/svm.java	/^	static final String svm_type_table[] =$/;"	f	class:svm	access:default
+svm_binary_svc_probability	java/libsvm/svm.java	/^	private static void svm_binary_svc_probability(svm_problem prob, svm_parameter param, double Cp, double Cn, double[] probAB)$/;"	m	class:svm	file:	access:private	signature:(svm_problem prob, svm_parameter param, double Cp, double Cn, double[] probAB)
+svm_binary_svc_probability	svm.cpp	/^static void svm_binary_svc_probability($/;"	f	file:	signature:( const svm_problem *prob, const svm_parameter *param, double Cp, double Cn, double& probA, double& probB)
+svm_check_parameter	java/libsvm/svm.java	/^	public static String svm_check_parameter(svm_problem prob, svm_parameter param)$/;"	m	class:svm	access:public	signature:(svm_problem prob, svm_parameter param)
+svm_check_parameter	svm.cpp	/^const char *svm_check_parameter(const svm_problem *prob, const svm_parameter *param)$/;"	f	signature:(const svm_problem *prob, const svm_parameter *param)
+svm_check_parameter	svm.h	/^const char *svm_check_parameter(const struct svm_problem *prob, const struct svm_parameter *param);$/;"	p	signature:(const struct svm_problem *prob, const struct svm_parameter *param)
+svm_check_probability_model	java/libsvm/svm.java	/^	public static int svm_check_probability_model(svm_model model)$/;"	m	class:svm	access:public	signature:(svm_model model)
+svm_check_probability_model	svm.cpp	/^int svm_check_probability_model(const svm_model *model)$/;"	f	signature:(const svm_model *model)
+svm_check_probability_model	svm.h	/^int svm_check_probability_model(const struct svm_model *model);$/;"	p	signature:(const struct svm_model *model)
+svm_cross_validation	java/libsvm/svm.java	/^	public static void svm_cross_validation(svm_problem prob, svm_parameter param, int nr_fold, double[] target)$/;"	m	class:svm	access:public	signature:(svm_problem prob, svm_parameter param, int nr_fold, double[] target)
+svm_cross_validation	svm.cpp	/^void svm_cross_validation(const svm_problem *prob, const svm_parameter *param, int nr_fold, double *target)$/;"	f	signature:(const svm_problem *prob, const svm_parameter *param, int nr_fold, double *target)
+svm_cross_validation	svm.h	/^void svm_cross_validation(const struct svm_problem *prob, const struct svm_parameter *param, int nr_fold, double *target);$/;"	p	signature:(const struct svm_problem *prob, const struct svm_parameter *param, int nr_fold, double *target)
+svm_destroy_param	svm.cpp	/^void svm_destroy_param(svm_parameter* param)$/;"	f	signature:(svm_parameter* param)
+svm_destroy_param	svm.h	/^void svm_destroy_param(struct svm_parameter *param);$/;"	p	signature:(struct svm_parameter *param)
+svm_free_and_destroy_model	svm.cpp	/^void svm_free_and_destroy_model(svm_model** model_ptr_ptr)$/;"	f	signature:(svm_model** model_ptr_ptr)
+svm_free_and_destroy_model	svm.h	/^void svm_free_and_destroy_model(struct svm_model **model_ptr_ptr);$/;"	p	signature:(struct svm_model **model_ptr_ptr)
+svm_free_model_content	svm.cpp	/^void svm_free_model_content(svm_model* model_ptr)$/;"	f	signature:(svm_model* model_ptr)
+svm_free_model_content	svm.h	/^void svm_free_model_content(struct svm_model *model_ptr);$/;"	p	signature:(struct svm_model *model_ptr)
+svm_get_labels	java/libsvm/svm.java	/^	public static void svm_get_labels(svm_model model, int[] label)$/;"	m	class:svm	access:public	signature:(svm_model model, int[] label)
+svm_get_labels	svm.cpp	/^void svm_get_labels(const svm_model *model, int* label)$/;"	f	signature:(const svm_model *model, int* label)
+svm_get_labels	svm.h	/^void svm_get_labels(const struct svm_model *model, int *label);$/;"	p	signature:(const struct svm_model *model, int *label)
+svm_get_nr_class	java/libsvm/svm.java	/^	public static int svm_get_nr_class(svm_model model)$/;"	m	class:svm	access:public	signature:(svm_model model)
+svm_get_nr_class	svm.cpp	/^int svm_get_nr_class(const svm_model *model)$/;"	f	signature:(const svm_model *model)
+svm_get_nr_class	svm.h	/^int svm_get_nr_class(const struct svm_model *model);$/;"	p	signature:(const struct svm_model *model)
+svm_get_nr_sv	java/libsvm/svm.java	/^	public static int svm_get_nr_sv(svm_model model)$/;"	m	class:svm	access:public	signature:(svm_model model)
+svm_get_nr_sv	svm.cpp	/^int svm_get_nr_sv(const svm_model *model)$/;"	f	signature:(const svm_model *model)
+svm_get_nr_sv	svm.h	/^int svm_get_nr_sv(const struct svm_model *model);$/;"	p	signature:(const struct svm_model *model)
+svm_get_sv_indices	java/libsvm/svm.java	/^	public static void svm_get_sv_indices(svm_model model, int[] indices)$/;"	m	class:svm	access:public	signature:(svm_model model, int[] indices)
+svm_get_sv_indices	svm.cpp	/^void svm_get_sv_indices(const svm_model *model, int* indices)$/;"	f	signature:(const svm_model *model, int* indices)
+svm_get_sv_indices	svm.h	/^void svm_get_sv_indices(const struct svm_model *model, int *sv_indices);$/;"	p	signature:(const struct svm_model *model, int *sv_indices)
+svm_get_svm_type	java/libsvm/svm.java	/^	public static int svm_get_svm_type(svm_model model)$/;"	m	class:svm	access:public	signature:(svm_model model)
+svm_get_svm_type	svm.cpp	/^int svm_get_svm_type(const svm_model *model)$/;"	f	signature:(const svm_model *model)
+svm_get_svm_type	svm.h	/^int svm_get_svm_type(const struct svm_model *model);$/;"	p	signature:(const struct svm_model *model)
+svm_get_svr_probability	java/libsvm/svm.java	/^	public static double svm_get_svr_probability(svm_model model)$/;"	m	class:svm	access:public	signature:(svm_model model)
+svm_get_svr_probability	svm.cpp	/^double svm_get_svr_probability(const svm_model *model)$/;"	f	signature:(const svm_model *model)
+svm_get_svr_probability	svm.h	/^double svm_get_svr_probability(const struct svm_model *model);$/;"	p	signature:(const struct svm_model *model)
+svm_group_classes	java/libsvm/svm.java	/^	private static void svm_group_classes(svm_problem prob, int[] nr_class_ret, int[][] label_ret, int[][] start_ret, int[][] count_ret, int[] perm)$/;"	m	class:svm	file:	access:private	signature:(svm_problem prob, int[] nr_class_ret, int[][] label_ret, int[][] start_ret, int[][] count_ret, int[] perm)
+svm_group_classes	svm.cpp	/^static void svm_group_classes(const svm_problem *prob, int *nr_class_ret, int **label_ret, int **start_ret, int **count_ret, int *perm)$/;"	f	file:	signature:(const svm_problem *prob, int *nr_class_ret, int **label_ret, int **start_ret, int **count_ret, int *perm)
+svm_load_model	java/libsvm/svm.java	/^	public static svm_model svm_load_model(BufferedReader fp) throws IOException$/;"	m	class:svm	access:public	signature:(BufferedReader fp)
+svm_load_model	java/libsvm/svm.java	/^	public static svm_model svm_load_model(String model_file_name) throws IOException$/;"	m	class:svm	access:public	signature:(String model_file_name)
+svm_load_model	python/svmutil.py	/^def svm_load_model(model_file_name):$/;"	f	access:public
+svm_load_model	svm.cpp	/^svm_model *svm_load_model(const char *model_file_name)$/;"	f	signature:(const char *model_file_name)
+svm_load_model	svm.h	/^struct svm_model *svm_load_model(const char *model_file_name);$/;"	p	signature:(const char *model_file_name)
+svm_model	java/libsvm/svm_model.java	/^public class svm_model implements java.io.Serializable$/;"	c	inherits:java.io.Serializable
+svm_model	python/svm.py	/^class svm_model(Structure):$/;"	c	inherits:Structure
+svm_model	svm.h	/^struct svm_model$/;"	s
+svm_model.SV	java/libsvm/svm_model.java	/^	public svm_node[][] SV;	\/\/ SVs (SV[l])$/;"	f	class:svm_model	access:public
+svm_model.l	java/libsvm/svm_model.java	/^	public int l;			\/\/ total #SV$/;"	f	class:svm_model	access:public
+svm_model.label	java/libsvm/svm_model.java	/^	public int[] label;		\/\/ label of each class (label[k])$/;"	f	class:svm_model	access:public
+svm_model.nSV	java/libsvm/svm_model.java	/^	public int[] nSV;		\/\/ number of SVs for each class (nSV[k])$/;"	f	class:svm_model	access:public
+svm_model.nr_class	java/libsvm/svm_model.java	/^	public int nr_class;		\/\/ number of classes, = 2 in regression\/one class svm$/;"	f	class:svm_model	access:public
+svm_model.param	java/libsvm/svm_model.java	/^	public svm_parameter param;	\/\/ parameter$/;"	f	class:svm_model	access:public
+svm_model.probA	java/libsvm/svm_model.java	/^	public double[] probA;         \/\/ pariwise probability information$/;"	f	class:svm_model	access:public
+svm_model.probB	java/libsvm/svm_model.java	/^	public double[] probB;$/;"	f	class:svm_model	access:public
+svm_model.rho	java/libsvm/svm_model.java	/^	public double[] rho;		\/\/ constants in decision functions (rho[k*(k-1)\/2])$/;"	f	class:svm_model	access:public
+svm_model.sv_coef	java/libsvm/svm_model.java	/^	public double[][] sv_coef;	\/\/ coefficients for SVs in decision functions (sv_coef[k-1][l])$/;"	f	class:svm_model	access:public
+svm_model.sv_indices	java/libsvm/svm_model.java	/^	public int[] sv_indices;       \/\/ sv_indices[0,...,nSV-1] are values in [1,...,num_traning_data] to indicate SVs in the training set$/;"	f	class:svm_model	access:public
+svm_model::SV	svm.h	/^	struct svm_node **SV;		\/* SVs (SV[l]) *\/$/;"	m	struct:svm_model	typeref:struct:svm_model::svm_node	access:public
+svm_model::free_sv	svm.h	/^	int free_sv;		\/* 1 if svm_model is created by svm_load_model*\/$/;"	m	struct:svm_model	access:public
+svm_model::l	svm.h	/^	int l;			\/* total #SV *\/$/;"	m	struct:svm_model	access:public
+svm_model::label	svm.h	/^	int *label;		\/* label of each class (label[k]) *\/$/;"	m	struct:svm_model	access:public
+svm_model::nSV	svm.h	/^	int *nSV;		\/* number of SVs for each class (nSV[k]) *\/$/;"	m	struct:svm_model	access:public
+svm_model::nr_class	svm.h	/^	int nr_class;		\/* number of classes, = 2 in regression\/one class svm *\/$/;"	m	struct:svm_model	access:public
+svm_model::param	svm.h	/^	struct svm_parameter param;	\/* parameter *\/$/;"	m	struct:svm_model	typeref:struct:svm_model::svm_parameter	access:public
+svm_model::probA	svm.h	/^	double *probA;		\/* pariwise probability information *\/$/;"	m	struct:svm_model	access:public
+svm_model::probB	svm.h	/^	double *probB;$/;"	m	struct:svm_model	access:public
+svm_model::rho	svm.h	/^	double *rho;		\/* constants in decision functions (rho[k*(k-1)\/2]) *\/$/;"	m	struct:svm_model	access:public
+svm_model::sv_coef	svm.h	/^	double **sv_coef;	\/* coefficients for SVs in decision functions (sv_coef[k-1][l]) *\/$/;"	m	struct:svm_model	access:public
+svm_model::sv_indices	svm.h	/^	int *sv_indices;        \/* sv_indices[0,...,nSV-1] are values in [1,...,num_traning_data] to indicate SVs in the training set *\/$/;"	m	struct:svm_model	access:public
+svm_node	java/libsvm/svm_node.java	/^public class svm_node implements java.io.Serializable$/;"	c	inherits:java.io.Serializable
+svm_node	python/svm.py	/^class svm_node(Structure):$/;"	c	inherits:Structure
+svm_node	svm.h	/^struct svm_node$/;"	s
+svm_node.index	java/libsvm/svm_node.java	/^	public int index;$/;"	f	class:svm_node	access:public
+svm_node.value	java/libsvm/svm_node.java	/^	public double value;$/;"	f	class:svm_node	access:public
+svm_node::index	svm.h	/^	int index;$/;"	m	struct:svm_node	access:public
+svm_node::value	svm.h	/^	double value;$/;"	m	struct:svm_node	access:public
+svm_parameter	java/libsvm/svm_parameter.java	/^public class svm_parameter implements Cloneable,java.io.Serializable$/;"	c	inherits:Cloneable,java.io.Serializable
+svm_parameter	python/svm.py	/^class svm_parameter(Structure):$/;"	c	inherits:Structure
+svm_parameter	svm.h	/^struct svm_parameter$/;"	s
+svm_parameter.C	java/libsvm/svm_parameter.java	/^	public double C;	\/\/ for C_SVC, EPSILON_SVR and NU_SVR$/;"	f	class:svm_parameter	access:public
+svm_parameter.C_SVC	java/libsvm/svm_parameter.java	/^	public static final int C_SVC = 0;$/;"	f	class:svm_parameter	access:public
+svm_parameter.EPSILON_SVR	java/libsvm/svm_parameter.java	/^	public static final int EPSILON_SVR = 3;$/;"	f	class:svm_parameter	access:public
+svm_parameter.LINEAR	java/libsvm/svm_parameter.java	/^	public static final int LINEAR = 0;$/;"	f	class:svm_parameter	access:public
+svm_parameter.NU_SVC	java/libsvm/svm_parameter.java	/^	public static final int NU_SVC = 1;$/;"	f	class:svm_parameter	access:public
+svm_parameter.NU_SVR	java/libsvm/svm_parameter.java	/^	public static final int NU_SVR = 4;$/;"	f	class:svm_parameter	access:public
+svm_parameter.ONE_CLASS	java/libsvm/svm_parameter.java	/^	public static final int ONE_CLASS = 2;$/;"	f	class:svm_parameter	access:public
+svm_parameter.POLY	java/libsvm/svm_parameter.java	/^	public static final int POLY = 1;$/;"	f	class:svm_parameter	access:public
+svm_parameter.PRECOMPUTED	java/libsvm/svm_parameter.java	/^	public static final int PRECOMPUTED = 4;$/;"	f	class:svm_parameter	access:public
+svm_parameter.RBF	java/libsvm/svm_parameter.java	/^	public static final int RBF = 2;$/;"	f	class:svm_parameter	access:public
+svm_parameter.SIGMOID	java/libsvm/svm_parameter.java	/^	public static final int SIGMOID = 3;$/;"	f	class:svm_parameter	access:public
+svm_parameter.cache_size	java/libsvm/svm_parameter.java	/^	public double cache_size; \/\/ in MB$/;"	f	class:svm_parameter	access:public
+svm_parameter.clone	java/libsvm/svm_parameter.java	/^	public Object clone() $/;"	m	class:svm_parameter	access:public	signature:()
+svm_parameter.coef0	java/libsvm/svm_parameter.java	/^	public double coef0;	\/\/ for poly\/sigmoid$/;"	f	class:svm_parameter	access:public
+svm_parameter.degree	java/libsvm/svm_parameter.java	/^	public int degree;	\/\/ for poly$/;"	f	class:svm_parameter	access:public
+svm_parameter.eps	java/libsvm/svm_parameter.java	/^	public double eps;	\/\/ stopping criteria$/;"	f	class:svm_parameter	access:public
+svm_parameter.gamma	java/libsvm/svm_parameter.java	/^	public double gamma;	\/\/ for poly\/rbf\/sigmoid$/;"	f	class:svm_parameter	access:public
+svm_parameter.kernel_type	java/libsvm/svm_parameter.java	/^	public int kernel_type;$/;"	f	class:svm_parameter	access:public
+svm_parameter.nr_weight	java/libsvm/svm_parameter.java	/^	public int nr_weight;		\/\/ for C_SVC$/;"	f	class:svm_parameter	access:public
+svm_parameter.nu	java/libsvm/svm_parameter.java	/^	public double nu;	\/\/ for NU_SVC, ONE_CLASS, and NU_SVR$/;"	f	class:svm_parameter	access:public
+svm_parameter.p	java/libsvm/svm_parameter.java	/^	public double p;	\/\/ for EPSILON_SVR$/;"	f	class:svm_parameter	access:public
+svm_parameter.probability	java/libsvm/svm_parameter.java	/^	public int probability; \/\/ do probability estimates$/;"	f	class:svm_parameter	access:public
+svm_parameter.shrinking	java/libsvm/svm_parameter.java	/^	public int shrinking;	\/\/ use the shrinking heuristics$/;"	f	class:svm_parameter	access:public
+svm_parameter.svm_type	java/libsvm/svm_parameter.java	/^	public int svm_type;$/;"	f	class:svm_parameter	access:public
+svm_parameter.weight	java/libsvm/svm_parameter.java	/^	public double[] weight;		\/\/ for C_SVC$/;"	f	class:svm_parameter	access:public
+svm_parameter.weight_label	java/libsvm/svm_parameter.java	/^	public int[] weight_label;	\/\/ for C_SVC$/;"	f	class:svm_parameter	access:public
+svm_parameter::C	svm.h	/^	double C;	\/* for C_SVC, EPSILON_SVR and NU_SVR *\/$/;"	m	struct:svm_parameter	access:public
+svm_parameter::cache_size	svm.h	/^	double cache_size; \/* in MB *\/$/;"	m	struct:svm_parameter	access:public
+svm_parameter::coef0	svm.h	/^	double coef0;	\/* for poly\/sigmoid *\/$/;"	m	struct:svm_parameter	access:public
+svm_parameter::degree	svm.h	/^	int degree;	\/* for poly *\/$/;"	m	struct:svm_parameter	access:public
+svm_parameter::eps	svm.h	/^	double eps;	\/* stopping criteria *\/$/;"	m	struct:svm_parameter	access:public
+svm_parameter::gamma	svm.h	/^	double gamma;	\/* for poly\/rbf\/sigmoid *\/$/;"	m	struct:svm_parameter	access:public
+svm_parameter::kernel_type	svm.h	/^	int kernel_type;$/;"	m	struct:svm_parameter	access:public
+svm_parameter::nr_weight	svm.h	/^	int nr_weight;		\/* for C_SVC *\/$/;"	m	struct:svm_parameter	access:public
+svm_parameter::nu	svm.h	/^	double nu;	\/* for NU_SVC, ONE_CLASS, and NU_SVR *\/$/;"	m	struct:svm_parameter	access:public
+svm_parameter::p	svm.h	/^	double p;	\/* for EPSILON_SVR *\/$/;"	m	struct:svm_parameter	access:public
+svm_parameter::probability	svm.h	/^	int probability; \/* do probability estimates *\/$/;"	m	struct:svm_parameter	access:public
+svm_parameter::shrinking	svm.h	/^	int shrinking;	\/* use the shrinking heuristics *\/$/;"	m	struct:svm_parameter	access:public
+svm_parameter::svm_type	svm.h	/^	int svm_type;$/;"	m	struct:svm_parameter	access:public
+svm_parameter::weight	svm.h	/^	double* weight;		\/* for C_SVC *\/$/;"	m	struct:svm_parameter	access:public
+svm_parameter::weight_label	svm.h	/^	int *weight_label;	\/* for C_SVC *\/$/;"	m	struct:svm_parameter	access:public
+svm_predict	java/libsvm/svm.java	/^	public static double svm_predict(svm_model model, svm_node[] x)$/;"	m	class:svm	access:public	signature:(svm_model model, svm_node[] x)
+svm_predict	java/svm_predict.java	/^class svm_predict {$/;"	c
+svm_predict	python/svmutil.py	/^def svm_predict(y, x, m, options=""):$/;"	f	access:public
+svm_predict	svm.cpp	/^double svm_predict(const svm_model *model, const svm_node *x)$/;"	f	signature:(const svm_model *model, const svm_node *x)
+svm_predict	svm.h	/^double svm_predict(const struct svm_model *model, const struct svm_node *x);$/;"	p	signature:(const struct svm_model *model, const struct svm_node *x)
+svm_predict.atof	java/svm_predict.java	/^	private static double atof(String s)$/;"	m	class:svm_predict	file:	access:private	signature:(String s)
+svm_predict.atoi	java/svm_predict.java	/^	private static int atoi(String s)$/;"	m	class:svm_predict	file:	access:private	signature:(String s)
+svm_predict.exit_with_help	java/svm_predict.java	/^	private static void exit_with_help()$/;"	m	class:svm_predict	file:	access:private	signature:()
+svm_predict.info	java/svm_predict.java	/^	static void info(String s) $/;"	m	class:svm_predict	access:default	signature:(String s)
+svm_predict.main	java/svm_predict.java	/^	public static void main(String argv[]) throws IOException$/;"	m	class:svm_predict	access:public	signature:(String argv[])
+svm_predict.predict	java/svm_predict.java	/^	private static void predict(BufferedReader input, DataOutputStream output, svm_model model, int predict_probability) throws IOException$/;"	m	class:svm_predict	file:	access:private	signature:(BufferedReader input, DataOutputStream output, svm_model model, int predict_probability)
+svm_predict.svm_print_null	java/svm_predict.java	/^	private static svm_print_interface svm_print_null = new svm_print_interface()$/;"	f	class:svm_predict	file:	access:private
+svm_predict.svm_print_stdout	java/svm_predict.java	/^	private static svm_print_interface svm_print_stdout = new svm_print_interface()$/;"	f	class:svm_predict	file:	access:private
+svm_predict.svm_print_string	java/svm_predict.java	/^	private static svm_print_interface svm_print_string = svm_print_stdout;$/;"	f	class:svm_predict	file:	access:private
+svm_predict_probability	java/libsvm/svm.java	/^	public static double svm_predict_probability(svm_model model, svm_node[] x, double[] prob_estimates)$/;"	m	class:svm	access:public	signature:(svm_model model, svm_node[] x, double[] prob_estimates)
+svm_predict_probability	svm.cpp	/^double svm_predict_probability($/;"	f	signature:( const svm_model *model, const svm_node *x, double *prob_estimates)
+svm_predict_probability	svm.h	/^double svm_predict_probability(const struct svm_model *model, const struct svm_node *x, double* prob_estimates);$/;"	p	signature:(const struct svm_model *model, const struct svm_node *x, double* prob_estimates)
+svm_predict_values	java/libsvm/svm.java	/^	public static double svm_predict_values(svm_model model, svm_node[] x, double[] dec_values)$/;"	m	class:svm	access:public	signature:(svm_model model, svm_node[] x, double[] dec_values)
+svm_predict_values	svm.cpp	/^double svm_predict_values(const svm_model *model, const svm_node *x, double* dec_values)$/;"	f	signature:(const svm_model *model, const svm_node *x, double* dec_values)
+svm_predict_values	svm.h	/^double svm_predict_values(const struct svm_model *model, const struct svm_node *x, double* dec_values);$/;"	p	signature:(const struct svm_model *model, const struct svm_node *x, double* dec_values)
+svm_print_interface	java/libsvm/svm_print_interface.java	/^public interface svm_print_interface$/;"	i
+svm_print_interface.print	java/libsvm/svm_print_interface.java	/^	public void print(String s);$/;"	m	interface:svm_print_interface	access:public	signature:(String s)
+svm_print_null	java/svm_predict.java	/^	private static svm_print_interface svm_print_null = new svm_print_interface()$/;"	f	class:svm_predict	file:	access:private
+svm_print_null	java/svm_train.java	/^	private static svm_print_interface svm_print_null = new svm_print_interface()$/;"	f	class:svm_train	file:	access:private
+svm_print_stdout	java/libsvm/svm.java	/^	private static svm_print_interface svm_print_stdout = new svm_print_interface()$/;"	f	class:svm	file:	access:private
+svm_print_stdout	java/svm_predict.java	/^	private static svm_print_interface svm_print_stdout = new svm_print_interface()$/;"	f	class:svm_predict	file:	access:private
+svm_print_string	java/libsvm/svm.java	/^	private static svm_print_interface svm_print_string = svm_print_stdout;$/;"	f	class:svm	file:	access:private
+svm_print_string	java/svm_predict.java	/^	private static svm_print_interface svm_print_string = svm_print_stdout;$/;"	f	class:svm_predict	file:	access:private
+svm_print_string	svm.cpp	/^static void (*svm_print_string) (const char *) = &print_string_stdout;$/;"	v	file:
+svm_problem	java/libsvm/svm_problem.java	/^public class svm_problem implements java.io.Serializable$/;"	c	inherits:java.io.Serializable
+svm_problem	python/svm.py	/^class svm_problem(Structure):$/;"	c	inherits:Structure
+svm_problem	svm.h	/^struct svm_problem$/;"	s
+svm_problem.l	java/libsvm/svm_problem.java	/^	public int l;$/;"	f	class:svm_problem	access:public
+svm_problem.x	java/libsvm/svm_problem.java	/^	public svm_node[][] x;$/;"	f	class:svm_problem	access:public
+svm_problem.y	java/libsvm/svm_problem.java	/^	public double[] y;$/;"	f	class:svm_problem	access:public
+svm_problem::l	svm.h	/^	int l;$/;"	m	struct:svm_problem	access:public
+svm_problem::x	svm.h	/^	struct svm_node **x;$/;"	m	struct:svm_problem	typeref:struct:svm_problem::svm_node	access:public
+svm_problem::y	svm.h	/^	double *y;$/;"	m	struct:svm_problem	access:public
+svm_read_problem	python/svmutil.py	/^def svm_read_problem(data_file_name):$/;"	f	access:public
+svm_save_model	java/libsvm/svm.java	/^	public static void svm_save_model(String model_file_name, svm_model model) throws IOException$/;"	m	class:svm	access:public	signature:(String model_file_name, svm_model model)
+svm_save_model	python/svmutil.py	/^def svm_save_model(model_file_name, model):$/;"	f	access:public
+svm_save_model	svm.cpp	/^int svm_save_model(const char *model_file_name, const svm_model *model)$/;"	f	signature:(const char *model_file_name, const svm_model *model)
+svm_save_model	svm.h	/^int svm_save_model(const char *model_file_name, const struct svm_model *model);$/;"	p	signature:(const char *model_file_name, const struct svm_model *model)
+svm_scale	java/svm_scale.java	/^class svm_scale$/;"	c
+svm_scale.exit_with_help	java/svm_scale.java	/^	private static void exit_with_help()$/;"	m	class:svm_scale	file:	access:private	signature:()
+svm_scale.feature_max	java/svm_scale.java	/^	private double[] feature_max;$/;"	f	class:svm_scale	file:	access:private
+svm_scale.feature_min	java/svm_scale.java	/^	private double[] feature_min;$/;"	f	class:svm_scale	file:	access:private
+svm_scale.line	java/svm_scale.java	/^	private String line = null;$/;"	f	class:svm_scale	file:	access:private
+svm_scale.lower	java/svm_scale.java	/^	private double lower = -1.0;$/;"	f	class:svm_scale	file:	access:private
+svm_scale.main	java/svm_scale.java	/^	public static void main(String argv[]) throws IOException$/;"	m	class:svm_scale	access:public	signature:(String argv[])
+svm_scale.max_index	java/svm_scale.java	/^	private int max_index;$/;"	f	class:svm_scale	file:	access:private
+svm_scale.new_num_nonzeros	java/svm_scale.java	/^	private long new_num_nonzeros = 0;$/;"	f	class:svm_scale	file:	access:private
+svm_scale.num_nonzeros	java/svm_scale.java	/^	private long num_nonzeros = 0;$/;"	f	class:svm_scale	file:	access:private
+svm_scale.output	java/svm_scale.java	/^	private void output(int index, double value)$/;"	m	class:svm_scale	file:	access:private	signature:(int index, double value)
+svm_scale.output_target	java/svm_scale.java	/^	private void output_target(double value)$/;"	m	class:svm_scale	file:	access:private	signature:(double value)
+svm_scale.readline	java/svm_scale.java	/^	private String readline(BufferedReader fp) throws IOException$/;"	m	class:svm_scale	file:	access:private	signature:(BufferedReader fp)
+svm_scale.rewind	java/svm_scale.java	/^	private BufferedReader rewind(BufferedReader fp, String filename) throws IOException$/;"	m	class:svm_scale	file:	access:private	signature:(BufferedReader fp, String filename)
+svm_scale.run	java/svm_scale.java	/^	private void run(String []argv) throws IOException$/;"	m	class:svm_scale	file:	access:private	signature:(String []argv)
+svm_scale.upper	java/svm_scale.java	/^	private double upper = 1.0;$/;"	f	class:svm_scale	file:	access:private
+svm_scale.y_lower	java/svm_scale.java	/^	private double y_lower;$/;"	f	class:svm_scale	file:	access:private
+svm_scale.y_max	java/svm_scale.java	/^	private double y_max = -Double.MAX_VALUE;$/;"	f	class:svm_scale	file:	access:private
+svm_scale.y_min	java/svm_scale.java	/^	private double y_min = Double.MAX_VALUE;$/;"	f	class:svm_scale	file:	access:private
+svm_scale.y_scaling	java/svm_scale.java	/^	private boolean y_scaling = false;$/;"	f	class:svm_scale	file:	access:private
+svm_scale.y_upper	java/svm_scale.java	/^	private double y_upper;$/;"	f	class:svm_scale	file:	access:private
+svm_set_print_string_function	java/libsvm/svm.java	/^	public static void svm_set_print_string_function(svm_print_interface print_func)$/;"	m	class:svm	access:public	signature:(svm_print_interface print_func)
+svm_set_print_string_function	svm.cpp	/^void svm_set_print_string_function(void (*print_func)(const char *))$/;"	f	signature:(void (*print_func)(const char *))
+svm_set_print_string_function	svm.h	/^void svm_set_print_string_function(void (*print_func)(const char *));$/;"	p	signature:(void (*print_func)(const char *))
+svm_svr_probability	java/libsvm/svm.java	/^	private static double svm_svr_probability(svm_problem prob, svm_parameter param)$/;"	m	class:svm	file:	access:private	signature:(svm_problem prob, svm_parameter param)
+svm_svr_probability	svm.cpp	/^static double svm_svr_probability($/;"	f	file:	signature:( const svm_problem *prob, const svm_parameter *param)
+svm_toy	java/svm_toy.java	/^public class svm_toy extends Applet {$/;"	c	inherits:Applet
+svm_toy.DEFAULT_PARAM	java/svm_toy.java	/^	static final String DEFAULT_PARAM="-t 2 -c 100";$/;"	f	class:svm_toy	access:default
+svm_toy.XLEN	java/svm_toy.java	/^	int XLEN;$/;"	f	class:svm_toy	access:default
+svm_toy.YLEN	java/svm_toy.java	/^	int YLEN;$/;"	f	class:svm_toy	access:default
+svm_toy.atof	java/svm_toy.java	/^	private static double atof(String s)$/;"	m	class:svm_toy	file:	access:private	signature:(String s)
+svm_toy.atoi	java/svm_toy.java	/^	private static int atoi(String s)$/;"	m	class:svm_toy	file:	access:private	signature:(String s)
+svm_toy.buffer	java/svm_toy.java	/^	Image buffer;$/;"	f	class:svm_toy	access:default
+svm_toy.buffer_gc	java/svm_toy.java	/^	Graphics buffer_gc;$/;"	f	class:svm_toy	access:default
+svm_toy.button_change_clicked	java/svm_toy.java	/^	void button_change_clicked()$/;"	m	class:svm_toy	access:default	signature:()
+svm_toy.button_clear_clicked	java/svm_toy.java	/^	void button_clear_clicked()$/;"	m	class:svm_toy	access:default	signature:()
+svm_toy.button_load_clicked	java/svm_toy.java	/^	void button_load_clicked()$/;"	m	class:svm_toy	access:default	signature:()
+svm_toy.button_run_clicked	java/svm_toy.java	/^	void button_run_clicked(String args)$/;"	m	class:svm_toy	access:default	signature:(String args)
+svm_toy.button_save_clicked	java/svm_toy.java	/^	void button_save_clicked(String args)$/;"	m	class:svm_toy	access:default	signature:(String args)
+svm_toy.clear_all	java/svm_toy.java	/^	void clear_all()$/;"	m	class:svm_toy	access:default	signature:()
+svm_toy.colors	java/svm_toy.java	/^	final static Color colors[] =$/;"	f	class:svm_toy	access:default
+svm_toy.current_value	java/svm_toy.java	/^	byte current_value = 1;$/;"	f	class:svm_toy	access:default
+svm_toy.draw_all_points	java/svm_toy.java	/^	void draw_all_points()$/;"	m	class:svm_toy	access:default	signature:()
+svm_toy.draw_point	java/svm_toy.java	/^	void draw_point(point p)$/;"	m	class:svm_toy	access:default	signature:(point p)
+svm_toy.getPreferredSize	java/svm_toy.java	/^	public Dimension getPreferredSize() { return new Dimension(XLEN,YLEN+50); }$/;"	m	class:svm_toy	access:public	signature:()
+svm_toy.init	java/svm_toy.java	/^	public void init()$/;"	m	class:svm_toy	access:public	signature:()
+svm_toy.main	java/svm_toy.java	/^	public static void main(String[] argv)$/;"	m	class:svm_toy	access:public	signature:(String[] argv)
+svm_toy.paint	java/svm_toy.java	/^	public void paint(Graphics g)$/;"	m	class:svm_toy	access:public	signature:(Graphics g)
+svm_toy.point	java/svm_toy.java	/^	class point {$/;"	c	class:svm_toy	access:default
+svm_toy.point.point	java/svm_toy.java	/^		point(double x, double y, byte value)$/;"	m	class:svm_toy.point	access:default	signature:(double x, double y, byte value)
+svm_toy.point.value	java/svm_toy.java	/^		byte value;$/;"	f	class:svm_toy.point	access:default
+svm_toy.point.x	java/svm_toy.java	/^		double x, y;$/;"	f	class:svm_toy.point	access:default
+svm_toy.point.y	java/svm_toy.java	/^		double x, y;$/;"	f	class:svm_toy.point	access:default
+svm_toy.point_list	java/svm_toy.java	/^	Vector<point> point_list = new Vector<point>();$/;"	f	class:svm_toy	access:default
+svm_toy.processMouseEvent	java/svm_toy.java	/^	protected void processMouseEvent(MouseEvent e)$/;"	m	class:svm_toy	access:protected	signature:(MouseEvent e)
+svm_toy.setSize	java/svm_toy.java	/^	public void setSize(Dimension d) { setSize(d.width,d.height); }$/;"	m	class:svm_toy	access:public	signature:(Dimension d)
+svm_toy.setSize	java/svm_toy.java	/^	public void setSize(int w,int h) {$/;"	m	class:svm_toy	access:public	signature:(int w,int h)
+svm_toy_initialize	svm-toy/gtk/callbacks.cpp	/^extern "C" void svm_toy_initialize()$/;"	f	signature:()
+svm_toy_initialize	svm-toy/gtk/main.c	/^void svm_toy_initialize();$/;"	p	file:
+svm_train	java/libsvm/svm.java	/^	public static svm_model svm_train(svm_problem prob, svm_parameter param)$/;"	m	class:svm	access:public	signature:(svm_problem prob, svm_parameter param)
+svm_train	java/svm_train.java	/^class svm_train {$/;"	c
+svm_train	python/svmutil.py	/^def svm_train(arg1, arg2=None, arg3=None):$/;"	f	access:public
+svm_train	svm.cpp	/^svm_model *svm_train(const svm_problem *prob, const svm_parameter *param)$/;"	f	signature:(const svm_problem *prob, const svm_parameter *param)
+svm_train	svm.h	/^struct svm_model *svm_train(const struct svm_problem *prob, const struct svm_parameter *param);$/;"	p	signature:(const struct svm_problem *prob, const struct svm_parameter *param)
+svm_train.atof	java/svm_train.java	/^	private static double atof(String s)$/;"	m	class:svm_train	file:	access:private	signature:(String s)
+svm_train.atoi	java/svm_train.java	/^	private static int atoi(String s)$/;"	m	class:svm_train	file:	access:private	signature:(String s)
+svm_train.cross_validation	java/svm_train.java	/^	private int cross_validation;$/;"	f	class:svm_train	file:	access:private
+svm_train.do_cross_validation	java/svm_train.java	/^	private void do_cross_validation()$/;"	m	class:svm_train	file:	access:private	signature:()
+svm_train.error_msg	java/svm_train.java	/^	private String error_msg;$/;"	f	class:svm_train	file:	access:private
+svm_train.exit_with_help	java/svm_train.java	/^	private static void exit_with_help()$/;"	m	class:svm_train	file:	access:private	signature:()
+svm_train.input_file_name	java/svm_train.java	/^	private String input_file_name;		\/\/ set by parse_command_line$/;"	f	class:svm_train	file:	access:private
+svm_train.main	java/svm_train.java	/^	public static void main(String argv[]) throws IOException$/;"	m	class:svm_train	access:public	signature:(String argv[])
+svm_train.model	java/svm_train.java	/^	private svm_model model;$/;"	f	class:svm_train	file:	access:private
+svm_train.model_file_name	java/svm_train.java	/^	private String model_file_name;		\/\/ set by parse_command_line$/;"	f	class:svm_train	file:	access:private
+svm_train.nr_fold	java/svm_train.java	/^	private int nr_fold;$/;"	f	class:svm_train	file:	access:private
+svm_train.param	java/svm_train.java	/^	private svm_parameter param;		\/\/ set by parse_command_line$/;"	f	class:svm_train	file:	access:private
+svm_train.parse_command_line	java/svm_train.java	/^	private void parse_command_line(String argv[])$/;"	m	class:svm_train	file:	access:private	signature:(String argv[])
+svm_train.prob	java/svm_train.java	/^	private svm_problem prob;		\/\/ set by read_problem$/;"	f	class:svm_train	file:	access:private
+svm_train.read_problem	java/svm_train.java	/^	private void read_problem() throws IOException$/;"	m	class:svm_train	file:	access:private	signature:()
+svm_train.run	java/svm_train.java	/^	private void run(String argv[]) throws IOException$/;"	m	class:svm_train	file:	access:private	signature:(String argv[])
+svm_train.svm_print_null	java/svm_train.java	/^	private static svm_print_interface svm_print_null = new svm_print_interface()$/;"	f	class:svm_train	file:	access:private
+svm_train_one	java/libsvm/svm.java	/^	static decision_function svm_train_one($/;"	m	class:svm	access:default	signature:( svm_problem prob, svm_parameter param, double Cp, double Cn)
+svm_train_one	svm.cpp	/^static decision_function svm_train_one($/;"	f	file:	signature:( const svm_problem *prob, const svm_parameter *param, double Cp, double Cn)
+svm_type	java/libsvm/svm_parameter.java	/^	public int svm_type;$/;"	f	class:svm_parameter	access:public
+svm_type	svm.h	/^	int svm_type;$/;"	m	struct:svm_parameter	access:public
+svm_type_table	java/libsvm/svm.java	/^	static final String svm_type_table[] =$/;"	f	class:svm	access:default
+svm_type_table	svm.cpp	/^static const char *svm_type_table[] =$/;"	v	file:
+svmpredict_exe	tools/easy.py	/^	svmpredict_exe = "..\/svm-predict"$/;"	v
+svmpredict_exe	tools/easy.py	/^	svmpredict_exe = r"..\\windows\\svm-predict.exe"$/;"	v
+svmscale_exe	tools/easy.py	/^	svmscale_exe = "..\/svm-scale"$/;"	v
+svmscale_exe	tools/easy.py	/^	svmscale_exe = r"..\\windows\\svm-scale.exe"$/;"	v
+svmtrain_exe	tools/easy.py	/^	svmtrain_exe = "..\/svm-train"$/;"	v
+svmtrain_exe	tools/easy.py	/^	svmtrain_exe = r"..\\windows\\svm-train.exe"$/;"	v
+swap	svm.cpp	/^template <class T> static inline void swap(T& x, T& y) { T t=x; x=y; y=t; }$/;"	f	file:	signature:(T& x, T& y)
+swap_index	java/libsvm/svm.java	/^	abstract void swap_index(int i, int j);$/;"	m	class:QMatrix	access:default	signature:(int i, int j)
+swap_index	java/libsvm/svm.java	/^	void swap_index(int i, int j)$/;"	m	class:Cache	access:default	signature:(int i, int j)
+swap_index	java/libsvm/svm.java	/^	void swap_index(int i, int j)$/;"	m	class:Kernel	access:default	signature:(int i, int j)
+swap_index	java/libsvm/svm.java	/^	void swap_index(int i, int j)$/;"	m	class:ONE_CLASS_Q	access:default	signature:(int i, int j)
+swap_index	java/libsvm/svm.java	/^	void swap_index(int i, int j)$/;"	m	class:SVC_Q	access:default	signature:(int i, int j)
+swap_index	java/libsvm/svm.java	/^	void swap_index(int i, int j)$/;"	m	class:SVR_Q	access:default	signature:(int i, int j)
+swap_index	java/libsvm/svm.java	/^	void swap_index(int i, int j)$/;"	m	class:Solver	access:default	signature:(int i, int j)
+swap_index	svm.cpp	/^	virtual void swap_index(int i, int j) const	\/\/ no so const...$/;"	f	class:Kernel	access:public	signature:(int i, int j) const
+swap_index	svm.cpp	/^	virtual void swap_index(int i, int j) const = 0;$/;"	p	class:QMatrix	file:	access:public	signature:(int i, int j) const
+swap_index	svm.cpp	/^	void swap_index(int i, int j) const$/;"	f	class:ONE_CLASS_Q	access:public	signature:(int i, int j) const
+swap_index	svm.cpp	/^	void swap_index(int i, int j) const$/;"	f	class:SVC_Q	access:public	signature:(int i, int j) const
+swap_index	svm.cpp	/^	void swap_index(int i, int j) const$/;"	f	class:SVR_Q	access:public	signature:(int i, int j) const
+swap_index	svm.cpp	/^	void swap_index(int i, int j);	$/;"	p	class:Cache	file:	access:public	signature:(int i, int j)
+swap_index	svm.cpp	/^	void swap_index(int i, int j);$/;"	p	class:Solver	file:	access:protected	signature:(int i, int j)
+swap_index	svm.cpp	/^void Cache::swap_index(int i, int j)$/;"	f	class:Cache	signature:(int i, int j)
+swap_index	svm.cpp	/^void Solver::swap_index(int i, int j)$/;"	f	class:Solver	signature:(int i, int j)
+telnet_workers	tools/grid.py	/^telnet_workers = []$/;"	v
+test_pathname	tools/easy.py	/^	test_pathname = sys.argv[2]$/;"	v
+toPyModel	python/svm.py	/^def toPyModel(model_ptr):$/;"	f	access:public
+train_pathname	tools/easy.py	/^train_pathname = sys.argv[1]$/;"	v
+unshrink	java/libsvm/svm.java	/^	boolean unshrink;	\/\/ XXX$/;"	f	class:Solver	access:default
+unshrink	svm.cpp	/^	bool unshrink;	\/\/ XXX$/;"	m	class:Solver	file:	access:protected
+update_alpha_status	java/libsvm/svm.java	/^	void update_alpha_status(int i)$/;"	m	class:Solver	access:default	signature:(int i)
+update_alpha_status	svm.cpp	/^	void update_alpha_status(int i)$/;"	f	class:Solver	access:protected	signature:(int i)
+update_param	tools/grid.py	/^	def update_param(c,g,rate,best_c,best_g,best_rate,worker,resumed):$/;"	f	function:find_parameters	access:public
+upper	java/svm_scale.java	/^	private double upper = 1.0;$/;"	f	class:svm_scale	file:	access:private
+upper	svm-scale.c	/^double lower=-1.0,upper=1.0,y_lower,y_upper;$/;"	v
+upper_bound_n	java/libsvm/svm.java	/^		double upper_bound_n;$/;"	f	class:Solver.SolutionInfo	access:default
+upper_bound_n	svm.cpp	/^		double upper_bound_n;$/;"	m	struct:Solver::SolutionInfo	file:	access:public
+upper_bound_p	java/libsvm/svm.java	/^		double upper_bound_p;$/;"	f	class:Solver.SolutionInfo	access:default
+upper_bound_p	svm.cpp	/^		double upper_bound_p;$/;"	m	struct:Solver::SolutionInfo	file:	access:public
+value	java/libsvm/svm_node.java	/^	public double value;$/;"	f	class:svm_node	access:public
+value	java/svm_toy.java	/^		byte value;$/;"	f	class:svm_toy.point	access:default
+value	svm-toy/gtk/callbacks.cpp	/^	signed char value;$/;"	m	struct:__anon2	file:	access:public
+value	svm-toy/qt/svm-toy.cpp	/^		signed char value;$/;"	m	struct:SvmToyWindow::point	file:	access:public
+value	svm-toy/windows/svm-toy.cpp	/^	signed char value;$/;"	m	struct:point	file:	access:public
+value	svm.h	/^	double value;$/;"	m	struct:svm_node	access:public
+weight	java/libsvm/svm_parameter.java	/^	public double[] weight;		\/\/ for C_SVC$/;"	f	class:svm_parameter	access:public
+weight	svm.h	/^	double* weight;		\/* for C_SVC *\/$/;"	m	struct:svm_parameter	access:public
+weight_label	java/libsvm/svm_parameter.java	/^	public int[] weight_label;	\/\/ for C_SVC$/;"	f	class:svm_parameter	access:public
+weight_label	svm.h	/^	int *weight_label;	\/* for C_SVC *\/$/;"	m	struct:svm_parameter	access:public
+window_dc	svm-toy/windows/svm-toy.cpp	/^HDC window_dc;$/;"	v
+x	java/libsvm/svm.java	/^	private svm_node[][] x;$/;"	f	class:Kernel	file:	access:private
+x	java/libsvm/svm_problem.java	/^	public svm_node[][] x;$/;"	f	class:svm_problem	access:public
+x	java/svm_toy.java	/^		double x, y;$/;"	f	class:svm_toy.point	access:default
+x	svm-predict.c	/^struct svm_node *x;$/;"	v	typeref:struct:svm_node
+x	svm-toy/gtk/callbacks.cpp	/^	double x, y;$/;"	m	struct:__anon2	file:	access:public
+x	svm-toy/qt/svm-toy.cpp	/^		double x, y;$/;"	m	struct:SvmToyWindow::point	file:	access:public
+x	svm-toy/windows/svm-toy.cpp	/^	double x, y;$/;"	m	struct:point	file:	access:public
+x	svm.cpp	/^	const svm_node **x;$/;"	m	class:Kernel	file:	access:private
+x	svm.h	/^	struct svm_node **x;$/;"	m	struct:svm_problem	typeref:struct:svm_problem::svm_node	access:public
+x_space	matlab/svmtrain.c	/^struct svm_node *x_space;$/;"	v	typeref:struct:svm_node
+x_space	svm-train.c	/^struct svm_node *x_space;$/;"	v	typeref:struct:svm_node
+x_square	java/libsvm/svm.java	/^	private final double[] x_square;$/;"	f	class:Kernel	file:	access:private
+x_square	svm.cpp	/^	double *x_square;$/;"	m	class:Kernel	file:	access:private
+xrange	tools/subset.py	/^	xrange = range$/;"	v
+y	java/libsvm/svm.java	/^	byte[] y;$/;"	f	class:Solver	access:default
+y	java/libsvm/svm.java	/^	private final byte[] y;$/;"	f	class:SVC_Q	file:	access:private
+y	java/libsvm/svm_problem.java	/^	public double[] y;$/;"	f	class:svm_problem	access:public
+y	java/svm_toy.java	/^		double x, y;$/;"	f	class:svm_toy.point	access:default
+y	svm-toy/gtk/callbacks.cpp	/^	double x, y;$/;"	m	struct:__anon2	file:	access:public
+y	svm-toy/qt/svm-toy.cpp	/^		double x, y;$/;"	m	struct:SvmToyWindow::point	file:	access:public
+y	svm-toy/windows/svm-toy.cpp	/^	double x, y;$/;"	m	struct:point	file:	access:public
+y	svm.cpp	/^	schar *y;$/;"	m	class:SVC_Q	file:	access:private
+y	svm.cpp	/^	schar *y;$/;"	m	class:Solver	file:	access:protected
+y	svm.h	/^	double *y;$/;"	m	struct:svm_problem	access:public
+y_lower	java/svm_scale.java	/^	private double y_lower;$/;"	f	class:svm_scale	file:	access:private
+y_lower	svm-scale.c	/^double lower=-1.0,upper=1.0,y_lower,y_upper;$/;"	v
+y_max	java/svm_scale.java	/^	private double y_max = -Double.MAX_VALUE;$/;"	f	class:svm_scale	file:	access:private
+y_max	svm-scale.c	/^double y_max = -DBL_MAX;$/;"	v
+y_min	java/svm_scale.java	/^	private double y_min = Double.MAX_VALUE;$/;"	f	class:svm_scale	file:	access:private
+y_min	svm-scale.c	/^double y_min = DBL_MAX;$/;"	v
+y_scaling	java/svm_scale.java	/^	private boolean y_scaling = false;$/;"	f	class:svm_scale	file:	access:private
+y_scaling	svm-scale.c	/^int y_scaling = 0;$/;"	v
+y_upper	java/svm_scale.java	/^	private double y_upper;$/;"	f	class:svm_scale	file:	access:private
+y_upper	svm-scale.c	/^double lower=-1.0,upper=1.0,y_lower,y_upper;$/;"	v
+~Cache	svm.cpp	/^	~Cache();$/;"	p	class:Cache	file:	access:public	signature:()
+~Cache	svm.cpp	/^Cache::~Cache()$/;"	f	class:Cache	signature:()
+~Kernel	svm.cpp	/^	virtual ~Kernel();$/;"	p	class:Kernel	file:	access:public	signature:()
+~Kernel	svm.cpp	/^Kernel::~Kernel()$/;"	f	class:Kernel	signature:()
+~ONE_CLASS_Q	svm.cpp	/^	~ONE_CLASS_Q()$/;"	f	class:ONE_CLASS_Q	access:public	signature:()
+~QMatrix	svm.cpp	/^	virtual ~QMatrix() {}$/;"	f	class:QMatrix	access:public	signature:()
+~SVC_Q	svm.cpp	/^	~SVC_Q()$/;"	f	class:SVC_Q	access:public	signature:()
+~SVR_Q	svm.cpp	/^	~SVR_Q()$/;"	f	class:SVR_Q	access:public	signature:()
+~Solver	svm.cpp	/^	virtual ~Solver() {};$/;"	f	class:Solver	access:public	signature:()
+~SvmToyWindow	svm-toy/qt/svm-toy.cpp	/^	~SvmToyWindow();$/;"	p	class:SvmToyWindow	file:	access:public	signature:()
+~SvmToyWindow	svm-toy/qt/svm-toy.cpp	/^SvmToyWindow::~SvmToyWindow()$/;"	f	class:SvmToyWindow	signature:()
