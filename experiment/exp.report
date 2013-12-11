@@ -2,8 +2,8 @@ This file is to collect the results from different machine
 learning tools on various data sets, in order to give a 
 comprehensive comparison. 
 
-The Train/Test data setting can be found in ml-libs\data\.
-Cross validation performs on the Train seti with 5 fold.
+The Train/Test data setting can be found in \\ml-libs\data\.
+Cross validation performs on the Train set with 5 fold.
 
 -------------- URL detection ------------------------------
 1. LIBSVM

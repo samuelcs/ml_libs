@@ -2,7 +2,7 @@ This file is to intruduce the data sets collected for machine
 learning algorithm verification. The data set is often too big 
 to be able to be uploaded into the server. But you can download
 according to the URL on the data description part. The experimental 
-results can be found in the the directory \experiment. 
+results can be found in the the directory \\\ml-libs\experiment. 
 
 If you think a data set is good, feel free to add it.
 
