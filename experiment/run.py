@@ -2,6 +2,7 @@
 
 import xml.dom.minidom
 import os
+import time
 
 #---------------------------------------------------------#
 # main function definition
@@ -153,7 +154,11 @@ def run_exp(algo, data, input_algo_id, input_data_id) :
                 algo[input_algo_id]["model"]
     print "Training starts......"
     print cmd_train
+    t0 = time.time()
     os.system(cmd_train)
+    t1 = time.time()
+    time_cost = t1 - t0
+    print "Training time cost: ", time_cost
     cmd_predict_train = algo[input_algo_id]["predict"] + " " + \
                         data[input_data_id]["train"] + " " + \
                         algo[input_algo_id]["model"] + " " + \
@@ -166,6 +171,7 @@ def run_exp(algo, data, input_algo_id, input_data_id) :
     print "Predict on Training:"
     print cmd_predict_train
     os.system(cmd_predict_train)
+    t2 = time.time()
     print "Predict on Testing:"
     print cmd_predict_test
     os.system(cmd_predict_test)

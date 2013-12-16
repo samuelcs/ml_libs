@@ -24,27 +24,52 @@ If you think a data set is good, feel free to add it.
 1. URL Detection 
   Format: Sparse
   Problem: Classification
-  Description URL: http://sysnet.ucsd.edu/projects/url/
+  Description : http://sysnet.ucsd.edu/projects/url/
   Download URL: http://sysnet.ucsd.edu/projects/url/url_svmlight.tar.gz
   # of classes: 2
   # of features: 3,231,961
-  # of instances (Train/Test): Day0(16000) / Day1(20000)
-  Comments:
+  # of instances : 16000(Train, Day0) / 20000(Test, Day1)
+  Comments: Predict jank URL based on the host info and url
+            keywords. It sequencially samples data for 120 
+	    days for online learning. We only use the first 
+	    two day data for train and test.
 
 2. a9a
   Format: Sparse
   Problem: Classification
-  Description URL: http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary.html#a9a
+  Description : http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary.html#a9a
   Download URL:
     Train: http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a9a
     Test: http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a9a.t
   # of classes: 2
   # of features: 123
-  # of instance: (Train/Test): 32561 / 16281
+  # of instance:  32561(Train) / 16281(Test)
   Comment:
 
-
+3. YearPredict
+  Format: Sparse
+  Problem: Regression
+  Description : http://archive.ics.uci.edu/ml/datasets/YearPredictionMSD
+  Download URL:
+    Train: http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/regression/YearPredictionMSD.bz2
+    Test: http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/regression/YearPredictionMSD.t.bz2
+  # of features: 90
+  # of instance: 463715(Train) / 51630(Test)
+  Comment: Prediction of the release year of a song from audio features
                 
+4. 10-K Corpus
+  Format: Sparse
+  Problem: Regression
+  Description: http://www.ark.cs.cmu.edu/10K/
+  Download URL:
+    Train: http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/regression/E2006.train.bz2
+    Test: http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/regression/E2006.test.bz2
+  # of features: 150360
+  # of instance: 16087(Train) / 3308(Test)
+  Comment: 10-K reports from thousands of publicly traded U.S. 
+           companies, published in 1996-2006 and stock return 
+	   volatility measurements in the twelve-month period 
+	   before and the twelve-month period after each report.
 
 
 
