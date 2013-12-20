@@ -3,36 +3,66 @@ learning tools on various data sets, in order to give a
 comprehensive comparison. 
 
 The Train/Test data setting can be found in \\ml-libs\data\.
-Cross validation performs on the Train set with 5 fold.
+Cross validation performs on the Train set with 5 fold. The 
+machine runing experiment has 4 cores and 16G memory.
 
 -------------- URL detection ------------------------------
 1. LIBSVM
 Setting: kernel = linear C = 1
 Train Acc = 100%
+Train Time Cost = 28s 
 Test Acc = 97.44%
 CV Acc = 98.16%
-Time Cost < 10 min
 
 2. LIBLINEAR
 Setting: l2 regularized logistic 
-Training Acc = 99.84%
+Train Acc = 99.84%
+Train Time Cost = 4s
 Test Acc = 97.51%
-CV Acc = 98.2%
-Time Cost < 2 min
-
+CV Acc = 98.13%
 
 --------------- a9a ---------------------------------------
 1. LIBSVM
 Setting: kernel =linear C = 1
 Train Acc = 84.99%
+Train Time Cost = 47s
 Test Acc = 84.97%
 CV ACC = 84.79%
-Time Cost < 1 min
 
 2. LIBLINEAR
 Setting: l2 regularized logistic 
-Training Acc = 84.93%
+Train Acc = 84.93%
+Train Time Cost = 0.2s 
 Test Acc = 85.03%
 CV Acc = 84.80%
-Time Cost < 1 min
+
+--------------- e2006 ---------------------------------------
+1. LIBSVM
+Setting: kernel =linear C = 1
+Training MSE = 0.136  R2 = 0.659
+Train Time Cost = 1419s
+Test MSE = 0.139  R2 = 0.520
+CV MSE = 0.137  R2 = 0.656
+
+2. LIBLINEAR
+Setting: svr primal 
+Training MSE = 0.149  R2 = 0.654
+Train Time Cost = 6s
+Test MSE = 0.152  R2 = 0.517
+CV MSE = 0.149  R2 = 0.654
+
+--------------- year ---------------------------------------
+1. LIBSVM
+Setting: kernel =linear C = 1
+Training MSE = 0.149  R2 = 0.654
+Train Time Cost = 6s
+Test MSE = 0.152  R2 = 0.517
+CV MSE = 0.149  R2 = 0.654
+
+2. LIBLINEAR
+Setting: svr primal
+Training MSE = 24354.5  R2 = 0.091
+Train Time Cost = 28s
+Test MSE = 23845.4  R2 = 0.089
+CV MSE = 26557  R2 = 0.083
 
